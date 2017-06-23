@@ -37,7 +37,11 @@ layout: compress
                                 <div class="row">
                                     <div class="col-md-3">
                                         <div class="pubimg">
+                                            {% if post.thumbnail %}
                                             <img src={{post.thumbnail}}>
+                                            {% else %}
+                                            <img src=/assets/img/placeholder.png>
+                                            {% endif %}
                                         </div>
                                     </div>
                                     <div class="col-md-9 text-left">
