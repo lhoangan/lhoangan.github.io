@@ -5,6 +5,7 @@ date:   2017-06-22
 excerpt: "We introduce a virtual garden, called e-garden or eden in short"
 project: true
 feature: /assets/images/lonelyplannet.jpg
+thumbnail: /assets/img/avatar.jpg
 tag:
 - synthetic
 - dataset
