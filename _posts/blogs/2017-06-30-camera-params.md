@@ -43,6 +43,11 @@ World coordinate system
 
 ### Image formation
 
+{% include image image="camera_model.png" caption="<b>Figure 1</b> Pinhole
+camera model. Inspired from 
+<a target='_blank' href='https://docs.opencv.org/2.4/modules/calib3d/doc/camera_calibration_and_3d_reconstruction.html'>OpenCV documentation</a>"
+%}      
+
 Let \\( \mathbf{P} = {\begin{bmatrix} X & Y & Z  \end{bmatrix}}^T \\) be an 
 arbitrary 3D point seen by a camera \\( O \\) at the origin of its camera space,
 and \\( \mathbf{p} = {\begin{bmatrix} u & v  \end{bmatrix}}^T \\) be the image 
