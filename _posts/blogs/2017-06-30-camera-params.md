@@ -133,13 +133,39 @@ The homogeneous coordinate of \\( \mathbf{P} \\) presumes a projective transform
 	\tilde{\mathbf{p}} = sH\tilde{\mathbf{P}} \qquad\text{or, equivalent to}\qquad \tilde{\mathbf{P}} = \dfrac{1}{s}H^{-1}\tilde{\mathbf{p}}
 \end{equation}
 
+From similar triangles:
+
+\\[
+X = \dfrac{(u-c_x)Z}{f_x} \Leftrightarrow \dfrac{X}{Z} = \dfrac{u-c_x}{f_x}
+\\]
+
+and 
+
+\\[
+Y = \dfrac{(v-c_y)Z}{f_y} \Leftrightarrow \dfrac{Y}{Z} = \dfrac{v-c_y}{f_y}
+\\]
+
+In case of some commodity cameras, like Kinect or RealSense, the device provides Z coordinates of the points, thus, the formulas are already well-provided. 
+
+In case when only depth, or point distance is provided, we need to take extra steps to compute Z
 
 Similar triangles:
 
 \\[
 \dfrac{pF}{PP'} = \dfrac{OF}{OP'} \Leftrightarrow \dfrac{pF^2}{PP'^2} = \dfrac{f^2}{Z^2} \Leftrightarrow 
-\dfrac{pF^2}{d^2 - Z^2} = \dfrac{f^2}{Z^2} \Leftrightarrow Z^2 = \dfrac{f^2d^2 - f^2Z^2}{pF^2} \\\
-\Leftrightarrow Z^2 = \dfrac{f^2d^2}{pF^2 + f^2} \Leftrightarrow Z = \dfrac{fd}{\sqrt{(u-c_X)^2 + (v-c_Y)^2 + f^2}}
+\dfrac{pF^2}{PP'^2 - OP'^2} = \dfrac{OF^2}{OP'^2} \Leftrightarrow OP'^2 = \dfrac{OF^2OP^2 - OF^2OP'^2}{pF^2} \\\
+\Leftrightarrow OP'^2 = \dfrac{OF^2OP^2}{pF^2 + OF^2} \\\
+\Leftrightarrow OP'^2 = \dfrac{OP^2}{\left(\dfrac{pF}{OF}\right)^2 + 1} \\\
+\Leftrightarrow OP'^2 = \dfrac{OP^2}{\left(\dfrac{PP'}{OP'}\right)^2 + 1} \\\
+\Leftrightarrow Z^2 = \dfrac{d^2}{\left(\dfrac{X}{Z}\right)^2 + \left(\dfrac{Y}{Z}\right)^2 + 1} \\\
+\Leftrightarrow Z = \dfrac{d}{\sqrt{\left(\dfrac{u-c_x}{f_x}\right)^2 + \left(\dfrac{v-c_y}{f_y}\right)^2 + 1}} \\\
 \\]
 
+\\[
+X' = \dfrac{u-c_x}{f_x} \qqad \\\
+Y' = \dfrac{v-c_y}{f_y} \qqad \\\
+Z = \dfrac{d}{\sqrt{ X'^2 + Y'^2 + 1}} \qqad  \\\
+X = X' * Z \qqad  \\\
+Y = Y' * Z \\\
+\\]
 
