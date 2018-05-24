@@ -30,6 +30,11 @@ Show a diagram
 
 We are going backward, from the image to the objects in the world
 
+{% include image image="pinhole_camera.png" caption="<b>Figure 1</b> Pinhole
+camera model."
+%}      
+
+
 ### Three coordinate systems
 
 Image coordinate system
@@ -43,7 +48,7 @@ World coordinate system
 
 ### Image formation
 
-{% include image image="camera_model.png" caption="<b>Figure 1</b> Pinhole
+{% include image image="camera_model.png" caption="<b>Figure 2</b> Pinhole
 camera model. Inspired from 
 <a target='_blank' href='https://docs.opencv.org/2.4/modules/calib3d/doc/camera_calibration_and_3d_reconstruction.html'>OpenCV documentation</a>"
 %}      
@@ -71,7 +76,8 @@ parameterized by the distance between the projective plane and the camera center
 i.e. \\( f \\), the *focal length*. Similar triangles give:
 
 \\[
-  u = s_u\dfrac{fX}{Z} + c_x \qquad \text{and} \qquad v = s_v\dfrac{fY}{Z} + c_y,
+  x = \dfrac{fX}{Z} \qquad \text{and} \qquad y = \dfrac{fY}{Z} \\\
+  u = s_ux + c_x \qquad \text{and} \qquad v = s_vx + c_y,
 \\]
 
 where \\( s_u, s_v \\) respectively are size of imager element; \\( s_u, s_v \\)
@@ -82,6 +88,9 @@ and \\( c \\) are expressed in image pixel. These factors should be the same if
 we have squared pixels, yet due to manufacturing impression, they are usually 
 different. 
 
+\\[
+  u = s_u\dfrac{fX}{Z} + c_x \qquad \text{and} \qquad v = s_v\dfrac{fY}{Z} + c_y,
+\\]
 
 Since \\( \mathbf{p} \\) is in a 2D projective space (an image plane),
 it could be represented by a 3-component vector 
@@ -162,10 +171,7 @@ Similar triangles:
 \\]
 
 \\[
-X' = \dfrac{u-c_x}{f_x} \qqad \\\
-Y' = \dfrac{v-c_y}{f_y} \qqad \\\
-Z = \dfrac{d}{\sqrt{ X'^2 + Y'^2 + 1}} \qqad  \\\
-X = X' * Z \qqad  \\\
-Y = Y' * Z \\\
+X' = \dfrac{u-c_x}{f_x} \qquad Y' = \dfrac{v-c_y}{f_y} \qquad \\\
+Z = \dfrac{d}{\sqrt{ X'^2 + Y'^2 + 1}} \qquad X = X' * Z \qquad Y = Y' * Z
 \\]
 
