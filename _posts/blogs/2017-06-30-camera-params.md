@@ -15,25 +15,41 @@ work can actually get us to many interesting problem of computer visions such as
 image panorama or 3D reconstruction.
 
 Believe it or not, camera was once invented with motivation from human eyes (ref?)
-one of the most complicated organ in a human body (ref?). Despite how complicated
+one of the most complex organ in a human body (ref?). Despite how complicated
 camera technology can get to now, the camera model employed in computer vision
 is, surprisingly, kinda simple.
 
-If we put a film in front of an object, we get a very blur image, because light
-rays reflected from every part of object will ended at the same position on the
-film. Thus, no good
+[The eyes are the second most complex organ after the brain in a human body.](
+http://optimumperformancetechnologies.blogspot.nl/2008/05/second-most-complex-organ-after-brain.html)
 
-To limit the ray that can touch the film, we put a barrier with small pinhole on
-it. That basically makes a camera.
+To captured image, we use photographic films, thin plastic sheets coasted with 
+light-sensitive substances, that react to light rays contact (read more at [wiki](
+https://en.wikipedia.org/wiki/Photographic_film)).
 
-Show a diagram
+If we simply put a film in front of an object, we get a very blur image, because
+light rays reflected from every part of object can end up at the same position 
+on the film. Thus, no good
 
-We are going backward, from the image to the objects in the world
+To limit the number of rays that can touch the film, we put a barrier with a 
+pinhole, or *aperture*, on it. The pinhole is designed to allow just one light
+ray pass through and create an inverted image of the scene. That basically makes 
+a (pinhole) camera, and the effect is called *camera obscura* effect.
+
+define focal length: distance from pinhole to the film
+
+a pinhole camera requires no lens, but for the sake of simplicity, 
+in most computer vision research, we assume the camera used follow a pinhole
+camera model
 
 {% include image image="pinhole_camera.png" caption="<b>Figure 1</b> Pinhole
 camera model."
 %}      
 
+A pinhole camera creates real image on the film, hence the name real image plane.
+But for easy mathemetic in the following section, we consider a virtual image
+plane that are symmetric to the real image plane about the lens.
+
+We are going backward, from the image to the objects in the world
 
 ### Three coordinate systems
 
@@ -49,7 +65,7 @@ World coordinate system
 ### Image formation
 
 {% include image image="camera_model.png" caption="<b>Figure 2</b> Pinhole
-camera model. Inspired from 
+camera model. Redrawn from 
 <a target='_blank' href='https://docs.opencv.org/2.4/modules/calib3d/doc/camera_calibration_and_3d_reconstruction.html'>OpenCV documentation</a>"
 %}      
 
