@@ -3,7 +3,7 @@ layout: post
 title: "Camera parameters"
 date: 2017-06-30
 excerpt: "Something about camera parameters"
-tags: [camera, instrinsic, extrinsic, parameters, Blender]
+tags: [computer vision, pinhole camera model, instrinsic, extrinsic, parameters]
 #comments: true
 share: false
 ---
@@ -11,43 +11,58 @@ share: false
 
 # Pinhole camera model
 Camera is one of the main object in computer vision. Understanding how a camera
-work can actually get us to many interesting problem of computer visions such as
+works can actually get us to many interesting problems of computer vision such as
 image panorama or 3D reconstruction.
 
-Believe it or not, camera was once invented with motivation from human eyes (ref?)
-one of the most complex organ in a human body (ref?). Despite how complicated
-camera technology can get to now, the camera model employed in computer vision
-is, surprisingly, kinda simple.
+Camera functioning simulates the way human eyes work. Yet, despite the 
+incredibe complexity of the eyes ([the second-most, only after the brain](
+http://optimumperformancetechnologies.blogspot.nl/2008/05/second-most-complex-organ-after-brain.html)),
+or how insane modern cameras could get to nowaday, the underlining mechanism
+of cameras, and especially ones employed in most computer vision problems, is
+somewhat simpler, a pinhole camera model which is shown in Figure 1.
 
-[The eyes are the second most complex organ after the brain in a human body.](
-http://optimumperformancetechnologies.blogspot.nl/2008/05/second-most-complex-organ-after-brain.html)
+{% include image image="pinhole_camera.png" caption="<b>Figure 1</b> Pinhole
+camera consists of a light-proof box with a tiny aperture on one side and
+a film on the opposite inner side."
+%}
 
-To captured image, we use photographic films, thin plastic sheets coasted with 
+We see things because there are light rays reflecting from them come into our eyes.
+The colors we perceive are the wavelengths that are not absored from the objects'
+surfaces. To captured images, we use photographic films, thin plastic sheets coasted with 
 light-sensitive substances, that react to light rays contact (read more at [wiki](
 https://en.wikipedia.org/wiki/Photographic_film)).
 
-If we simply put a film in front of an object, we get a very blur image, because
-light rays reflected from every part of object can end up at the same position 
-on the film. Thus, no good
+If we simply put a film in front of an object, we get blurry images, because
+light rays reflecting from every part of object end up at the same position 
+on the film, and screw it up. Thus, to limit the number of rays that can touch 
+the film, we put a barrier with a pinhole (or *aperture*) on it. 
+Hence, up to a certain point the smaller the hole, the sharper but dimmer the
+image (read more on [how to select pinhole size](https://en.wikipedia.org/wiki/Pinhole_camera#Selection_of_pinhole_size)).
+Light rays reflecting from an object pass through and create an inverted image 
+on the film. That basically makes a (pinhole) camera, and the effect is called 
+*camera obscura* effect.
 
-To limit the number of rays that can touch the film, we put a barrier with a 
-pinhole, or *aperture*, on it. The pinhole is designed to allow just one light
-ray pass through and create an inverted image of the scene. That basically makes 
-a (pinhole) camera, and the effect is called *camera obscura* effect.
+A pinhole camera creates real image on the film, hence the film is usually known
+to as *real image plane*. To ease out the mathematic that involves in explaining
+the model, we consider a virtual image plane that is symmetric to the real plane
+about the *center of projection* (the aperture).
 
-define focal length: distance from pinhole to the film
+In pinhole camera model, the focal length is defined to be the distance from
+the center of projection to the image plane. This is,
+however, different from the focal length of a lens (usually used in lens cameras), 
+which is the distance to the plane where incoming parallel rays meet. 
+Because of having no lens, if we consider the same definition for a pinhole camera, 
+its focal length would be infinity.
 
-a pinhole camera requires no lens, but for the sake of simplicity, 
-in most computer vision research, we assume the camera used follow a pinhole
-camera model
+{% include image image="pinhole_vs_lens.png" caption="<b>Figure 2</b> Pinhole
+camera vs. lens camera.
+<a target='_blank' href='https://physics.stackexchange.com/questions/223738/does-focal-length-mean-something-different-with-lenses-and-pinhole-cameras?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa'>Image source</a>"
+%}
 
-{% include image image="pinhole_camera.png" caption="<b>Figure 1</b> Pinhole
-camera model."
-%}      
-
-A pinhole camera creates real image on the film, hence the name real image plane.
-But for easy mathemetic in the following section, we consider a virtual image
-plane that are symmetric to the real image plane about the lens.
+As most of commodity cameras employed in research compose are
+based on similar structure with thin lenses, small apertures and light sensors
+in place of films, the pinhole camera model is usually employed in explaining
+and modelling image formation in computer graphic and computer vision research.
 
 We are going backward, from the image to the objects in the world
 
@@ -191,3 +206,17 @@ X' = \dfrac{u-c_x}{f_x} \qquad Y' = \dfrac{v-c_y}{f_y} \qquad \\\
 Z = \dfrac{d}{\sqrt{ X'^2 + Y'^2 + 1}} \qquad X = X' * Z \qquad Y = Y' * Z
 \\]
 
+
+# Read more
+
+1. How pinhole camera works, *Scratch A Pixel*, [Part 1](http://www.scratchapixel.com/lessons/3d-basic-rendering/3d-viewing-pinhole-camera),
+[Part 2](http://www.scratchapixel.com/lessons/3d-basic-rendering/3d-viewing-pinhole-camera/how-pinhole-camera-works-part-2)
+
+1. Camera Calibration and 3D Reconstruction, *OpenCV documentation*, [link](
+https://docs.opencv.org/2.4/modules/calib3d/doc/camera_calibration_and_3d_reconstruction.html)
+
+2. Dissecting the Camera Matrix: Intrinsic matrix, *Kyle Simek*, [link](
+http://ksimek.github.io/2013/08/13/intrinsic/)
+
+3. The Perspective Camera, *Kyle Simek*, [link](
+http://ksimek.github.io/2012/08/13/introduction/)
