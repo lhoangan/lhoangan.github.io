@@ -64,36 +64,55 @@ based on similar structure with thin lenses, small apertures and light sensors
 in place of films, the pinhole camera model is usually employed in explaining
 and modelling image formation in computer graphic and computer vision research.
 
+
+## Image formation
+
+We are to relate a pixel position to its corresponding point in 3D space. The
+image formation can be broken down into 3 stages, when light ray reflects from
+an object's surface in the world coordinate, go into camera space and interact
+with the film.
+
 We are going backward, from the image to the objects in the world
+
+Before going into the image formation details, we are to describe the coordinate
+systems that involve in 
 
 ### Three coordinate systems
 
-Image coordinate system
+#### Image coordinate system
 
+This is the coordinate system that attachs to each image, that is used to index
+the pixels in the image. Conventionally, the origin is at top-left corner of 
+the image with x-axis pointing rightward, and y-axis downward. The image coordinate
+system is denoted by lowercase letters in 
 
-Camera coordinate system
+#### Camera coordinate system
 
+Coordinate system attaching to each camera. The origin is at the camera, with
+z-axis system pointing at the looking direction, y-axis downward, x-axis rightward.
 
-World coordinate system
+#### World coordinate system
 
+An arbitrary coordinate system relate a camera to other objects in a scene
 
-### Image formation
+#### Image formation
+
 
 {% include image image="camera_model.png" caption="<b>Figure 2</b> Pinhole
 camera model. Redrawn from 
 <a target='_blank' href='https://docs.opencv.org/2.4/modules/calib3d/doc/camera_calibration_and_3d_reconstruction.html'>OpenCV documentation</a>"
 %}      
 
-Let \\( \mathbf{P} = {\begin{bmatrix} X & Y & Z  \end{bmatrix}}^T \\) be an 
+Let \\( P = {\begin{bmatrix} X & Y & Z  \end{bmatrix}}^T \\) be an 
 arbitrary 3D point seen by a camera \\( O \\) at the origin of its camera space,
-and \\( \mathbf{p} = {\begin{bmatrix} u & v  \end{bmatrix}}^T \\) be the image 
-of \\(\mathbf{P}\\), expressed in the image coordinate system.
-The point \\( \mathbf{p} \\) represents a pixel in an image captured by the 
-camera, which is formed by intersecting the light ray from \\( \mathbf{P} \\) 
+and \\( p = {\begin{bmatrix} u & v  \end{bmatrix}}^T \\) be the image 
+of \\(P\\), expressed in the image coordinate system.
+The point \\( p \\) represents a pixel in an image captured by the 
+camera, which is formed by intersecting the light ray from \\( P \\) 
 passing through the *camera optical center* \\( O \\) and the image plane.
 
-The camera model associates a 3D points \\( \mathbf{P} \\) in the camera space 
-with its 2D image \\( \mathbf{p} \\) in the image plane so that we can locate 
+The camera model associates a 3D points \\( P \\) in the camera space 
+with its 2D image \\( p \\) in the image plane so that we can locate 
 one by knowing the other. Assuming that the projective plane is perpendicular 
 to the \\( Z \\)-axis of the camera coordinate system; the intersection is at 
 the *principal point* \\( F = {\begin{bmatrix} 0 & 0 & f  \end{bmatrix}}^T \\),
@@ -113,8 +132,8 @@ i.e. \\( f \\), the *focal length*. Similar triangles give:
 
 where \\( s_u, s_v \\) respectively are size of imager element; \\( s_u, s_v \\)
 count the number of pixels per inch along image width and height dimension.
-They are introduced because the \\( \mathbf{P} \\) and \\( F \\) are expressed 
-in regular measurement unit, such as inches or meters, while \\( \mathbf{p} \\)
+They are introduced because the \\( P \\) and \\( F \\) are expressed 
+in regular measurement unit, such as inches or meters, while \\( p \\)
 and \\( c \\) are expressed in image pixel. These factors should be the same if
 we have squared pixels, yet due to manufacturing impression, they are usually 
 different. 
@@ -123,9 +142,9 @@ different.
   u = s_u\dfrac{fX}{Z} + c_x \qquad \text{and} \qquad v = s_v\dfrac{fY}{Z} + c_y,
 \\]
 
-Since \\( \mathbf{p} \\) is in a 2D projective space (an image plane),
+Since \\( p \\) is in a 2D projective space (an image plane),
 it could be represented by a 3-component vector 
-\\( \mathbf{\tilde{p}} =  {\begin{bmatrix} u & v & w  \end{bmatrix}} ^T \\)  using homogeneous coordinate, turning Equation into
+\\( \tilde{p} =  {\begin{bmatrix} u & v & w  \end{bmatrix}} ^T \\)  using homogeneous coordinate, turning Equation into
 
 \\[
 	\begin{bmatrix}
@@ -149,28 +168,28 @@ it could be represented by a 3-component vector
 		   Y  \\\
 		   Z
 		\end{bmatrix} \\\
-		\mathbf{\tilde{p}} = K\textbf{P}
+		\tilde{p} = KP
 \\]
 
 Note that, by definition of homogeneous coordinate, the value of \\( u, v \\) in Cartesian coordinate value is obtained when \\( w = 1 \\), which makes Equation equivalent to Equation.
 
 The matrix \\( K \\) contains all the camera internal parameters in pixel unit, such as the focal length \\( f_x, f_y \\) and principal point coordinate \\( c_x, c_y \\), thus is called the camera *intrinsic matrix*.
 
-All the computation so far is carried out in the camera coordinate system, i.e. when the camera is at the origin of the coordinate and looks along the \\( z \\)-axis. In general, let the camera be part of an arbitrary general world coordinate system, where it can take any position and orientation, and \\( \mathbf{P} \\) be any point described in that coordinate system. The same computation can be employed if we can transform the camera coordinate system to fit to the world system. The transformation, presented in a camera *extrinsic matrix*, includes a rotation matrix \\(  {\begin{bmatrix} r_1 & r_2 & r_3 \end{bmatrix}}  \\) and translation vector \\( \mathbf{t} \\).
-By transforming all points \\( \mathbf{P} \\) in the world space with \\(  {\begin{bmatrix} r_1 & r_2 & r_3 \end{bmatrix}}  \\) and \\( \mathbf{t} \\), we can describe \\( \mathbf{P} \\) in the camera coordinate system, and thus can use the same \\( K \\) as what we have described before.
+All the computation so far is carried out in the camera coordinate system, i.e. when the camera is at the origin of the coordinate and looks along the \\( z \\)-axis. In general, let the camera be part of an arbitrary general world coordinate system, where it can take any position and orientation, and \\( P \\) be any point described in that coordinate system. The same computation can be employed if we can transform the camera coordinate system to fit to the world system. The transformation, presented in a camera *extrinsic matrix*, includes a rotation matrix \\(  {\begin{bmatrix} \mathbf{r}_1 & \mathbf{r}_2 & \mathbf{r}_3 \end{bmatrix}}  \\) and translation vector \\( \mathbf{t} \\).
+By transforming all points \\( P \\) in the world space with \\(  {\begin{bmatrix} \mathbf{r}_1 & \mathbf{r}_2 & \mathbf{r}_3 \end{bmatrix}}  \\) and \\( \mathbf{t} \\), we can describe \\( P \\) in the camera coordinate system, and thus can use the same \\( K \\) as what we have described before.
 
-Let \\( \mathbf{\tilde{P}} \\) be the homogeneous coordinate of \\( \mathbf{P} \\), which is now expressed in world coordinate system. The camera model that finds image coordinate \\( \mathbf{\tilde{p}} \\) is
+Let \\( \tilde{P} \\) be the homogeneous coordinate of \\( P \\), which is now expressed in world coordinate system. The camera model that finds image coordinate \\( \tilde{p} \\) is
 
 \\[
-	\tilde{\mathbf{p}} = \underbrace {K {\begin{bmatrix}
-			r_1 & r_2 & r_3 & \mathbf{t}  \\
-			\end{bmatrix}} }_H\tilde{\mathbf{P}} \equiv H\tilde{\mathbf{P}}
+	\tilde{p} = \underbrace {K {\begin{bmatrix}
+			\mathbf{r}_1 & \mathbf{r}_2 & \mathbf{r}_3 & \mathbf{t}  \\
+			\end{bmatrix}} }_H\tilde{P} \equiv H\tilde{P}
 \\]
 
-The homogeneous coordinate of \\( \mathbf{P} \\) presumes a projective transformation applied on \\( \mathbf{\tilde{P}} \\). Thus, the matrix \\( H \\) relates points \\( \mathbf{\tilde{P}} \\) from a projective 3D space to points on projective plane, thus is called homography matrix, generally with \\( s \\) be a scale factor, the homography matrix says:
+The homogeneous coordinate of \\( P \\) presumes a projective transformation applied on \\( \tilde{P} \\). Thus, the matrix \\( H \\) relates points \\( \tilde{P} \\) from a projective 3D space to points on projective plane, thus is called homography matrix, generally with \\( s \\) be a scale factor, the homography matrix says:
 
 \begin{equation}
-	\tilde{\mathbf{p}} = sH\tilde{\mathbf{P}} \qquad\text{or, equivalent to}\qquad \tilde{\mathbf{P}} = \dfrac{1}{s}H^{-1}\tilde{\mathbf{p}}
+	\tilde{p} = sH\tilde{P} \qquad\text{or, equivalent to}\qquad \tilde{P} = \dfrac{1}{s}H^{-1}\tilde{p}
 \end{equation}
 
 From similar triangles:
