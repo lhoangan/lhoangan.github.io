@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title:  "Webcam-based Laser Dot Detection Technique"
+title:  "Webcam-based Laser Dot Detection"
 author: 'Hoang-An Le'
 affiliation: 'Ho Chi Minh University of Science, VNU-HCMC '
 
@@ -20,4 +20,12 @@ tag:
 #comments: true
 ---
 
+
+[get the PDF]({{ "/home/projects/ICTACS10.pdf" | absolute_url }})
+
+
+Slide
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-UJE9uMkw-M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+Demo
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Y9jh-HgjiMY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
