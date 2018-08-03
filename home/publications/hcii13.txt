@@ -1,0 +1,11 @@
+@inproceedings{hcii13,
+author = {Le, Hoang-An and Mac, Khoi Nguyen C and Pham, Truong An and Nguyen, Vinh Tiep and Tran, Minh-Triet},
+booktitle = {Proceedings of the 15th international conference on Human-Computer Interaction: interaction modalities and techniques (HCII)},
+isbn = {9783642393297},
+issn = {03029743},
+pages = {67--76},
+title = {{Multimodal smart interactive presentation system}},
+volume = {IV},
+year = {2013}
+}
+
