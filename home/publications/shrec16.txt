@@ -1,0 +1,7 @@
+@inproceedings{Ferreira2016,
+author = {Ferreira, A and Giachetti, A and Giorgi, D and Pratikakis, I and Savelonas, M A and Arnaoutoglou, F and Ioannakis, G and Koutsoudis, A and Theoharis, T and Tran, Minh-Triet and Nguyen, Vinh-Tiep and Pham, Viet-Khoi and Nguyen, Hai-Dang and Le, Hoang-An and Tran, B.-H and To, Huu-Quan and Truong, Minh-Bao and Phan, Van-Thuyen and Nguyen, Minh-Duc and Than, Thanh-An and Mac, Khoi-Nguyen C.},
+booktitle = {Eurographics Workshop on 3D Object Retrieval},
+title = {{SHREC'16 Track: Partial Shape Queries for 3D Object Retrieval}},
+year = {2016}
+}
+
