@@ -132,14 +132,22 @@ img {
     margin-top: 0;
 }
 figure {
-  margin: 0;
   padding-top: 10px;
   padding-bottom: 10px;
   @include clearfix();
   img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 10px;
     @include rounded(4px);
   }
+ figcaption {
+    clear: left;
+    text-align: center;
+    color: #000000;
+ }
+
   &.half {
     @media only screen and (min-width: 62.5em) {
       img {
@@ -150,6 +158,8 @@ figure {
       }
       figcaption {
         clear: left;
+	text-align: center;
+	color: #000000;
       }
     }
   }
@@ -163,6 +173,8 @@ figure {
       }
       figcaption {
         clear: left;
+	text-align: center;
+	color: #000000;
       }
     }
   }
