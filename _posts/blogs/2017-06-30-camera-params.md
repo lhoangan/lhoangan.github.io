@@ -15,9 +15,9 @@ works can actually get us to many interesting problems of computer vision such a
 image panorama or 3D reconstruction.
 
 Camera functioning simulates the way human eyes work. Yet, despite the 
-incredibe complexity of the eyes ([the second-most, only after the brain](
+incredible complexity of the eyes ([the second-most after the brain only](
 http://optimumperformancetechnologies.blogspot.nl/2008/05/second-most-complex-organ-after-brain.html)),
-or how insane modern cameras could get to nowaday, the underlining mechanism
+or how insane modern cameras could get to nowadays, the underlining mechanism
 of cameras, and especially ones employed in most computer vision problems, is
 somewhat simpler, a pinhole camera model which is shown in Figure 1.
 
@@ -27,7 +27,7 @@ a film on the opposite inner side."
 %}
 
 We see things because there are light rays reflecting from them come into our eyes.
-The colors we perceive are the wavelengths that are not absored from the objects'
+The colors we perceive are the wavelengths that are not absorbed from the objects'
 surfaces. To captured images, we use photographic films, thin plastic sheets coasted with 
 light-sensitive substances, that react to light rays contact (read more at [wiki](
 https://en.wikipedia.org/wiki/Photographic_film)).
@@ -36,14 +36,14 @@ If we simply put a film in front of an object, we get blurry images, because
 light rays reflecting from every part of object end up at the same position 
 on the film, and screw it up. Thus, to limit the number of rays that can touch 
 the film, we put a barrier with a pinhole (or *aperture*) on it. 
-Hence, up to a certain point the smaller the hole, the sharper but dimmer the
+Hence, to some extent the smaller the hole, the sharper but dimmer the
 image (read more on [how to select pinhole size](https://en.wikipedia.org/wiki/Pinhole_camera#Selection_of_pinhole_size)).
 Light rays reflecting from an object pass through and create an inverted image 
 on the film. That basically makes a (pinhole) camera, and the effect is called 
 *camera obscura* effect.
 
-A pinhole camera creates real image on the film, hence the film is usually known
-to as *real image plane*. To ease out the mathematic that involves in explaining
+A pinhole camera creates real images on the film, hence the film is usually known
+to as *real image plane*. To ease out the math that involves in explaining
 the model, we consider a virtual image plane that is symmetric to the real plane
 about the *center of projection* (the aperture).
 
@@ -51,18 +51,18 @@ In pinhole camera model, the focal length is defined to be the distance from
 the center of projection to the image plane. This is,
 however, different from the focal length of a lens (usually used in lens cameras), 
 which is the distance to the plane where incoming parallel rays meet. 
-Because of having no lens, if we consider the same definition for a pinhole camera, 
-its focal length would be infinity.
+Because the pinhole camera model contains no lens, if we consider the same definition
+for a pinhole camera, the focal length would be at infinity.
 
 {% include image image="pinhole_vs_lens.png" caption="<b>Figure 2</b> Pinhole
 camera vs. lens camera.
 <a target='_blank' href='https://physics.stackexchange.com/questions/223738/does-focal-length-mean-something-different-with-lenses-and-pinhole-cameras?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa'>Image source</a>"
 %}
 
-As most of commodity cameras employed in research compose are
-based on similar structure with thin lenses, small apertures and light sensors
-in place of films, the pinhole camera model is usually employed in explaining
-and modelling image formation in computer graphic and computer vision research.
+As most of commodity cameras employed in research compose of the
+similar structure with thin lenses, small apertures and light sensors
+in place of the films, researchers of computer vision and graphics usually apply the pinhole 
+camera model in explaining and modelling image formation.
 
 
 ## Image formation
@@ -81,7 +81,7 @@ systems that involve in
 
 #### Image coordinate system
 
-This is the coordinate system that attachs to each image, that is used to index
+This is the coordinate system that attaches to each image, that is used to index
 the pixels in the image. Conventionally, the origin is at top-left corner of 
 the image with x-axis pointing rightward, and y-axis downward. The image coordinate
 system is denoted by lowercase letters in 
