@@ -3,7 +3,7 @@ title:              Hoang-An Le
 bio:                'Welcome to my project page'
 description:        'I live, yet no longer I, but Christ lives in me (Gal 2:20)'
 reading_time:       true
-words_per_minute:   200
+words_per_minute:   100
 logo:               'assets/img/avatar.jpg'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
