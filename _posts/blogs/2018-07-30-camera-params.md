@@ -3,10 +3,18 @@ layout: post
 title: "From camera model to 3D point cloud reconstruction"
 date: 2018-07-30
 excerpt: "How camera functions at the simplest model"
-tags: [computer vision, camera model, intrinsic parameter, point cloud reconstruction]
-#comments: true
+thumbnail: /assets/images/posts/2018-07-30/pinhole_camera.png
+feature: /assets/images/posts/2018-07-30/camera_obscura.jpg
+tags:
+- computer vision
+- camera model
+- intrinsic parameter
+- point cloud reconstruction
+comments: true
 share: true
 ---
+[*Image credit: Camera Obscura [Voldelpark, Amsterdam](https://www.stefnagel.com/22412066/vondelpark-amsterdam) by Stef Nagel*]
+
 
 Camera is one of the main object in computer vision. Understanding how a camera
 works can actually get us to many interesting problems of computer vision such as
