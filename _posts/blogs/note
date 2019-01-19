@@ -13,6 +13,20 @@ comments: true
 share: true
 ---
 
+[Roadmap]
+
+Blender
+    flying-shapes project: github code
+
+    blender framework to generate scene
+        how it is used in garden, flying shapes, garden object centric
+    use blender to generate simple garden (with free-grass, free-sky,...)
+        use blender ivygen tools
+        use blender tree parameter
+    use blender archimesh
+    run blender in background mode
+    extract blender exr
+
 [Introduction]
 Camera is one of the main object in computer vision. Understanding how a camera
 work can actually get us to many interesting problem of computer visions such as
