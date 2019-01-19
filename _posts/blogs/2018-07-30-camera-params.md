@@ -1,19 +1,18 @@
 ---
 layout: post
-title: "Camera parameters"
-date: 2017-06-30
-excerpt: "Something about camera parameters"
-tags: [computer vision, pinhole camera model, instrinsic, extrinsic, parameters]
+title: "From camera model to 3D point cloud reconstruction"
+date: 2018-07-30
+excerpt: "How camera functions at the simplest model"
+tags: [computer vision, camera model, intrinsic parameter, point cloud reconstruction]
 #comments: true
-share: false
+share: true
 ---
 
-
-# Pinhole camera model
 Camera is one of the main object in computer vision. Understanding how a camera
 works can actually get us to many interesting problems of computer vision such as
 image panorama or 3D reconstruction.
 
+# Pinhole camera model
 Camera functioning simulates the way human eyes work. Yet, despite the 
 incredibe complexity of the eyes ([the second-most, only after the brain](
 http://optimumperformancetechnologies.blogspot.nl/2008/05/second-most-complex-organ-after-brain.html)),
@@ -94,7 +93,7 @@ system employed in computer graphics softwares (such as
 [Blender](https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Coordinate_Spaces_in_Blender#View_coordinates)) which have the camera looking at the negative
 z-coordinates and \\(y\\)-axis pointing upward.
 
-**World coordinate system** An arbitrary coordinate system relate a camera to other objects in a scene
+**World coordinate system** relates a camera to other objects in a scene.
 
 {% include image image="camera_model.png" caption="<b>Figure 2</b> Pinhole
 camera model. Redrawn from 
