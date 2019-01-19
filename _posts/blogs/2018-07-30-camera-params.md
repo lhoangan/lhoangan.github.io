@@ -13,7 +13,7 @@ tags:
 comments: true
 share: true
 ---
-[*Image credit: Camera Obscura [Voldelpark, Amsterdam](https://www.stefnagel.com/22412066/vondelpark-amsterdam) by Stef Nagel*]
+*Image credit: Camera Obscura [Voldelpark, Amsterdam](https://www.stefnagel.com/22412066/vondelpark-amsterdam) by Stef Nagel*
 
 
 Camera is one of the main object in computer vision. Understanding how a camera
