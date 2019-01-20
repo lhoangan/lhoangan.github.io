@@ -27,6 +27,42 @@ Blender
     run blender in background mode
     extract blender exr
 
+    hands-on blender / kinect... image to 3D
+
+    intrinsic image: albedo shading true-shading surface normal...
+    hands-on with blender
+
+
+Computer Vision works upstream, estimates the world with many unknown parameters.
+Many of the parameters are methods to estimate the world.
+
+Many problems require data to learn.
+
+Some of the virtual parameters include surface normal, optical vectors, intrinsic
+color. We need more data to try our algorithms, especially with the emergence of
+deep learning.
+
+Computer graphics uses the same parameters to construct the world.
+
+Blender is a computer graphic software, using OpenGL backend. Instead of spending
+time to learn OpenGL, just to play with Computer Vision, Blender is a good start
+because it's straightforward and quite intuitive
+
+I am not going to show how do Blender, but when need will describe what the tool
+is and how to use it.
+
+I am not a professional blender designer, I am sharing what I found on my journey
+to learn and understand computer vision.
+
+How to get camera parameters
+
+1. Photometric
+2. Streo matching
+3. Optical flow
+4. Normal surface (for what?)
+5. SLAM and semantic SLAM
+6. Intrinsic image decomposition
+
 [Introduction]
 Camera is one of the main object in computer vision. Understanding how a camera
 work can actually get us to many interesting problem of computer visions such as
