@@ -5,6 +5,8 @@ date: 2018-07-30
 excerpt: "How camera functions at the simplest model"
 thumbnail: /assets/images/posts/2018-07-30/pinhole_camera.png
 feature: /assets/images/posts/2018-07-30/camera_obscura.jpg
+caption: *photo credit* Camera Obscura [Voldelpark, Amsterdam](https://www.stefnagel.com/22412066/vondelpark-amsterdam) by Stef Nagel
+
 tags:
 - computer vision
 - camera model
@@ -13,8 +15,6 @@ tags:
 comments: true
 share: true
 ---
-*Image credit: Camera Obscura [Voldelpark, Amsterdam](https://www.stefnagel.com/22412066/vondelpark-amsterdam) by Stef Nagel*
-
 
 Camera is one of the main object in computer vision. Understanding how a camera
 works can actually get us to many interesting problems of computer vision such as
@@ -255,10 +255,10 @@ Equation \\(4\\) gives
 \dfrac{Y}{Z} = \dfrac{v-c_y}{f_y},\qquad (6)
 \\]
 
-Substitute Equation \\(6\\) into \\(5\\) gives:
+Substituting Equation \\(6\\) into \\(5\\) gives:
 
 \\[
-\Leftrightarrow Z = \dfrac{d}{\sqrt{\left(\dfrac{u-c_x}{f_x}\right)^2 + \left(\dfrac{v-c_y}{f_y}\right)^2 + 1}}
+Z = \dfrac{d}{\sqrt{\left(\dfrac{u-c_x}{f_x}\right)^2 + \left(\dfrac{v-c_y}{f_y}\right)^2 + 1}}
 \\]
 
 In general, the 3D coordinates \\(X, Y, Z\\) can be computed by
