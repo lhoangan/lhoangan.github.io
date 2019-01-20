@@ -5,7 +5,7 @@ date: 2018-07-30
 excerpt: "How camera functions at the simplest model"
 thumbnail: /assets/images/posts/2018-07-30/pinhole_camera.png
 feature: /assets/images/posts/2018-07-30/camera_obscura.jpg
-caption: *photo credit* Camera Obscura [Voldelpark, Amsterdam](https://www.stefnagel.com/22412066/vondelpark-amsterdam) by Stef Nagel
+caption: _photo credit_ Camera Obscura [Vondelpark, Amsterdam](https://www.stefnagel.com/22412066/vondelpark-amsterdam) by Stef Nagel
 
 tags:
 - computer vision
@@ -15,7 +15,6 @@ tags:
 comments: true
 share: true
 ---
-
 Camera is one of the main object in computer vision. Understanding how a camera
 works can actually get us to many interesting problems of computer vision such as
 image panorama or 3D reconstruction.
