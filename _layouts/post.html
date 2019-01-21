@@ -37,6 +37,9 @@ layout: compress
                         <i class="fa fa-chevron-left"></i>
                     </a>
                 </div>
+                {% if page.caption %}
+                  <div class="feature-caption">{{ page.caption | markdownify }}</div>
+                {% endif %}
                 {{ content }}
                 <div class="entry-meta">
                 {% include meta.html %}
