@@ -4,7 +4,7 @@ title:  "Dumdum's Great Adventure"
 author: 'Khoi-Nguyen C. Mac, Hoang-An Le, Quoc-Minh Bui, Hoang-Xuan Q. Nhat'
 affiliation: 'EURECOM institute, Campus SophiaTech, Telecom ParisTech'
 date:   2015-02-02
-excerpt: "Simple Android game project for the course Mobile Aplications and Services, Fall 2014,
+excerpt: "Simple Android game project for the course of Mobile Aplications and Services, Fall 2014,
 at EURECOM institute, Campus SophiaTech, France."
 project: true
 feature: /assets/images/posts/2015-02-02/main_menu.png
