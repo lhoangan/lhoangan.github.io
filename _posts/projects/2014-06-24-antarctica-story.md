@@ -17,19 +17,26 @@ comments: true
 A short just-for-fun clip for 3D Graph course, 2014,
 EURECOM institute, Campus Sophia Tech, France
 
-The scenery and all the 3D models are manually designed by the authors using Autodesk Maya 2015. Video production and effects are done with Adobe After Effect X5.
+The scenery and all the 3D models are manually designed by the authors using
+Autodesk Maya 2015. Video production and effects are done with Adobe After
+Effect X5.
 
-This clip was done as a course project. No commercial purpose involves. Some of the videos and audio tracks used in the clip may be copyrighted and the authors do not hold these copyrights.
+This clip was done as a course project. No commercial purpose involves.
+Some of the videos and audio tracks used in the clip may be copyrighted
+and the authors do not hold these copyrights.
 
-This clip was made in the scope of a course project and has no means to be used for commercial purpose. Some of the videos and sound tracks used in this video may be copyrighted and the authors do not own these copyrights.
+This clip was made in the scope of a course project and has no means to be
+used for commercial purpose. Some of the videos and sound tracks used in
+this video may be copyrighted and the authors do not own these copyrights.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6aaPkBlRJak" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-The movie tells a story of a penguin family in Antarctica. They were spotted by a white shark
-while resting on a floating iceberg. Although the iceberg was out of reach, the shark made
-his own approach to the penguins. While everything was under-anticipated according to his
-plan, the shark encountered something new later on, something that would completely change
-everything...
+The movie tells a story of a penguin family in Antarctica. They were spotted
+by a white shark while resting on a floating iceberg. Although the iceberg was
+out of reach, the shark made his own approach to the penguins.
+While everything was under-anticipated according to his plan,
+the shark encountered something new later on, something that would completely
+change everything...
 
 ## Pre-production
 
@@ -37,15 +44,17 @@ everything...
 
 ### Scene list
 
-Because of the complexity in modeling and animation which may require advanced Maya tech-
-niques in control and manipulate the objects, the product cannot be filmed in just one simple
-scene. Instead, to simulate the real filming process, the movie is decomposed into different
-scenes which has in detail different camera at different perspectives.
-For safe developing and testing purpose (as we studied on the way), each scene is constructed
-several times, each time (as we call it take) has some increment in model, technique, effect, etc.,
-until the whole scene is completed. By this way, we can in parallel render each scene (or part
-of a scene) separately and simultaneously on different computers, which helps improving the
-efficiency (as we can fix and re-render fault scenes, if any) and thus, reduces time consuming.
+Because of the complexity in modeling and animation which may require advanced
+Maya techniques in control and manipulate the objects, the product cannot be
+filmed in just one simple scene. Instead, to simulate the real filming process,
+the movie is decomposed into different scenes which has in detail different
+camera at different perspectives. For safe developing and testing purpose
+(as we studied on the way), each scene is constructed several times, each time
+(as we call it take) has some increment in model, technique, effect, etc.,
+until the whole scene is completed. By this way, we can in parallel render
+each scene (or part of a scene) separately and simultaneously on different
+computers, which helps improving the efficiency (as we can fix and re-render
+fault scenes, if any) and thus, reduces time consuming.
 The detailed scene list is presented in the Appendix 6.2
 
 
@@ -54,19 +63,20 @@ The detailed scene list is presented in the Appendix 6.2
 ### Penguin model
 #### Construction
 
-The penguin model is built by shaping and combination of basic geometric shapes such as a
-cone (for the peak) and a sphere (for other body parts). As shown in Figure 1(a), the torso is a
-sphere scaled along y-axis. The upper half is scaled and moved up while the lower half is scale
-and moved down. In the similar manner, a wing is a sphere scaled down about along y-axis
-and scaled up along x-axis (Figure 1(b)). The peak (Figure 1(c)) is a cone rotated and scaled
-down along z-axis. A part of the cone is translated inwards, and rotated along x-axis. The
-eyes are made from 2 simple spheres. A foot is a sphere scaled down along y-axis and having
-a part translated forward in z-axis (Figure 1(e)). The whole penguin is built by plugging all
-part together, at the appropriate positions (Figure 1(f)).
+The penguin model is built by shaping and combination of basic geometric shapes
+such as a cone (for the peak) and a sphere (for other body parts). As shown in
+Figure 1(a), the torso is a sphere scaled along y-axis. The upper half is scaled
+and moved up while the lower half is scale and moved down. In the similar manner,
+a wing is a sphere scaled down about along y-axis and scaled up along x-axis
+(Figure 1(b)). The peak (Figure 1(c)) is a cone rotated and scaled
+down along z-axis. A part of the cone is translated inwards, and rotated
+along x-axis. The eyes are made from 2 simple spheres. A foot is a sphere
+scaled down along y-axis and having a part translated forward in z-axis
+(Figure 1(e)). The whole penguin is built by plugging all part together,
+at the appropriate positions (Figure 1(f)).
 
 #### Textures
 The penguin would not look like one without the textures shown in Figure 2.
-
 
 #### Animating skeletons
 
@@ -74,68 +84,77 @@ To animate it, it is necessary to attach a skeleton to the model (Figure 3)
 
 #### Emotion expression
 
-One of the notable points in this project is that all details from the characters or scenery models
-to how they animate are constructed from very simple and trivial primitives. The models and
-animation of a penguin are already shown in the previous parts. However, a simple (or even
-textured or animated) penguin model would not attract much interest because it behaves just
-like a robotic statue. To energize these models so that they look lively, we put some emotions
-onto their faces.
+One of the notable points in this project is that all details from the characters
+or scenery models to how they animate are constructed from very simple and
+trivial primitives. The models and animation of a penguin are already shown in
+the previous parts. However, a simple (or even textured or animated) penguin
+model would not attract much interest because it behaves just like a robotic
+statue. To energize these models so that they look lively, we put some
+emotions onto their faces.
 
-The emotion expression idea is originated from well-known Japanese comics and cartoons,
-also known as manga and anime. In these comics and cartoons, we draw characters’ emotions
-using simple strokes on their faces or on the surrounding environment. As shown on Figure 4,
-this could be done quite simply by just changing the characters’ textures or put some extra ones
-around the characters. To avoid the side effect caused by environmental lighting, the textures
-used as emotion expression are all set to transparent, with low diffusion and to reject shadow
-formation.
+The emotion expression idea is originated from well-known Japanese comics and
+cartoons, also known as manga and anime. In these comics and cartoons,
+we draw characters’ emotions using simple strokes on their faces or on the
+surrounding environment. As shown on Figure 4, this could be done quite
+simply by just changing the characters’ textures or put some extra ones
+around the characters. To avoid the side effect caused by environmental
+lighting, the textures used as emotion expression are all set to transparent,
+with low diffusion and to reject shadow formation.
 
 ## Shark model
-With a bit difference, the shark torso is reconstructed from a downloaded model 1 . As shown
-in the Figure 5
-Besides, the shark model is also rigged with skeleton and then textures as the penguin
-models (Figure 6)
+With a bit difference, the shark torso is reconstructed from a
+[downloaded model](https://www.animationmethods.com/rigs.html) as shown in the
+Figure 5. Besides, the shark model is also rigged with skeleton and then textures
+as the penguin models (Figure 6)
 
-The emotional expression is created with the same technique as it was to the penguin
-models: as shown in Figure 7 the emotional strokes is drawn as some extra textures onto the
-shark
+The emotional expression is created with the same technique as it was to the
+penguin models: as shown in Figure 7 the emotional strokes is drawn as some
+extra textures onto the shark
 
 ## Scenery
 
 ### Landscape
-The landscape including the mountains and iceberg is constructed using sculpt modeling tech-
-nique. The technique is motivated from the real sculpting process where a model is developed
-from a dense substance such as clay by pull, smooth, grab, pinch or otherwise manipulate
-each part of the initial mess 2 . There are 3 types of sculpt modeling including displacement,
-volumetric and dynamic tessellation. The mountains and iceberg model in this work belong to
-the displacement type: a dense model, in this case a plane, will has each of its vertex adjusted
-to a different height (above or below the original plane) which is predefined from a so-called
-displacement map (or height map) adjusted locations 3 . Figure 8 shows the displacement map
-used to generate the iceberg. Depending on the parameters set in Maya, we can indicate the
-height a vertex should be corresponding to a grayscale color provided in the map. Generally,
+The landscape including the mountains and iceberg is constructed using [sculpt
+modeling technique](https://en.wikipedia.org/wiki/Digital_sculpting).
+The technique is motivated from the real sculpting process where a model is
+developed from a dense substance such as clay by pull, smooth, grab,
+pinch or otherwise manipulate each part of the initial mess 2 .
+There are 3 types of
+[sculpt modeling](https://en.wikipedia.org/wiki/3D_modeling#Modeling_process)
+including *displacement*, *volumetric* and *dynamic tessellation*.
+The mountains and iceberg model in this work belong to the displacement type:
+a dense model, in this case a plane, will has each of its vertex adjusted
+to a different height (above or below the original plane) which is predefined
+from a so-called displacement map (or height map) adjusted locations.
+Figure 8 shows the displacement map used to generate the iceberg.
+Depending on the parameters set in Maya, we can indicate the height a vertex
+should be corresponding to a grayscale color provided in the map. Generally,
 the lighter the color is, the higher a vertex is on a model.
 
-Because of the complexities such as the size relation between the landscape size (computed
-in Maya’s unit) and the map size (computed in pixel), the variation in height parameter cor-
-responding with each color on the map, the time consumed (though only about 15 seconds) in
-generating a model from a map, and the requirement of natural shape of the generated model,
-construction of the displacement map is really a challenge when working with displacement
-sculpt model. The landscape used in the production was identified to have a low part in the
-middle which is later filled with water (where placed the iceberg and starting our story) while
-has some sort of mountains around the boundary. The mountains should not be plotted as a
-heap of blocks or some geometric primitive but should be as natural as real mountains. To do
-so, many displacement maps have been tested (Figure 9), each was generated randomly and
-after that, retouched with different tools such as blurring, smoothing, blending, etc.
-As shown in the left of Figure 10, the samples could not be accepted because they get
-too artificial with pointed cone shapes while having quite smooth mountainside. Besides, due
-to uniform color area in a displacement map, the mountains have some staircase-like areas
-(top-right Figure 10) or unsmoothed surface (bottom-right Figure 10)
+Because of the complexities such as the size relation between the landscape size
+(computed in Maya’s unit) and the map size (computed in pixel),
+the variation in height parameter corresponding with each color on the map,
+the time consumed (though only about 15 seconds) in generating a model from a
+map, and the requirement of natural shape of the generated model, construction
+of the displacement map is really a challenge when working with displacement
+sculpt model. The landscape used in the production was identified to have a low
+part in the middle which is later filled with water (where placed the iceberg
+and starting our story) while has some sort of mountains around the boundary.
+The mountains should not be plotted as a heap of blocks or some geometric
+primitive but should be as natural as real mountains. To do so,
+many displacement maps have been tested (Figure 9), each was generated randomly
+and after that, retouched with different tools such as blurring, smoothing,
+blending, etc.  As shown in the left of Figure 10, the samples could not be
+accepted because they get too artificial with pointed cone shapes while having
+quite smooth mountainside. Besides, due to uniform color area in a displacement
+map, the mountains have some staircase-like areas (top-right Figure 10) or
+unsmoothed surface (bottom-right Figure 10)
 
 ### Ocean
 
-The ocean is created using fluid dynamic technique, a built-in function of Maya. However,
-given the generated ocean as in Figure 12, the challenges are how to make it look like real
-oceans, including 5 steps
-
+The ocean is created using fluid dynamic technique, a built-in function of Maya.
+However, given the generated ocean as in Figure 12, the challenges are how to
+make it look like real oceans, including 5 steps
 
 ## Post-production
 
@@ -145,8 +164,61 @@ oceans, including 5 steps
 
 ### Videos
 
+• MGM Logo 3 Roar 2008 Restoration, Youtube
+http://www.youtube.com/watch?v=OVCxJ1aT24A
+• Miki Owns MGM Lion , Youtube
+http://www.youtube.com/watch?v=LD3JzRZXhs0
+• Muteki Kanban Musume - MGM style, Youtube
+http://www.youtube.com/watch?v=AODKUqOVp7g
+
 ### Sound tracks
 
+#### Background musics
+
+Opening Sepia No Hi - Card Captor Sakura (Letra), Youtube http://www.youtube.com/
+watch?v=TeqwDrUK_Ik
+Thrilling Let It Go (Disney’s ”Frozen”) Vivaldi’s Winter - ThePianoGuys , Youtube
+https://www.youtube.com/watch?v=6Dakd7EIgBE
+Jumping Super Mario Bros Official Theme Song , Youtube
+http://www.youtube.com/watch?v=mnipB_8Br8U
+Flying Tom and Jerry at MGM music performed live by the John Wilson Orchestra 2013 BBC
+Proms, Youtube , http://www.youtube.com/watch?v=viDZza0CXj0
+Ending Tom and Jerry Episode 31 Salt Water Tabby, Youtube
+http://www.youtube.com/watch?v=8IuYFA11nOU
+
+#### Sound effect
+
+[Evil laugh Tom and Jerry 26 - Solid Serenade Full, Ben McNairy, Youtube]
+(http://www.youtube.com/watch?v=FQHqR2qmVHM)
+[Heart thumbing Tom And Jerry 034 - Kitty Foiled (1948), Youtube]
+http://www.youtube.com/watch?v=iBEjtpk-9P4)
+[Falling 2 Tom and Jerry 62 - Cat Napping Full , Ben McNairy, Youtube]
+http://www.youtube.com/watch?v=MlY1aPVQrZ8)
+[Air Swagging Tom and Jerry 64 - The Duck Doctor Full , Ben McNairy, Youtube]
+http://www.youtube.com/watch?v=O6XQ_wVPMl4)
+[Afraid Tom and Jerry 77 - Just Ducky Full, Ben McNairy, Youtube]
+http://www.youtube.com/watch?v=T-HyYUmu8J8)
+[Falling 1 Tom and Jerry 90 - Southbound Duckling Full, Ben McNairy, Youtube]
+https://www.youtube.com/watch?v=A0M5sR3OVUE)
+[Surprising Tom and Jerry Cartoon The Flying Cat, Youtube]
+http://www.youtube.com/watch?v=eWIUJRxXlQU)
+[Screaming Tom and Jerry Cartoon Baby Puss, Youtube]
+http://www.youtube.com/watch?v=Tlg2bHGXvbc)
+**Dog barking** [Tom and Jerry Cartoon That’s My Pup!, Youtube]
+http://www.youtube.com/watch?v=Wj9izA4D31E)
+**Kissing** [Kissing sound effect, Youtube]
+http://www.youtube.com/watch?v=Wh4hV1CLaVk)
+**Cruching sound** [Person Bites Into Rice Cake Version 2, FreeFx]
+http://www.freesfx.co.uk/sfx/bite)
+**Oh, yeah!** [Man Saying Oh Yeah, AudioSparx]
+http://www.audiosparx.com/sa/summary/play.cfm/crumb.1/crumc.0/sound_iid.530621)
+**Thunder** [Thunder & Lightning Sound Effects [High Quality] , Youtube
+http://www.youtube.com/watch?v=QZpgHrKXooc)
+**Ocean sound** [Ocean Seagulls Relaxation, Youtube]
+http://www.youtube.com/watch?v=xys0gMPDHFA)
+**Laughing** [Jiraiya, The Big Pervert , Youtube]
+http://www.youtube.com/watch?v=eBwnVcsJBEs)
+**Popping** [Super Mario Bros - Jump - Sound Effect [HQ] , Youtube]( http://www.youtube.com/watch?v=9LmPIlNZNUM)
 
 ## Product
 
