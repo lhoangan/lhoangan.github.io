@@ -29,8 +29,6 @@ This clip was made in the scope of a course project and has no means to be
 used for commercial purpose. Some of the videos and sound tracks used in
 this video may be copyrighted and the authors do not own these copyrights.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6aaPkBlRJak" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 The movie tells a story of a penguin family in Antarctica. They were spotted
 by a white shark while resting on a floating iceberg. Although the iceberg was
 out of reach, the shark made his own approach to the penguins.
@@ -55,7 +53,6 @@ until the whole scene is completed. By this way, we can in parallel render
 each scene (or part of a scene) separately and simultaneously on different
 computers, which helps improving the efficiency (as we can fix and re-render
 fault scenes, if any) and thus, reduces time consuming.
-The detailed scene list is presented in the Appendix 6.2
 
 
 ## Modeling
@@ -164,62 +161,61 @@ make it look like real oceans, including 5 steps
 
 ### Videos
 
-• MGM Logo 3 Roar 2008 Restoration, Youtube
-http://www.youtube.com/watch?v=OVCxJ1aT24A
-• Miki Owns MGM Lion , Youtube
-http://www.youtube.com/watch?v=LD3JzRZXhs0
-• Muteki Kanban Musume - MGM style, Youtube
-http://www.youtube.com/watch?v=AODKUqOVp7g
+[MGM Logo 3 Roar 2008 Restoration, Youtube](http://www.youtube.com/watch?v=OVCxJ1aT24A)
+
+[Miki Owns MGM Lion , Youtube](http://www.youtube.com/watch?v=LD3JzRZXhs0)
+
+[Muteki Kanban Musume - MGM style, Youtube](http://www.youtube.com/watch?v=AODKUqOVp7g)
 
 ### Sound tracks
 
 #### Background musics
 
-Opening Sepia No Hi - Card Captor Sakura (Letra), Youtube http://www.youtube.com/
-watch?v=TeqwDrUK_Ik
-Thrilling Let It Go (Disney’s ”Frozen”) Vivaldi’s Winter - ThePianoGuys , Youtube
-https://www.youtube.com/watch?v=6Dakd7EIgBE
-Jumping Super Mario Bros Official Theme Song , Youtube
-http://www.youtube.com/watch?v=mnipB_8Br8U
-Flying Tom and Jerry at MGM music performed live by the John Wilson Orchestra 2013 BBC
-Proms, Youtube , http://www.youtube.com/watch?v=viDZza0CXj0
-Ending Tom and Jerry Episode 31 Salt Water Tabby, Youtube
-http://www.youtube.com/watch?v=8IuYFA11nOU
+**Opening**[Sepia No Hi - Card Captor Sakura (Letra), Youtube](http://www.youtube.com/watch?v=TeqwDrUK_Ik)
+
+**Thrilling**[Let It Go (Disney’s ”Frozen”) Vivaldi’s Winter - ThePianoGuys , Youtube](https://www.youtube.com/watch?v=6Dakd7EIgBE)
+
+**Jumping** [Super Mario Bros Official Theme Song , Youtube](http://www.youtube.com/watch?v=mnipB_8Br8U)
+
+**Flying** [Tom and Jerry at MGM music performed live by the John Wilson Orchestra 2013 BBC Proms, Youtube](http://www.youtube.com/watch?v=viDZza0CXj0)
+
+**Ending** [Tom and Jerry Episode 31 Salt Water Tabby, Youtube](http://www.youtube.com/watch?v=8IuYFA11nOU)
 
 #### Sound effect
 
-[Evil laugh Tom and Jerry 26 - Solid Serenade Full, Ben McNairy, Youtube]
-(http://www.youtube.com/watch?v=FQHqR2qmVHM)
-[Heart thumbing Tom And Jerry 034 - Kitty Foiled (1948), Youtube]
-http://www.youtube.com/watch?v=iBEjtpk-9P4)
-[Falling 2 Tom and Jerry 62 - Cat Napping Full , Ben McNairy, Youtube]
-http://www.youtube.com/watch?v=MlY1aPVQrZ8)
-[Air Swagging Tom and Jerry 64 - The Duck Doctor Full , Ben McNairy, Youtube]
-http://www.youtube.com/watch?v=O6XQ_wVPMl4)
-[Afraid Tom and Jerry 77 - Just Ducky Full, Ben McNairy, Youtube]
-http://www.youtube.com/watch?v=T-HyYUmu8J8)
-[Falling 1 Tom and Jerry 90 - Southbound Duckling Full, Ben McNairy, Youtube]
-https://www.youtube.com/watch?v=A0M5sR3OVUE)
-[Surprising Tom and Jerry Cartoon The Flying Cat, Youtube]
-http://www.youtube.com/watch?v=eWIUJRxXlQU)
-[Screaming Tom and Jerry Cartoon Baby Puss, Youtube]
-http://www.youtube.com/watch?v=Tlg2bHGXvbc)
-**Dog barking** [Tom and Jerry Cartoon That’s My Pup!, Youtube]
-http://www.youtube.com/watch?v=Wj9izA4D31E)
-**Kissing** [Kissing sound effect, Youtube]
-http://www.youtube.com/watch?v=Wh4hV1CLaVk)
-**Cruching sound** [Person Bites Into Rice Cake Version 2, FreeFx]
-http://www.freesfx.co.uk/sfx/bite)
-**Oh, yeah!** [Man Saying Oh Yeah, AudioSparx]
-http://www.audiosparx.com/sa/summary/play.cfm/crumb.1/crumc.0/sound_iid.530621)
-**Thunder** [Thunder & Lightning Sound Effects [High Quality] , Youtube
-http://www.youtube.com/watch?v=QZpgHrKXooc)
-**Ocean sound** [Ocean Seagulls Relaxation, Youtube]
-http://www.youtube.com/watch?v=xys0gMPDHFA)
-**Laughing** [Jiraiya, The Big Pervert , Youtube]
-http://www.youtube.com/watch?v=eBwnVcsJBEs)
-**Popping** [Super Mario Bros - Jump - Sound Effect [HQ] , Youtube]( http://www.youtube.com/watch?v=9LmPIlNZNUM)
+**Evil laugh** [Tom and Jerry 26 - Solid Serenade Full, Ben McNairy, Youtube](http://www.youtube.com/watch?v=FQHqR2qmVHM)
+
+**Heart thumbing** [Tom And Jerry 034 - Kitty Foiled (1948), Youtube](http://www.youtube.com/watch?v=iBEjtpk-9P4)
+
+**Falling 2** [Tom and Jerry 62 - Cat Napping Full , Ben McNairy, Youtube](http://www.youtube.com/watch?v=MlY1aPVQrZ8)
+
+**Air** [Swagging Tom and Jerry 64 - The Duck Doctor Full , Ben McNairy, Youtube](http://www.youtube.com/watch?v=O6XQ_wVPMl4)
+
+**Afraid** [Tom and Jerry 77 - Just Ducky Full, Ben McNairy, Youtube](http://www.youtube.com/watch?v=T-HyYUmu8J8)
+
+**Falling 1** [Tom and Jerry 90 - Southbound Duckling Full, Ben McNairy, Youtube](https://www.youtube.com/watch?v=A0M5sR3OVUE)
+
+**Surprising** [Tom and Jerry Cartoon The Flying Cat, Youtube](http://www.youtube.com/watch?v=eWIUJRxXlQU)
+
+**Screaming** [Tom and Jerry Cartoon Baby Puss, Youtube](http://www.youtube.com/watch?v=Tlg2bHGXvbc)
+
+**Dog barking** [Tom and Jerry Cartoon That’s My Pup!, Youtube](http://www.youtube.com/watch?v=Wj9izA4D31E)
+
+**Kissing** [Kissing sound effect, Youtube](http://www.youtube.com/watch?v=Wh4hV1CLaVk)
+
+**Cruching sound** [Person Bites Into Rice Cake Version 2, FreeFx](http://www.freesfx.co.uk/sfx/bite)
+
+**Oh, yeah!** [Man Saying Oh Yeah, AudioSparx](http://www.audiosparx.com/sa/summary/play.cfm/crumb.1/crumc.0/sound_iid.530621)
+
+**Thunder** [Thunder & Lightning Sound Effects-High Quality , Youtube](http://www.youtube.com/watch?v=QZpgHrKXooc)
+
+**Ocean sound** [Ocean Seagulls Relaxation, Youtube](http://www.youtube.com/watch?v=xys0gMPDHFA)
+
+**Laughing** [Jiraiya, The Big Pervert , Youtube](http://www.youtube.com/watch?v=eBwnVcsJBEs)
+
+**Popping** [Super Mario Bros - Jump - Sound Effect-HQ , Youtube]( http://www.youtube.com/watch?v=9LmPIlNZNUM)
 
 ## Product
 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6aaPkBlRJak" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
