@@ -4,7 +4,7 @@ title:  "Antarctica Story: when Linux and Wireshark getting along"
 author: "Khoi-Nguyen C. Mac, Hoang-An Le, Quoc-Minh Bui"
 affiliation: "EURECOM institute, Campus SophiaTech, Telecom ParisTech"
 date:   2014-06-24
-excerpt: "Simple Android game project for the course Mobile Aplications and Services, Fall 2014,
+excerpt: "Short and fun video clip course on 3D and Virtual Imaging, Spring 2014,
 at EURECOM institute, Campus SophiaTech, France."
 project: true
 feature: /assets/images/posts/2014-06-24/feature2.png
