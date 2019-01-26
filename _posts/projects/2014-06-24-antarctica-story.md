@@ -1,47 +1,40 @@
 ---
 layout: post
-title:  "Antarctica Story: when Linux and Wireshark get along"
+title:  "Antarctica Story: when Linux and Wireshark getting along"
 author: "Khoi-Nguyen C. Mac, Hoang-An Le, Quoc-Minh Bui"
 affiliation: "EURECOM institute, Campus SophiaTech, Telecom ParisTech"
 date:   2014-06-24
 excerpt: "Simple Android game project for the course Mobile Aplications and Services, Fall 2014,
 at EURECOM institute, Campus SophiaTech, France."
 project: true
-feature: /assets/images/posts/2015-02-02/main_menu.png
-thumbnail: /assets/images/posts/2015-02-02/dumdumicon.png
+feature: /assets/images/posts/2014-06-24/feature2.png
+thumbnail: /assets/images/posts/2014-06-24/thumbnail4.png
 tag:
 - course project
+- CGI
 - maya
 comments: true
 ---
 
-A short just-for-fun clip for 3D Graph course, 2014,
-EURECOM institute, Campus Sophia Tech, France
-
-The scenery and all the 3D models are manually designed by the authors using
-Autodesk Maya 2015. Video production and effects are done with Adobe After
-Effect X5.
-
-This clip was done as a course project. No commercial purpose involves.
-Some of the videos and audio tracks used in the clip may be copyrighted
-and the authors do not hold these copyrights.
-
-This clip was made in the scope of a course project and has no means to be
-used for commercial purpose. Some of the videos and sound tracks used in
-this video may be copyrighted and the authors do not own these copyrights.
-
-The movie tells a story of a penguin family in Antarctica. They were spotted
+This short movie tells a story of a penguin family in Antarctica. They were spotted
 by a white shark while resting on a floating iceberg. Although the iceberg was
-out of reach, the shark made his own approach to the penguins.
-While everything was under-anticipated according to his plan,
-the shark encountered something new later on, something that would completely
-change everything...
+out of reach, the shark made his own approach to the penguins.  While everything
+was under-anticipated according to his plan, the shark encountered something
+new later on, something that would completely change everything...
+
+The video clip is provided as the result for the course on 3D and Virutal
+Imaging in 2014 at EURECOM institute, Campus Sophia Tech, France.
+The scenery and some the 3D models are manually
+designed by the authors using Autodesk Maya 2015. Video production and effects
+are done with Adobe After Effect X5.
+
+*This clip was made in the scope of a course project and has no means to be
+used for commercial purpose. Some of the videos and sound tracks used in
+this video may be copyrighted and the authors do not own these copyrights.*
 
 ## Pre-production
 
 ### Storyboard
-
-### Scene list
 
 Because of the complexity in modeling and animation which may require advanced
 Maya techniques in control and manipulate the objects, the product cannot be
@@ -57,12 +50,11 @@ fault scenes, if any) and thus, reduces time consuming.
 
 
 {% include image image="Page-10-Image-14.png" caption="<b>Figure</b> Sketched
-story board."%}
+storyboard."%}
 
 ## Modeling
 
 ### Penguin model
-#### Construction
 
 The penguin model is built by shaping and combination of basic geometric shapes
 such as a cone (for the peak) and a sphere (for other body parts). As shown in
@@ -80,20 +72,15 @@ at the appropriate positions (Figure 1(f)).
 model: (a) the torso, (b) a wing, (c) the peak, (d) an eye, (e) a foot, (f) all
 together."%}
 
-#### Textures
 The penguin would not look like one without the textures shown in Figure 2.
 
 {% include image image="Page-3-Image-2.png" caption="<b>Figure 2</b> The penguin
 texture. From left to right: the body, an eye, and final result ."%}
 
-#### Animating skeletons
-
-To animate it, it is necessary to attach a skeleton to the model (Figure 3)
+To animate it, it is necessary to attach a skeleton to the model (Figure 3).
 
 {% include image image="Page-3-Image-3.png" caption="<b>Figure 3</b> The penguin
 skeleton rig."%}
-
-#### Emotion expression
 
 One of the notable points in this project is that all details from the characters
 or scenery models to how they animate are constructed from very simple and
@@ -190,14 +177,13 @@ landscape."%}
 
 The ocean is created using fluid dynamic technique, a built-in function of Maya.
 However, given the generated ocean as in Figure 12, the challenges are how to
-make it look like real oceans, including 5 steps
-- applying physical sun and sky so that we'll know how the sea would look like
-in the real lighting environment;
-- changing water shading to change the water color according to the sun and sky;
-- putting it into scenes to check the compatibility of the ocean color with the
-mountains' and iceberg's;
-- and finally, creating wakes, so that the water surface can interact with other
-objects, making it look more lively.
+make it look like real oceans, including 5 step (1) applying physical sun and
+sky so that we'll know how the sea would look like; (2) in the real lighting
+environment; (3) changing water shading to change the water color according to
+the sun and sky; (4) putting it into scenes to check the compatibility of the
+ocean color with the mountains' and iceberg's; (5) and finally, creating wakes,
+so that the water surface can interact with other objects, making it look more
+lively.
 
 {% include image image="Page-8-Image-12.png" caption="<b>Figure 12</b> The default
 water sample generated by Maya (with and without the shark)."%}
@@ -226,6 +212,7 @@ amplification, etc. Visual effects Some of the visual effects used in the clip a
 
 ## Product
 
+It's finally time. Please grab your favorite beverage, sit back, and enjoy!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6aaPkBlRJak" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
