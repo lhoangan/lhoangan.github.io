@@ -26,6 +26,8 @@ Blender
     use blender archimesh
     run blender in background mode
     extract blender exr
+    blender: convert object/global based normal to camera based
+    blender: get real shading from shading and normal
 
     hands-on blender / kinect... image to 3D
 
