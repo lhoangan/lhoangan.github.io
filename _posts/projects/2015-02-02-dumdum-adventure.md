@@ -10,6 +10,7 @@ project: true
 feature: /assets/images/posts/2015-02-02/main_menu.png
 thumbnail: /assets/images/posts/2015-02-02/dumdumicon.png
 tag:
+- course project
 - android
 - facebook SDK
 - youtube API
