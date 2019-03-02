@@ -365,6 +365,22 @@ figure {
 
 body.offcanvas {
   overflow-x: hidden; }
+  @media screen and (max-width: 9000px) {
+  body.offcanvas #colorlib-aside {
+    -moz-transform: translateX(-300px);
+    -webkit-transform: translateX(-300px);
+    -ms-transform: translateX(-300px);
+    -o-transform: translateX(-300px);
+    transform: translateX(-300px);
+    width: 300px;
+    background: #eee;
+    float: left;
+    z-index: 999;
+    position: fixed; }
+  body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
+    }
+  }
+  @media screen and (max-width: 850px) {
   body.offcanvas #colorlib-aside {
     -moz-transform: translateX(0);
     -webkit-transform: translateX(0);
@@ -377,7 +393,13 @@ body.offcanvas {
     z-index: 999;
     position: fixed; }
   body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
-    width: calc(100% - 300px); }
+    -moz-transform: translateX(300px);
+    -webkit-transform: translateX(300px);
+    -ms-transform: translateX(300px);
+    -o-transform: translateX(300px);
+    transform: translateX(300px);
+    }
+  }
 
 .colorlib-narrow-content {
   padding: 0 2.5em; }
