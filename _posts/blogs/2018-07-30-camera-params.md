@@ -8,6 +8,7 @@ feature: /assets/images/posts/2018-07-30/camera_obscura.jpg
 caption: _photo credit_ Camera Obscura [Vondelpark, Amsterdam](https://www.stefnagel.com/22412066/vondelpark-amsterdam) by Stef Nagel
 
 tags:
+- research
 - computer vision
 - camera model
 - intrinsic parameter
