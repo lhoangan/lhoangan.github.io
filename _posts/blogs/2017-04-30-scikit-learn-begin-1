@@ -1,0 +1,56 @@
+---
+layout: post
+title: Sample Post
+excerpt: ""
+modified: 
+categories: articles
+tags: [scikit]
+image:
+  feature: so-simple-sample-image-1.jpg
+  credit: WeGraphics
+  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+comments: true
+share: true
+---
+
+4, 2, 1, Go!
+
+So this is my very first blog post.
+Actually, just a few hours ago, I did not know how it is going to start and
+what I will be writing in it. However, it is a fortune that I came across a very nice package called Scikit-Learn which is at the same time, a library for machine learning, and a tutorial for pattern recognition. I have just finished a pattern recognition course at TU Delft as part of my training plan of the PhD program, I found it very fascinating, but didn't have time to put good effort in it. However, I do wish to acquire good knowledge of (applied) machine learning and pattern recognition so that I can feel comfortable when facing a problem, in prepration for my future carerr (if possible) to work more in data (science) analysis field, and if possible to help other people (probably students) who do not have good access to good material, or do not have experienced enough.
+
+So my plan is that I will try to follow scikit learn and if needed write down my summary, may be in the form of recapitulation or a cheat sheet for later reference or newcomers of this field. For a disclaimer, I would like to say that all of the posts following are supposed to be from my understanding from the past and/or after reading/trying/studying. They are by no mean to be fully qualified or justified. All comments and feedbacks are welcomed as long as they are for constructive purpose and in constructive manners. Please stick to general communication etiquette. So if you found something confusing or may not sound right, please raise a discussion or consult with another expert. I would also love to hear from you. Remember I am also learning.
+
+This would also be a very precious chance for me to get used to this reading-writing lifestyle, this wonderful markdown platform of github and jekyll, as well as getting myself into more thinking and expressing in English
+
+OK, too much explanation for an introduction. All of these, including this sentence will be masked out and left out of the final version of this post before publishing; I promised!
+
+So how should I start? 
+
+First of all I found this article is helpful before getting started: http://machinelearningmastery.com/a-gentle-introduction-to-scikit-learn-a-python-machine-learning-library/. In the article, Jason brings up very consise information of what scikit learn is and how it is going to help us in using, stuyding machine learning. Spend some time on it. What I want to emphasize and pin down here are 2 things
+
+1. the very useful links:
+	Quick Start Tutorial http://scikit-learn.org/stable/tutorial/basic/tutorial.html
+	User Guide http://scikit-learn.org/stable/user_guide.html
+	API Reference http://scikit-learn.org/stable/modules/classes.html
+	Example Gallery http://scikit-learn.org/stable/auto_examples/index.html
+
+2. More information of the implementation statistics witht the paper link http://www.jmlr.org/papers/volume12/pedregosa11a/pedregosa11a.pdf
+and API design at https://arxiv.org/pdf/1309.0238.pdf
+
+--
+
+# Machine learning terminology and convention
+
+a dataset has \\( n \\) data points or \\(n\\) samples of data
+
+each data point is a multi-dimensional vector (= tensor) or multivariate random
+variable (vector where each entry is a random variable)
+
+responsive variable: the target label
+
+fit a classifier to a model, i.e. make the classifier learn from a model
+
+
+
+
