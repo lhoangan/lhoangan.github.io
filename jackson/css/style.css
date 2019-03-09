@@ -379,7 +379,7 @@ body.offcanvas {
   body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
     }
   }
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 1250px) {
   body.offcanvas #colorlib-aside {
     -moz-transform: translateX(0);
     -webkit-transform: translateX(0);
