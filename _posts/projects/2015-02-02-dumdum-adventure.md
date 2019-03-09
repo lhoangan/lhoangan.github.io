@@ -4,17 +4,17 @@ title:  "Dumdum's Great Adventure"
 author: 'Khoi-Nguyen C. Mac, Hoang-An Le, Quoc-Minh Bui, Hoang-Xuan Q. Nhat'
 affiliation: 'EURECOM institute, Campus SophiaTech, Telecom ParisTech'
 date:   2015-02-02
-excerpt: "Simple Android game project for the course Mobile Aplications and Services, Fall 2014,
+excerpt: "Simple Android game project for the course of Mobile Aplications and Services, Fall 2014,
 at EURECOM institute, Campus SophiaTech, France."
 project: true
 feature: /assets/images/posts/2015-02-02/main_menu.png
 thumbnail: /assets/images/posts/2015-02-02/dumdumicon.png
 tag:
-- Android programming
-- Facebook SDK
-- Youtube API
-- Wifi Direct
-#comments: true
+- android
+- facebook SDK
+- youtube API
+- wifi Direct
+comments: true
 ---
 
 # Welcome to Dumdum's Great Adventure
@@ -49,8 +49,6 @@ tag:
 ## Download
 
 [Beta release]({{ "https://drive.google.com/file/d/0B0pb_wgnH3bWQUQ0UHliQlNxTkU/view" | absolute_url }})
-
-## More information
 
 [Github]({{ "https://github.com/knmac/DumDum_Project/" | absolute_url }})
 
