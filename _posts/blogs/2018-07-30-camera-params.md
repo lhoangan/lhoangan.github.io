@@ -16,7 +16,6 @@ tags:
 comments: true
 share: true
 ---
-
 Camera is one of the main object in computer vision. Understanding how a camera
 works can actually get us to many interesting problems of computer vision such as
 image panorama or 3D reconstruction.
