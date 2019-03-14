@@ -17,6 +17,9 @@ Today's gospel is on [Mark 8:14-21](http://www.usccb.org/bible/readings/bible/ma
 telling the story that the disciples were worried because they forgot to bring breads,
 and Jesus reminded them about his miracles of breaking five loaves for five thousand.
 
+> They (The disciples) had forgotten to bring bread, and they had only one loaf
+with them in the boat
+
 Very often we see in the bible how the disciples lose their faith while living
 in close proximity to Jesus, with countless of miracles performed in front of
 their eyes, still they can lose faith in just a blink of an eye. Very often,
@@ -54,3 +57,18 @@ constantly seek for miracles and only believe when there's one, but seek for God
 grace through prayers, Holy Communion, attending Masses. Only there can you meet
 Him in person, only there can you receive Him truly in your soul, and only there
 can you be strengthened in your faith.
+
+> Do you not yet understand or comprehend?
+
+We also hear the Lord ask the same question when we are anxious and distressed
+over the difficulties that we face in life.
+
+The disciple tried to cross the sea without having enough food for the journey
+They were worried for not having enough assurance in case of trouble such as
+bad weather.
+
+However, what they really forgot was not the breads, but the fact that Jesus
+is on the journey with them in the same  boat. We need to recall all the 
+signs and scenarios in which God had express Himself to us since our early life
+so that we all remember that God is always with us and be at peace.with ourselves.
+
