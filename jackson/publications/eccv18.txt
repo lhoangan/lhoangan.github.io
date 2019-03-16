@@ -1,0 +1,11 @@
+@inproceedings{eccv18,
+archivePrefix = {arXiv},
+arxivId = {1807.11857},
+author = {Baslamisli, Anil S. and Groenestege, Thomas T. and Das, Partha and Le, Hoang-An and Karaoglu, Sezer and Gevers, Theo},
+booktitle = {European Conference on Computer Vision (ECCV)},
+eprint = {1807.11857},
+title = {{Joint Learning of Intrinsic Images and Semantic Segmentation}},
+url = {http://arxiv.org/abs/1807.11857},
+year = {2018}
+}
+

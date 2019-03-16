@@ -418,8 +418,8 @@ body.offcanvas {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
-  padding-top: 4em;
-  padding-bottom: 9em;
+  padding-top: 2em;
+  padding-bottom: 4em;
   clear: both;
   width: 100%;
   display: block; }
@@ -536,6 +536,7 @@ body.offcanvas {
   color: #333333; }
 
 .panel-body {
+  font-size: 15px;
   padding: 1.5em;
   margin-top: 5px;
   border: 1px solid #e6e6e6 !important; }
@@ -629,14 +630,14 @@ body.offcanvas {
   border-width: 9px 9px 9px 0;
   border-color: transparent #f2f3f7 transparent transparent;
   left: 0;
-  top: 10px;
+  top: 5px;
   margin-left: -9px; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p + p {
-  margin-top: 15px; }
+  margin-top: 1px; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 {
-  font-size: 20px;
+  font-size: 17px;
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 500; }
 
@@ -649,7 +650,7 @@ body.offcanvas {
   opacity: .4;
   -ms-filter: alpha(opacity=40);
   filter: alpha(opacity=40);
-  font-size: 16px; }
+  font-size: 15px; }
 
 .services {
   margin-bottom: 30px;
@@ -965,7 +966,7 @@ body.offcanvas {
       color: #2c98f0; }
 
 .project {
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
@@ -1039,18 +1040,6 @@ body.offcanvas {
       transform: translate3d(0, 15px, 0); }
       .project .desc span a {
         color: #000; }
-    @media screen and (max-width: 768px) {
-      .project .desc {
-        opacity: 1;
-        background: rgba(0, 0, 0, 0.4); }
-        .project .desc h3 {
-          font-style: 28px;
-          -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
-          color: #000; }
-        .project .desc span {
-          -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0); } }
   .project:hover .desc {
     opacity: 1; }
     .project:hover .desc h3 {
