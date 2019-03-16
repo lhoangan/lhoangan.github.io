@@ -6,7 +6,7 @@ spiritual: true
 excerpt: "The power of prayer is the confidence that we are being guided and cared for, even when that gtuidance and care are not immediately apparent (Bishop Barron)"
 thumbnail: /assets/images/posts/2019-03-14/pray-receive.jpg
 feature: /assets/images/posts/2019-03-14/pray-receive.jpg
-caption: _photo credit_ Caravaggio, Mary Magdalene, c.1594 | quote from [Bishop Barron reflection](https://www.facebook.com/BishopRobertBarron/photos/a.343034215735712/2166441740061608/?type=3&theater)
+caption: _photo credit_ Caravaggio, Mary Magdalene, c.1594
 
 tags:
 - spiritual
