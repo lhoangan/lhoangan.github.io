@@ -16,6 +16,9 @@ comments: true
 share: true
 ---
 
+Today's Gospel is from [Mathew 7:7-25](http://usccb.org/bible/readings/bible/matthew/7:7)
+talking about praying and receiving. It starts with the famous liner:
+
 > Ask and it will be given to you;
 seek and you will find;
 knock and the door will be opened to you.
@@ -76,14 +79,14 @@ After all I can always step back because I'd never been in.
 That was crazy for me. And I'm glad that I was that crazy.
 
 Pretty much like axioms in mathematics, you don't need to prove them, but once
-you accept, you use them as premise for further reasoning and arguments. I
+you accept, you use them as premises for further reasoning and arguments. I
 was not able to prove any of that, but by accepting them as the base, I found
 my life much more meaningful. I guess it how's God works: He loves us from eternity
 but He does not force His way into our heart but waits for us to respond. And
-once you open your heart to Him, He'll never leave you aside. And that how the
-passage apply to me: it is not just about praying and receiving, it's also about
+once you open your heart to Him, He'll never leave you aside. That how the
+passage applied to me: *it is not just about praying and receiving, it's also about
 how seeking and finding the truth, knocking and being open to infinite love and
-grace. Once you open to God and accept Him as the premise of your life, you
+grace*. Once you open to God and accept Him as the premise of your life, you
 realize that "*the power of prayer is the confidence that we are being guided and
 cared for, even when that guidance and care are not immediately apparent*"
 [Bishop Barron](https://www.facebook.com/BishopRobertBarron/photos/a.343034215735712/2166441740061608/?type=3&theater)
@@ -95,8 +98,9 @@ moment in your life. If you truly believe that God loves you as a Father to a ch
 you know that whatever you receive is the best for you, even when it does not feel
 that way. When something unexpected comes across after a prayer, I would try to
 regard it as a gift in unexpected wrapper, and try to understand what God is
-telling me through it: it could be that I have not been ready for it, and that
-it could bring harm to me or my souls to have at that moment, or maybe He's
+telling me through it. It could be that I am asking for something that I am not
+ready for, and that
+it could bring harm to me or my souls at that moment, or maybe He's
 preparing something even greater for me. Praying is not meant to change God, but
 rather ourselves, it's "*the raising of the mind and heart to God*" (St. John
 Damascene, De fide orth. 3,24). Through prayers we get closer to God, to understand
