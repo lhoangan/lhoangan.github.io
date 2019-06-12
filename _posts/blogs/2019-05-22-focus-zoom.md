@@ -20,6 +20,9 @@ imaging medium
 - Wide-angle lenses tend to capture very broad scenes (large angle of view)
 - Telephoto lenses tend to capture very narrow scenes (small angle of view)
 
+Angle of View is just the secondary factor, it's the consequence given a system
+of lens with given focal length and distance to the medium
+
 Focusing in the past used to be achieved by moving the lens itself (i.e. in a
 large-format view camera) forward or backward (away/towards the imaging medium).
 This often results in changes to the angle of view as well, since the total
@@ -74,3 +77,23 @@ expensive.
 
 
 [](https://www.paragon-press.com/lens/lenchart.htm)
+
+So the given focal length, mean the distance from a lens to the film, but how
+much does it tell us more?
+prime: when it's fixed, zoom, when I can...(be moved?), so zoom is when the lens
+is reposition before the film, and focus is when the inner **thinggy** change?
+
+OK so zooming is more straightforward, we move the lens further from film
+making it's focal length longer, hence larger object/image ratio,hence larger
+images. It also means that Angle of view is getting smaller???. so we cover less
+part of the scene.
+
+So to cover larger part of the scene, we make a thinner/thicker lens (inner
+property of lens that at the same position it gives better images??? Is it true?)
+But does that means that the film has to move further back, given that the lens
+stay where it is and focal length get longer (because the lens is thicker?)
+
+https://digital-photography-school.com/wide-angle-versus-telephoto-lenses-for-beautiful-landscape-photography/
+
+https://www.adorama.com/alc/wide-angle-vs-telephoto-which-lens-should-you-choose
+
