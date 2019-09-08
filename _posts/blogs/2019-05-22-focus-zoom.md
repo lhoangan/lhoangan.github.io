@@ -97,3 +97,50 @@ https://digital-photography-school.com/wide-angle-versus-telephoto-lenses-for-be
 
 https://www.adorama.com/alc/wide-angle-vs-telephoto-which-lens-should-you-choose
 
+
+=====
+
+My writing:
+
+Camera lens is to focus light reflected from objects onto the film plane.
+If every light rays reflected from a single point on the objects end up at
+one single point on the film, the point will be clear, if they end up at
+different places on the film, depending on how large the region is, the point
+will appear blurry at different level.
+
+Object is fixed. A film is fixed inside a camera. So how to focus?
+What can be changed? Distance from a lens to film/object, and how thin/think
+the lens is (usually lens does not come with one single glass pience but a system)
+
+Focus = moving the focal plane nearer or further from the film. Now surely
+one can move the lens system but that would change the size of image apear on
+the screen (or the angle of view), instead, if we can change inside the lens
+(making it thinner or thicker), we can technically move the focal plane without
+changing the angle of view (or size of object)
+
+Zoom = changing the angle of view, this is can simply done by moving the lens
+relatively to the film/object, thus, changing the size of object, hence we 
+Wide lens = lens that comes with small distance/large angle of view
+Tele lens = lens that comes with large distance/small angle of view
+
+Prime lens 55mm means that the distance from lens to film is fixed and cannot
+be changed. But one can still change inside of the lense system and make it 
+focus to different objects
+
+Fix focus lens: cannot change the lens system size. So to make things easier,
+they're define to have very long (or short) fixed focal length
+
+Analogy: objects appear smaller because we squeeze many more into one scene (wide)
+objects appear bigger hence smaller part of the scene is cover.
+
+To cover larger part of the scene, choose a larger film. How to understand this?
+Usually we focus on a single object and its background simply fill up the rest
+of the film. If the film is indeed larger, we'll have more of the object background
+while the object size stays the same, assuming that the focal length, distance
+between camera and the film is kept the same.
+
+Now, let's say we try to fit our object to the film as much as we can and do not
+care about its background. Let's also assume that we can change the lens distance
+as much as we can, we'll need to move the lens further toward the object (zoom in)
+if we have bigger film. For the same amount of distance, the smaller film will
+appear with the object being cropped (hence the name crop-size, I think)
