@@ -899,7 +899,7 @@ body.offcanvas {
 
 .blog-entry {
   width: 100%;
-  float: left;
+  float: center;
   background: #fff;
   margin-bottom: 3em; }
   @media screen and (max-width: 768px) {
@@ -925,7 +925,7 @@ body.offcanvas {
       transition: 0.3s; }
   .blog-entry .desc h3 {
     font-size: 16px;
-    margin-bottom: 25px;
+    margin-bottom: 05px;
     line-height: auto;
     font-weight: 500;
     text-transform: uppercase;
