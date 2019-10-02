@@ -103,4 +103,4 @@ So if you are not receiving what you pray for, do not stop praying, but rather
 pray more for you to make sense of what He gives you, praise and thanks Him for it
 with the believe that it's the best for you even when you don't see it. And be
 like what Mother Mary does, "*Mary kept all these things, reflecting on them in
-her heart*" ([(Luke 2:19)](http://usccb.org/bible/luke/2:19))
+her heart*" ([Luke 2:19](http://usccb.org/bible/luke/2:19))
