@@ -6,7 +6,7 @@ spiritual: true
 excerpt: "The power of prayer is the confidence that we are being guided and cared for, even when that gtuidance and care are not immediately apparent (Bishop Barron)"
 thumbnail: /assets/images/posts/2019-03-14/pray-receive.jpg
 feature: /assets/images/posts/2019-03-14/pray-receive.jpg
-caption: _photo credit_ Caravaggio, Mary Magdalene, c.1594
+caption: _photo credit_ Caravaggio, *Mary Magdalene*, c.1594
 
 tags:
 - spiritual
@@ -43,10 +43,8 @@ a mustard seed?
 
 So to the mind of a ten-year-old boy, surely there was more than just
 saying a prayer to make things happen, and Jesus shouldn't just simply say it
-like that.
-
-So it was quite a bother for me to take it in, but surprisingly the next part of
-the passage was quite making sense:
+like that. It was quite a bother for me to take it in, but surprisingly the next
+part of the passage was quite making sense:
 
 > Which one of you would hand his son a stone
 when he asked for a loaf of bread,
@@ -73,10 +71,6 @@ And isn't that something that is proclaimed all over the Gospel? It seemed to be
 the only thing that I got from Catechism classes and reading the Bible when I was
 a child. I wasn't sure what it all means, but one thing that I knew as that Jesus
 teaches us to call God "our Father", doesn't that enough to make us His children?
-
-There's only 2 choices for this, either we reject the premise and walk away or
-give it a try. It doesn't seem harm or cost us anything the latter, and we can
-withdraw at anytime we like. So without full understanding
 
 It's a long story how it all came about for me, maybe for another time, but for
 now it turned out that by accepting the premise, I was opened to a whole new life.
