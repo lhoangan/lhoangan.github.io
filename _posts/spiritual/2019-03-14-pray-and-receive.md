@@ -28,7 +28,7 @@ and to the one who knocks, the door will be opened.
 
 I remeber how this passage puzzled me when I first heard it as a child. I did
 not need to be an adult and experience much to know that not all that we ask
-in prayers would real. This was troubling because after all the
+in prayers become real. This was troubling because after all the
 experiences that I had with praying as a child, I would never expect to see
 something as direct and simple as this in the Bible. To my understanding then,
 when we hear something from the Bible, we should see between the lines or there
@@ -55,25 +55,25 @@ how much more will your heavenly Father give good things
 to those who ask him.
 
 This I'd experienced at home everyday. I knew very much that Mom and Dad love me,
-but they just don't simply give me everything that I wanted, and, sometimes, they even
-went as far as purnishing me hard so that I learned my lesson and stopped doing
-bad things. So that conclusion was so powerful, by bringing up the love a father
-to his child and contrasting us as imperfect and *wicked* to all-perfect all-loving
-God as our *heavenly Father*, it all made sense to me. For the first time, God's
-love wasn't something strange and alien to me, but what I'd been experienced
-with my life.
+but they just don't simply give me everything that I wanted, and, sometimes, they
+even went as far as punishing me hard so that I learned my lesson and stopped
+doing bad things. That conclusion was so powerful, by bringing up the love a
+father to his child and contrasting us as imperfect and *wicked* to all-perfect
+all-loving God as our *heavenly Father*, it all made sense to me. For the first
+time, God's love wasn't something strange and alien to me, but what I'd been
+experiencing with my life.
 
 The whole story now boils down to the one premise, that is if we accept God as
 our Heavenly beloved Father, for so much as God loves us like a Father, and we
-are His children, nothing that we receive is harmful or bad for us, but in
-contrast, all for our best well-being, physically, mentally, or spiritually.
-And isn't that something that is proclaimed all over the Gospel? It seemed to be
-the only thing that I got from Catechism classes and reading the Bible when I was
-a child. I wasn't sure what it all means, but one thing that I knew as that Jesus
-teaches us to call God "our Father", doesn't that enough to make us His children?
+are His children, nothing that we receive is harmful or bad for us, but rather
+all for our best well-being. Isn't that something that is proclaimed all
+over the Gospel? It seemed to be the only thing that I got from Catechism classes
+and reading the Bible when I was a child. I wasn't sure what it all meant, but
+one thing that I knew is that Jesus teaches us to call God "our Father", isn't
+that enough to make us His children?
 
-It's a long story how it all came about for me, maybe for another time, but for
-now it turned out that by accepting the premise, I was opened to a whole new life.
+It's a long story how it all came about for me, maybe for another time, for now,
+it turned out that by accepting the premise, I was opened to a whole new life.
 I guess it how's God works: He loves us from eternity but He does not force His
 way into our heart but waits for us to respond. And once you open your heart to
 Him, He'll never leave you alone. That how the
@@ -86,13 +86,14 @@ cared for, even when that guidance and care are not immediately apparent*"
 
 Praying is not to persuade God or to inform Him something you need and He does not
 know. If you truly believe that God knows it all, you know that He knows
-you better than you do to yourself, and He knows what is the best to you at each
-moment in your life. If you truly believe that God loves you as a Father to a child,
-you know that whatever you receive is the best for you, even when it does not feel
-that way. When something unexpected comes across after a prayer, I would try to
-regard it as a gift in unexpected wrapper, and try to understand what God is
-telling me through it. It could be that I am asking for something that I am not
-ready for, and that
+you better than you do to yourself ("*interior intimo meo et superior summo meo*" or
+"*higher than my highest and more inward than my innermost self*" (St. Augustine of
+Hippo, *Confessions III, 6, 11*)). If you truly believe that God loves you as a
+Father to a child, you know that whatever you receive is the best for you at
+each moment of your life, even when it does not feel that way. When something
+unexpected comes across after a prayer, I would try to regard it as a gift in
+unexpected wrapper, and try to understand what God is telling me through it.
+It could be that I am asking for something that I am not ready for, and that
 it could bring harm to me or my souls at that moment, or maybe He's
 preparing something even greater for me. Praying is not meant to change God, but
 rather ourselves, it's "*the raising of the mind and heart to God*" (St. John
