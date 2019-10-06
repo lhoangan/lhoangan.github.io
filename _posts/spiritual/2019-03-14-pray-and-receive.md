@@ -8,10 +8,6 @@ thumbnail: /assets/images/posts/2019-03-14/pray-receive.jpg
 feature: /assets/images/posts/2019-03-14/pray-receive.jpg
 caption: _photo credit_ Caravaggio, *Mary Magdalene*, c.1594
 
-tags:
-- spiritual
-- praying
-- gospel
 comments: true
 share: true
 ---
