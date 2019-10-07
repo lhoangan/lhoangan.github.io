@@ -3,6 +3,7 @@ layout: post
 title: Pray and Receive
 date: 2019-03-14
 spiritual: true
+sitemap: false
 excerpt: "The power of prayer is the confidence that we are being guided and cared for, even when that gtuidance and care are not immediately apparent (Bishop Barron)"
 thumbnail: /assets/images/posts/2019-03-14/pray-receive.jpg
 feature: /assets/images/posts/2019-03-14/pray-receive.jpg
