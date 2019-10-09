@@ -1,9 +1,0 @@
-@inproceedings{aciids13,
-author = {Le, Hoang-An and Mac, Khoi-Nguyen C. and Pham, Truong-An and Tran, Minh-Triet},
-booktitle = {Proceedings of the 5th Asian Conference on Intelligent Information and Database Systems (ACIIDS)},
-number = {1},
-pages = {355--364},
-title = {{Realtime Pointing Gesture Recognition and Applications in Multi-user Interaction}},
-year = {2013}
-}
-
