@@ -8,6 +8,110 @@ tags: [computational photography, cameras]
 share: true
 ---
 
+**Introduction** I've just got a camera and I am wondering about zooming and focusing
+
+So I did a small study and that brings us right back to high school physics.
+Most of the content can be seen here . I found this [link](https://spie.org/Documents/Publications/00%20STEP%20Module%2003.pdf) quite sufficient.
+
+Image formation with lenses (pdf page 26, book page 98)
+
+# Image formation with Lenses
+
+Objects reflect light on their surfaces. Incident light to a surface will be
+partially absored. The wavelengths aren't absorbed by the object's surface will
+reflect upon it back to the environment, showing the color of the surface. Here
+we won't focus much on the object's color but rather the formation and shape in
+general.
+
+To capture object's
+
+Light reflecting from objects 
+
+
+Quick review of a pin-hole camera model: lens, object, image, film, focal point,
+optical axis, principal point, lens center
+
+Figure with all names labeled
+
+First, let us revisit quickly the image formation of a camera. Given a simple
+concave lens with focal length f, an object placed in front of the camera
+will create an image on the opposite side of the lens. Now to actually identify
+where the image will be and how large it is, we need to show at least 2 rays
+passing through each object points. The rule is simple
+- rays that go through the lens center will keep going straight, no refraction
+- rays that go parallel to the optical axis will diverse toward the focal point
+of the lens, and
+- vice versa: rays that go through the focal point of the lens will end up
+parallel to the lens optical axis.
+
+Figure with one object and many rays from a few points on the object
+
+So in the diagram we only show 2 rays of light, but it's important to note that
+for each ponit on the object, there are infinitively many rays reflected and
+arrive at the lens, resulting on countless number of rays appear on the other
+side of the lens. Yet, all the rays converse at 1 single point K. That point
+has all rays arrive so if being placed on a film will result in a sharpest image
+of the object. The film, if however placed on other places, can will have the
+image of the object but rather blur
+
+Figure of simple set up and 2 rays on the objects's head
+demonstract the effects of zooms and focus: moving focal point
+
+Explain how the lens is actually a system of lenses and confirm (with article)
+that it actually changes internal focal length
+https://imaging.nikon.com/lineup/dslr/basics/19/01.htm
+https://www.sony.com/electronics/camera-sensor-size-lens-mounts-explained
+
+So now, focus is to adjust the camera such at the clear point falls on the film.
+There are multiple way to achive that:
+- Move the film closer to the lens
+- Bring the lense closer to the film
+- Change the focal length to be larger
+
+Camera lens is to focus light reflected from objects onto the film plane.
+If every light rays reflected from a single point on the objects end up at
+one single point on the film, the point will be clear, if they end up at
+different places on the film, depending on how large the region is, the point
+will appear blurry at different level.
+
+Object is fixed. A film is fixed inside a camera. So how to focus?
+What can be changed? Distance from a lens to film/object, and how thin/think
+the lens is (usually lens does not come with one single glass pience but a system)
+
+Focus = moving the focal plane nearer or further from the film. Now surely
+one can move the lens system but that would change the size of image apear on
+the screen (or the angle of view), instead, if we can change inside the lens
+(making it thinner or thicker), we can technically move the focal plane without
+changing the angle of view (or size of object)
+
+Zoom = changing the angle of view, this is can simply done by moving the lens
+relatively to the film/object, thus, changing the size of object, hence we 
+Wide lens = lens that comes with small distance/large angle of view
+Tele lens = lens that comes with large distance/small angle of view
+
+Prime lens 55mm means that the distance from lens to film is fixed and cannot
+be changed. But one can still change inside of the lense system and make it 
+focus to different objects
+
+Fix focus lens: cannot change the lens system size. So to make things easier,
+they're define to have very long (or short) fixed focal length
+
+Analogy: objects appear smaller because we squeeze many more into one scene (wide)
+objects appear bigger hence smaller part of the scene is cover.
+
+Figure with small and large film crop size, different censor sizes
+
+To cover larger part of the scene, choose a larger film. How to understand this?
+Usually we focus on a single object and its background simply fill up the rest
+of the film. If the film is indeed larger, we'll have more of the object background
+while the object size stays the same, assuming that the focal length, distance
+between camera and the film is kept the same.
+
+Now, let's say we try to fit our object to the film as much as we can and do not
+care about its background. Let's also assume that we can change the lens distance
+as much as we can, we'll need to move the lens further toward the object (zoom in)
+if we have bigger film. For the same amount of distance, the smaller film will
+appear with the object being cropped (hence the name crop-size, I think)
 [focus vs. zoom](https://photo.stackexchange.com/questions/18807/what-is-the-technical-difference-between-focus-and-zooming)
 
 **Focus**: Adjusts the Focal Plane
@@ -98,89 +202,3 @@ https://digital-photography-school.com/wide-angle-versus-telephoto-lenses-for-be
 https://www.adorama.com/alc/wide-angle-vs-telephoto-which-lens-should-you-choose
 
 
-=====
-
-My writing:
-
-Quick review of a pin-hole camera model: lens, object, image, film, focal point,
-optical axis, principal point, lens center
-
-Figure with all names labeled
-
-First, let us revisit quickly the image formation of a camera. Given a simple
-concave lens with focal length f, an object placed in front of the camera
-will create an image on the opposite side of the lens. Now to actually identify
-where the image will be and how large it is, we need to show at least 2 rays
-passing through each object points. The rule is simple
-- rays that go through the lens center will keep going straight, no refraction
-- rays that go parallel to the optical axis will diverse toward the focal point
-of the lens, and
-- vice versa: rays that go through the focal point of the lens will end up
-parallel to the lens optical axis.
-
-Figure with one object and many rays from a few points on the object
-
-So in the diagram we only show 2 rays of light, but it's important to note that
-for each ponit on the object, there are infinitively many rays pass through and
-arrive at the lens, resulting on countless number of rays appear on the other
-side of the lens. Yet, all the rays converse at 1 single point K. That point
-has all rays arrive so if being placed on a film will result in a sharpest image
-of the object. The film, if however placed on other places, can will have the
-image of the object but rather blur
-
-Figure of simple set up and 2 rays on the objects's head
-demonstract the effects of zooms and focus: moving focal point
-
-Explain how the lens is actually a system of lenses and confirm (with article)
-that it actually changes internal focal length
-
-So now, focus is to adjust the camera such at the clear point falls on the film.
-There are multiple way to achive that:
-- Move the film closer to the lens
-- Bring the lense closer to the film
-- Change the focal length to be larger
-
-Camera lens is to focus light reflected from objects onto the film plane.
-If every light rays reflected from a single point on the objects end up at
-one single point on the film, the point will be clear, if they end up at
-different places on the film, depending on how large the region is, the point
-will appear blurry at different level.
-
-Object is fixed. A film is fixed inside a camera. So how to focus?
-What can be changed? Distance from a lens to film/object, and how thin/think
-the lens is (usually lens does not come with one single glass pience but a system)
-
-Focus = moving the focal plane nearer or further from the film. Now surely
-one can move the lens system but that would change the size of image apear on
-the screen (or the angle of view), instead, if we can change inside the lens
-(making it thinner or thicker), we can technically move the focal plane without
-changing the angle of view (or size of object)
-
-Zoom = changing the angle of view, this is can simply done by moving the lens
-relatively to the film/object, thus, changing the size of object, hence we 
-Wide lens = lens that comes with small distance/large angle of view
-Tele lens = lens that comes with large distance/small angle of view
-
-Prime lens 55mm means that the distance from lens to film is fixed and cannot
-be changed. But one can still change inside of the lense system and make it 
-focus to different objects
-
-Fix focus lens: cannot change the lens system size. So to make things easier,
-they're define to have very long (or short) fixed focal length
-
-Analogy: objects appear smaller because we squeeze many more into one scene (wide)
-objects appear bigger hence smaller part of the scene is cover.
-
-Figure with small and large film crop size, different censor sizes
-
-To cover larger part of the scene, choose a larger film. How to understand this?
-Usually we focus on a single object and its background simply fill up the rest
-of the film. If the film is indeed larger, we'll have more of the object background
-while the object size stays the same, assuming that the focal length, distance
-between camera and the film is kept the same.
-
-Now, let's say we try to fit our object to the film as much as we can and do not
-care about its background. Let's also assume that we can change the lens distance
-as much as we can, we'll need to move the lens further toward the object (zoom in)
-if we have bigger film. For the same amount of distance, the smaller film will
-appear with the object being cropped (hence the name crop-size, I think)
