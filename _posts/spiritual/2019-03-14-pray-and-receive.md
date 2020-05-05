@@ -13,9 +13,9 @@ comments: true
 share: true
 ---
 
-Today's Gospel from
+The today's Gospel from
 [Matthew 7:7-25](http://usccb.org/bible/readings/bible/matthew/7:7)
-talkes about praying and receiving. It starts with the infamous line:
+talks about praying and receiving. It starts with the famous line:
 
 > Ask and it will be given to you;
 seek and you will find;
@@ -24,18 +24,20 @@ For everyone who asks, receives; and the one who seeks, finds;
 and to the one who knocks, the door will be opened.
 
 I remeber how this passage puzzled me when I first heard it as a child. I did
-not need to be an adult and experience much to know that not all that we ask
+not need to be an adult and experience much to know that not all of what we ask
 in prayers become real. This was troubling because after all the
-experiences that I had with praying as a child, I would never expect to see
-something as direct and simple as this in the Bible. To my understanding then,
-when we hear something from the Bible, we should see between the lines or there
+experiences that I had with praying as a child, none of which had ever become
+real in my best recall, I would never expect to see
+something as direct and simple as this in the Bible. To my simple explanation
+at that time,
+when we hear something from the Bible, we have to see between the lines or there
 would be some sort of "fuzzy condition" for them to be applicable. Such as when
 Jesus teaches that faith as small as a mustard seed can even move a mountain
 ([Matthew 17:20](http://www.usccb.org/bible/matthew/17:20)),
 but how to measure how large faith is, for just as soon as we start reasoning
 or waiting to to see if things happen the way we want, we fall right into the
 realm of doubtfulness. Anyway, people moving mountain by saying is not something
-you can see often in town, does it mean noone in the world has faith as large as
+you can see in our life, does it mean noone in the world has faith as large as
 a mustard seed?
 
 So to the mind of a ten-year-old boy, surely there was more than just
@@ -54,26 +56,26 @@ to those who ask him.
 This I'd experienced at home everyday. I knew very much that Mom and Dad love me,
 but they just don't simply give me everything that I wanted, and, sometimes, they
 even went as far as punishing me hard so that I learned my lesson and stopped
-doing bad things. That conclusion was so powerful, by bringing up the love a
-father to his child and contrasting us as imperfect and *wicked* to all-perfect
-all-loving God as our *heavenly Father*, it all made sense to me. For the first
-time, God's love wasn't something strange and alien to me, but what I'd been
-experiencing with my life.
+doing bad things. The conclusion is so powerful. By comparing the father role of
+ours, imperfect earthy creatures, to that of the all-perfect
+all-loving God, the Father model of all fathers, it suddenly made sense to me.
+For the first time, God's love wasn't something abtract but just as what I'd been
+experiencing everyday.
 
 The whole story now boils down to the one premise, that is if we accept God as
-our Heavenly beloved Father, for so much as God loves us like a Father, and we
-are His children, nothing that we receive is harmful or bad for us, but rather
-all for our best well-being. Isn't that something that is proclaimed all
-over the Gospel? It seemed to be the only thing that I got from Catechism classes
-and reading the Bible when I was a child. I wasn't sure what it all meant, but
-one thing that I knew is that Jesus teaches us to call God "our Father", isn't
-that enough to make us His children?
+our Heavenly beloved Father. For nothing happens out of God's will and if
+God loves us like a Father to a child, nothing harmful could come our ways.
+That is to say when things do not happen (right away or at all) when we pray,
+they could be of less interest (at this moment or ever) for us.
 
-It's a long story how it all came about for me, maybe for another time, for now,
-it turned out that by accepting the premise, I was opened to a whole new life.
+Indeed, we all do that. We call God "our Father". Yet do we truly believe and act
+like that? It turned out to me that by acting on this premise, by truly regard
+God as my Father, I was opened to a whole new life.
 I guess it how's God works: He loves us from eternity but He does not force His
-way into our heart but waits for us to respond. And once you open your heart to
-Him, He'll never leave you alone. That how the
+way into our heart but waits patiently for us to respond. He shows us things along
+our life that would signify His presence and wait for our come back.
+And once you open your heart and start to look for Him, He'll never leave you in
+the dark.  That how the
 passage applied to me: *it is not just about praying and receiving, it's also about
 how seeking and finding the truth, knocking and being open to infinite love and
 grace*. Once you open to God and accept Him as the premise of your life, you
@@ -83,22 +85,27 @@ cared for, even when that guidance and care are not immediately apparent*"
 
 Praying is not to persuade God or to inform Him something you need and He does not
 know. If you truly believe that God knows it all, you know that He knows
-you better than you do to yourself ("*interior intimo meo et superior summo meo*" or
-"*higher than my highest and more inward than my innermost self*" (St. Augustine of
+you better than you do to yourself, He is "interior intimo meo et superior summo meo"
+*higher than my highest and more inward than my innermost self* (St. Augustine of
 Hippo, *Confessions III, 6, 11*)). If you truly believe that God loves you as a
 Father to a child, you know that whatever you receive is the best for you at
-each moment of your life, even when it does not feel that way. When something
-unexpected comes across after a prayer, I would try to regard it as a gift in
-unexpected wrapper, and try to understand what God is telling me through it.
+each moment of your life, and whatever you do not get is of less good or even harmful,
+ even when they do not feel that way. When something
+unexpected comes across after a prayer, I would try to regard it as a gift in an
+usual wrapper. *Everything is grace*, and that means literally everything. The problem
+is that we usually don't regard them so, unless they match to what we ask or for our
+visible benefit. So what I have been trying to do is trying to understand what God
+ is telling me through it.
 It could be that I am asking for something that I am not ready for, and that
 it could bring harm to me or my souls at that moment, or maybe He's
-preparing something even greater for me. Praying is not meant to change God, but
-rather ourselves, it's "*the raising of the mind and heart to God*" (St. John
+preparing something even greater for me. *Praying is not meant to change God, but
+rather ourselves*, it's "**the raising of the mind and heart to God**" (St. John
 Damascene, De fide orth. 3,24). Through prayers we get closer to God, to understand
 His plan for our life, to be like Him in daily life, and to love Him even more.
 
 So if you are not receiving what you pray for, do not stop praying, but rather
-pray more for you to make sense of what He gives you, praise and thanks Him for it
-with the believe that it's the best for you even when you don't see it. And be
-like what Mother Mary does, "*Mary kept all these things, reflecting on them in
-her heart*" ([Luke 2:19](http://usccb.org/bible/luke/2:19))
+pray even more for you to make sense of what He gives you,
+like Mother Mary, she "*kept all these things, reflecting on them in
+her heart*" ([Luke 2:19](http://usccb.org/bible/luke/2:19)).
+Then praise and thanks God for that, try to (again) pray more while holding onto
+ the thought that *it's definitely the best for me, I just don't see it now*.
