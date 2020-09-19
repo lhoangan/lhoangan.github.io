@@ -141,7 +141,10 @@ distance between the projective plane and the camera center, i.e. \\( f \\),
 the *focal length*. Similar triangles give:
 
 \\[
-  x = s_u\dfrac{fX}{Z} \qquad \text{and} \qquad y = s_v\dfrac{fY}{Z}, \quad\text{thus} \\\
+  x = s_u\dfrac{fX}{Z} \qquad \text{and} \qquad y = s_v\dfrac{fY}{Z}, 
+\\]
+thus
+\\[
   u = s_u\dfrac{fX}{Z} + c_x \qquad \text{and} \qquad v = s_v\dfrac{fY}{Z} + c_y \qquad(2)
 \\]
 
