@@ -29,6 +29,46 @@ See a [live version of Moon](https://taylantatli.github.io/Moon) hosted on GitHu
 
 To learn how to install and use this theme check out the [Setup Guide](https://taylantatli.github.io/Moon/moon-theme/) for more information.
 
+## Github page setup
+- Check the local server dependency in `Gemfile`
+
+- [Github dependency](https://pages.github.com/versions/)
+
+### [Install Jekyll on Ubuntu](https://jekyllrb.com/docs/installation/ubuntu/#install-dependencies)
+- Install Ruby and other prerequisites:
+```shell
+sudo apt-get install ruby-full build-essential zlib1g-dev
+```
+- Avoid installing Ruby as the root user. Instead, set up a gem installation
+directory for your user account. The following commands will add environment
+variables to your `~/.bashrc` file to configure the gem installation path:
+```
+echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+```
+Finally, install Jekyll and Bundler:
+```
+cd 'lhoangan.github.io'
+gem install jekyll bundler
+```
+
+### Update bundler
+- After changing the packages' version in `Gemfile`, run
+```
+bundle update install
+```
+
+### Run server
+```
+bundler exec jekyll server
+```
+
+
+
+
+
 ## Writing posts
 - Clone a post template (where?) or copy it from the template below
 - Set the date as a future date to stop the website from being combined (used for
