@@ -154,16 +154,16 @@ it could be represented by a 3-component vector
 
 \\[
 	\begin{bmatrix}
-	   u  \\
-	   v  \\
+	   u  \\\
+	   v  \\\
 	   w
 	\end{bmatrix} = \begin{bmatrix}
-       f_x & 0 & c_x  \\
-       0 & f_y & c_y  \\
+       f_x & 0 & c_x  \\\
+       0 & f_y & c_y  \\\
        0 & 0 & 1
     \end{bmatrix} \begin{bmatrix}
-       X  \\
-       Y  \\
+       X  \\\
+       Y  \\\
        Z
     \end{bmatrix}, \quad \text{or} \\\
     \tilde{\bf p} = \mathbf{K}\text{P}, \qquad (3)
