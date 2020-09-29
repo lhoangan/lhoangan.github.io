@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Camera model: intrinsic parameters"
-date: 2018-07-30
+title: "From camera model to 3D point cloud reconstruction"
+date: 2021-09-29
 excerpt: "How camera functions at the simplest model"
 thumbnail: /assets/images/posts/2018-07-30/pinhole_camera.png
 feature: /assets/images/posts/2018-07-30/camera_obscura.jpg
@@ -150,8 +150,7 @@ thus
 
 Since \\( \bf p \\) is in a 2D projective space (an image plane),
 it could be represented by a 3-component vector 
-\\( \tilde{\bf p} =  {\begin{bmatrix} u & v & w  \end{bmatrix}} ^T \\)
-using homogeneous coordinate, turning Equation \\(2\\) into
+\\( \tilde{\bf p} =  {\begin{bmatrix} u & v & w  \end{bmatrix}} ^T \\)  using homogeneous coordinate, turning Equation \\(2\\) into
 
 \\[
 	\begin{bmatrix}
@@ -166,7 +165,8 @@ using homogeneous coordinate, turning Equation \\(2\\) into
        X  \\\ 
        Y  \\\ 
        Z
-    \end{bmatrix} \quad \text{or} \quad\tilde{\bf p}=\mathbf{K}\text{P}, \qquad(3)
+    \end{bmatrix}, \quad \text{or} \\\ 
+    \tilde{\bf p} = \mathbf{K}\text{P}, \qquad (3)
 \\]
 
 where \\(f_x = s_uf\\), and \\(f_y = s_vf\\). To retrieve the Cartesian value of
@@ -178,35 +178,55 @@ parameters (in pixel unit), such as the focal length \\( f_x, f_y \\) and
 principal point coordinate \\( c_x, c_y \\), thus is called the camera
 **intrinsic matrix**.
 
-## Application: reconstructing partial point cloud from depth images
+So far, all the computation has been carried out in the camera coordinate system.
+In general, when the camera belongs to an arbitrary world coordinate system,
+in which it can take any position and orientation, and \\( \text{P} \\) is also
+expressed in that coordinate system, the same computation can be employed
+if we can transform the camera coordinate system to fit to the world system.
 
-So far, we have found the relationship between a 3D point in the *camera
-coordinate* and its image in the image space. Equation (2) and (3) derive the
-2D image coordinates given 3D coordinates in the *camera space*.
+The transformation, presented in a camera *extrinsic matrix*,
+fincludes a rotation matrix
+\\(  {\begin{bmatrix} \mathbf{r}_1 & \mathbf{r}_2 & \mathbf{r}_3 \end{bmatrix}}\\)
+and translation vector \\( \mathbf{t} \\).
+By transforming all points \\( \text{P} \\) in the world space with 
+\\(  {\begin{bmatrix} \mathbf{r}_1 & \mathbf{r}_2 & \mathbf{r}_3 \end{bmatrix}}\\)
+and \\( \mathbf{t} \\), we can describe \\( \text{P} \\) in the camera
+coordinate system, and thus can use the same \\( \bf{K} \\) as what we
+have described above.
 
-The reverse direction, retrieving 3D coordinates of a point for each image pixel
-is ill-posed. Remember that the third dimension of the points have been squashed
-during projection. Thus, to recover the 3D coordinates, it is necessary to have
-corresponding *depth* or \\(Z\\) coordinate of each pixels.
+Let \\( \tilde{\text{P}} \\) be the homogeneous coordinate of \\( \text{P} \\),
+which is now expressed in world coordinate system. The camera model that finds image coordinate \\( \tilde{\bf p} \\) is
 
-Depth cameras, either commodity like the Kinect or more sophisticated like laser
-scaners, provide at each pixel the distance from the camera to the corresponding
-objects.
+\\[
+	\tilde{\bf p} = \mathbf{\underbrace {K {\begin{bmatrix}
+			\mathbf{r}_1 & \mathbf{r}_2 & \mathbf{r}_3 & \mathbf{t}  \\
+			\end{bmatrix}} }_H}\tilde{\text{P}} \equiv \mathbf{H}\tilde{\text{P}}
+\\]
 
-Equation \\(2\\) shows how image coordinates can be obtained from 3D real world
+The homogeneous coordinate of \\( \text{P} \\) presumes a projective
+transformation applied on \\( \tilde{\text{P}} \\). Thus, the matrix \\(\bf H\\)
+relates the points \\( \tilde{\text{P}} \\) from a projective 3D space to
+points on projective plane, thus is called *homography matrix*, generally with
+\\(s\\) be a scale factor, the homography matrix says:
+
+\begin{equation}
+	\tilde{\bf p} = s{\bf H}\tilde{\text{P}} \qquad\text{or, equivalent to}\qquad \tilde{\text{P}} = \dfrac{1}{s}{\bf H}^{-1}\tilde{\bf p}
+\end{equation}
+
+## Point cloud reconstruction
+
+Equation\\(3\\) shows how image coordinates can be obtained from 3D real world
 coordinate point \\(P\\). To reconstruct the 3D point cloud from a given image,
-we take its inverse:
+we take the inverse, which gives:
 
 \\[
 X = \dfrac{(u-c_x)Z}{f_x} \quad\text{and}\quad Y = \dfrac{(v-c_y)Z}{f_y},\qquad (4)
 \\]
 
-Structured light devices like Kinect or RealSense devices, output directly
-the \\(Z\\) coordinates of real-world points in the camera coordinate system,
-thus, the equations are well provided. Plugging in the provided \\(Z\\) and we
-are good to go.
 
-In other cases where pure depth or point
+Some commodity cameras, such as Kinect or RealSense devices, output directly
+the \\(Z\\) coordinates of real-world points in the camera coordinate system,
+thus, the formulas are well-provided. In other cases where pure depth or point
 distance is provided (i.e. \\(\rm OP\\) instead of \\(\rm OP'\\) in
 Figure \\(2\\)), we need to take extra steps to compute \\(Z\\).
 Similar triangles give:
@@ -244,11 +264,10 @@ Substituting Equation \\(6\\) into \\(5\\) gives:
 Z = \dfrac{d}{\sqrt{\left(\dfrac{u-c_x}{f_x}\right)^2 + \left(\dfrac{v-c_y}{f_y}\right)^2 + 1}}
 \\]
 
-**In general**, from an image pixel at \\((u,v)\\) and camera instrinsic parameters,
-the 3D coordinates \\((X, Y, Z)\\) can be computed by
+In general, the 3D coordinates \\(X, Y, Z\\) can be computed by
 \\[
-A = \dfrac{u-c_x}{f_x}, \qquad B = \dfrac{v-c_y}{f_y}, \\\ 
-X = A \times Z, \qquad Y = B \times Z, \\\
+A = \dfrac{u-c_x}{f_x} \qquad B = \dfrac{v-c_y}{f_y} \\\
+X = A \times Z \qquad Y = B \times Z, \\\
 \\]
 
 where \\(Z\\) is either given directly by depth sensors or computed by
@@ -257,12 +276,6 @@ Z = \dfrac{d}{\sqrt{ A^2 + B^2 + 1}},
 \\]
 
 where \\(d\\) is the distance from object points to the camera.
-
-The process can obtain for each depth-available pixel in an image the corresponding
-3D coordinates. The set of 3D points, together with their color as provided by
-the optical image, is the *partial* point cloud of the object or scene.
-The point cloud is partial because only those visible point to the camera,
-both optical and depth, are included.
 
 # Read more
 
