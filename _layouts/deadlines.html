@@ -1,5 +1,18 @@
-<html>
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"><!--<![endif]-->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <head>
+    {% include head.html %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -19,18 +32,20 @@
 
   </head>
   <body>
-    <div class="top-strip"></div>
-    <div class="container">
+    {% include nav.html %}
+    <header class="header" role="banner">
+        <div class="wrapper animated fadeIn">
+            <div class="content">
+                <div class="post-title">
+                    <h1>My Deadlines</h1>
+                    <a class="btn zoombtn" href="{{site.url}}">
+                        <i class="fa fa-home"></i>
+                    </a>
+                </div>
+            </div>
         <div class="page-header">
             <div class="row">
-                <div class="col-xs-12 col-sm-12">
-                  <h1>
-                    My Deadlines <a href="https://twitter.com/share" class="twitter-share-button" data-text="{{ site.description }}{% if site.twitter_hashtag %} #{{ site.twitter_hashtag }}{% endif %}" data-show-count="false" style="font-size:13px;">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-                    <iframe src="https://ghbtns.com/github-btn.html?user={{ site.github_username }}&repo={{ site.github_repo }}&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
-                  </h1>
-                </div>
                 <div class="meta col-xs-12">
-                  {{ site.description }}. <br>
                   Conference rankings are updated from 
                   <a target="_blank" href="http://www.guide2research.com/topconf/computer-vision">Guide2Research</a>,
                   <a target="_blank" href="http://www.conferenceranks.com/">Conference Ranks</a>, and
@@ -100,6 +115,9 @@
                   {{conf.note}}
                 </div>
                 {% endif %}
+                {% for sub in conf.sub %}
+                <span title="Click to only show {{sub}} conferences" data-sub="{{sub}}" class="conf-sub {{sub}}-tag"></span>
+                {% endfor %}
               </div>
               <div class="col-xs-12 col-sm-6">
                 <div class="deadline">
@@ -108,13 +126,6 @@
                   </div>
                 </div>
                 <div class="calendar"></div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-12">
-                {% for sub in conf.sub %}
-                <span title="Click to only show {{sub}} conferences" data-sub="{{sub}}" class="conf-sub {{sub}}-tag"></span>
-                {% endfor %}
               </div>
             </div>
             <hr>
@@ -127,7 +138,7 @@
         <footer>
           <div class="row">
             <div class="col-xs-12 col-sm-6">
-              <a href="/">This website</a> is maintained by <a href="//twitter.com/{{ site.twitter }}">@Hoàng-Ân Lê</a>
+              <a href="/">This page</a> is maintained by <a href="//twitter.com/{{ site.twitter }}">@Hoàng-Ân Lê</a>
               to keep track of the many deadlines coming up <br>
               Credit to <a target="_blank" href="https://github.com/abhshkdz/ai-deadlines">AI-Deadlines repo</a>.
             </div>
@@ -135,6 +146,8 @@
         </footer>
         <br><br>
     </div>
+
+    </header>
     <script type="text/javascript" charset="utf-8">
     $(function() {
         // Make sure this is >= no. of subs
@@ -328,4 +341,3 @@
       ga('send', 'pageview');
     </script>
   </body>
-</html>
