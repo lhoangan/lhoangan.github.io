@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "From camera model to 3D point cloud reconstruction"
-date: 2021-09-29
+date: 2021-10-29
 excerpt: "How camera functions at the simplest model"
 thumbnail: /assets/images/posts/2018-07-30/pinhole_camera.png
 feature: /assets/images/posts/2018-07-30/camera_obscura.jpg
