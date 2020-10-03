@@ -11,7 +11,7 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <head>
+<head>
     {% include head.html %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,8 +30,8 @@
     <script src="{{ "/static/js/store.min.js" | prepend:site.baseurl }}"></script>
     <script src="{{ "/static/js/ouical.min.js" | prepend:site.baseurl }}"></script>
 
-  </head>
-  <body>
+</head>
+<body>
     {% include nav.html %}
     <header class="header" role="banner">
         <div class="wrapper animated fadeIn">
@@ -149,6 +149,13 @@
     </div>
 
     </header>
+    <script src="{{ site.url }}/assets/js/jquery.dlmenu.min.js"></script>
+    <script src="{{ site.url }}/assets/js/jquery.goup.min.js"></script>
+    <script src="{{ site.url }}/assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="{{ site.url }}/assets/js/jquery.fitvid.min.js"></script>
+    <script src="{{ site.url }}/assets/js/scripts.js"></script>
+    <script src="{{ site.url }}/assets/js/wow.min.js"></script>
+    <script type="text/javascript">(new WOW).init();</script>
     <script type="text/javascript" charset="utf-8">
     $(function() {
         // Make sure this is >= no. of subs
@@ -341,4 +348,4 @@
       ga('create', '{{ site.ga_id }}', 'auto');
       ga('send', 'pageview');
     </script>
-  </body>
+</body>
