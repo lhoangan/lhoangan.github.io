@@ -1,0 +1,188 @@
+---
+
+- title: IGARSS
+  hindex: 28
+  year: 2021
+  id: igarss21
+  link: https://www.igarss2021.com/
+  deadline: '2021-01-08 23:59:59'
+  timezone: Europe/Brussels
+  date: July 11-16, 2021
+  place: Brussels, Belgium
+  sub: RS
+
+
+- title: ICIP
+  hindex: 45
+  year: 2021
+  id: icip21
+  link: https://2021.ieeeicip.org/
+  deadline: '2021-09-19 23:59:59'
+  timezone: America/Los_Angeles
+  date: September 19-22, 2021
+  place: Anchorage, Alaska, USA
+  sub: CV
+
+
+- title: WACV
+  hindex: 46
+  year: 2021
+  id: wacv21
+  link: http://wacv2021.thecvf.com/
+  deadline: '2020-09-29 23:59:59'
+  timezone: America/Los_Angeles
+  date: January 5-9, 2021
+  place: Waikoloa, Hawaii, USA
+  sub: CV
+  note: '<b>NOTE</b>: Second round submission deadline.'
+
+- title: ICLR
+  hindex: 150
+  year: 2021
+  id: iclr21
+  link: http://iclr.cc/
+  deadline: '2020-10-02 07:59:59'
+  abstract_deadline: '2020-09-28 07:59:59'
+  timezone: UTC-7
+  date: May 4, 2021
+  place: Vienna, Austria
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on September 28, 2020. More info
+    <a href=''https://iclr.cc/Conferences/2021/CallForPapers''>here</a>.'
+
+- title: CVPR
+  hindex: 299
+  year: 2021
+  id: cvpr21
+  link: http://cvpr2021.thecvf.com/
+  deadline: '2020-11-16 23:59:59'
+  timezone: America/Los_Angeles
+  date: June 19-25, 2021
+  place: Nashville, USA
+  sub: CV
+
+- title: ICME
+  hindex: 30
+  year: 2021
+  id: icme21
+  link: https://2021.ieeeicme.org/
+  deadline: '2020-11-29 23:59:59'
+  timezone: America/Los_Angeles
+  date: July 5-9, 2021
+  place: Shenzhen, China
+  sub: CV
+
+- title: ICCV
+  hindex: 176
+  year: 2021
+  id: iccv2021
+  link: http://iccv2021.thecvf.com/
+  deadline: '2021-03-17 23:59:00'
+  timezone: America/Los_Angeles
+  date: October 11-17, 2021
+  place: Montreal, Canada
+  sub: CV
+
+- title: ICMR
+  hindex: 33
+  year: 2020
+  id: icmr20
+  link: http://icmr2020.org/
+  deadline: '2020-01-11 23:59:59'
+  timezone: Europe/London
+  date: June 8-11, 2020
+  place: Dublin, Ireland
+  sub: CV
+
+- title: ECCV
+  hindex: 135
+  year: 2020
+  id: eccv20
+  link: https://eccv2020.eu
+  deadline: '2020-03-05 23:59:00'
+  timezone: UTC
+  date: August 23-28, 2020
+  place: Glasgow, Scotland, UK
+  sub: CV
+
+- title: BMVC
+  hindex: 46
+  year: 2020
+  id: bmvc20
+  link: https://britishmachinevisionassociation.github.io/bmvc
+  deadline: '2020-04-30 23:59:59'
+  abstract_deadline: '2020-04-23 23:59:59'
+  timezone: UTC-8
+  date: September 7-11, 2020
+  place: Manchester, UK
+  sub: CV
+  note: '<b>NOTE</b>: Mandatory abstract deadline on Apr 23, 2020. More info <a href=''https://britishmachinevisionassociation.github.io/bmvc''>here</a>.'
+
+- title: MM
+  hindex: 58
+  year: 2020
+  id: mm20
+  link: https://2020.acmmm.org/
+  deadline: '2020-05-24 23:59:00'
+  timezone: UTC-12
+  date: October 12-16, 2020
+  place: Seattle, USA
+  sub: CV
+
+- title: NeurIPS
+  hindex: 169
+  year: 2020
+  id: neurips20
+  link: https://nips.cc/Conferences/2020
+  deadline: '2020-06-05 13:00:00'
+  abstract_deadline: '2020-05-27 13:00:00'
+  timezone: America/Los_Angeles
+  date: December 6-12, 2020
+  place: Vancouver Convention Centre, Canada
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on May 27, 2020'
+
+- title: ACCV
+  hindex: 38
+  year: 2020
+  id: accv20
+  link: http://accv2020.kyoto/
+  deadline: '2020-07-08 23:59:00'
+  timezone: UTC
+  date: November 30 - December 4, 2020
+  place: Online
+  sub: CV
+
+- title: ICPR
+  hindex: 38
+  year: 2020
+  id: icpr20
+  link: https://www.micc.unifi.it/icpr2020/
+  deadline: '2020-07-15 23:59:00'
+  timezone: UTC+1
+  date: January 10-15, 2021
+  place: Milan, Italy
+  sub: ML
+
+- title: 3DV
+  hindex: 29
+  year: 2020
+  id: threedv20
+  link: http://3dv2020.dgcv.nii.ac.jp/index.html
+  deadline: '2020-07-31 23:59:59'
+  timezone: America/Los_Angeles
+  date: November 25-28, 2020
+  place: Fukuoka, Japan
+  sub: CV
+
+- title: AAAI
+  hindex: 95
+  year: 2021
+  id: aaai21
+  link: https://aaai.org/Conferences/AAAI-21/
+  deadline: '2020-09-09 23:59:59'
+  timezone: UTC-12
+  date: February 2-9, 2021
+  place: Vancouver, Canada
+  sub: ML
+  note: '<b>NOTE</b>: Mandatory abstract deadline on September 01, 2020'

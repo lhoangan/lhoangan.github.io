@@ -1,0 +1,7 @@
+---
+- name: Machine Learning
+  sub: ML
+- name: Computer Vision
+  sub: CV
+- name: Remote Sensing
+  sub: RS
