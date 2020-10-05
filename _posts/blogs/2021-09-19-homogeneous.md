@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Modeling projection"
-date: 2020-09-29
+date: 2020-10-29
 excerpt: "About homogeneous coordinate"
 thumbnail: /assets/images/posts/2018-07-30/pinhole_camera.png
 feature: /assets/images/posts/2018-07-30/camera_obscura.jpg
