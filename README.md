@@ -33,6 +33,7 @@ To learn how to install and use this theme check out the [Setup Guide](https://t
 - Check the local server dependency in `Gemfile`
 
 - [Github dependency](https://pages.github.com/versions/)
+- [Setup local server](https://docs.github.com/en/enterprise/2.14/user/articles/setting-up-your-github-pages-site-locally-with-jekyll)
 
 ### [Install Jekyll on Ubuntu](https://jekyllrb.com/docs/installation/ubuntu/#install-dependencies)
 - Install Ruby and other prerequisites:
@@ -52,6 +53,12 @@ Finally, install Jekyll and Bundler:
 ```
 cd 'lhoangan.github.io'
 gem install jekyll bundler
+```
+
+### Install bundle
+
+```
+bundle install
 ```
 
 ### Update bundler
