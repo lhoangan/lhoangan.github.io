@@ -2,10 +2,10 @@
 layout: null
 ---
 [
-{% for post in tag.posts limit:3 %}
+{% for post in site.posts limit:3 %}
   {% assign today = site.time | date: "%Y-%m-%d" %}
   {% assign todayp = post.date | date: "%Y-%m-%d" %}
-  {% if {{today}} == {{todayp}} %}
+  {% if {{today}} == {{todayp}} and post.wof == true %}
     {
       "uid": "id:{{site.url}}{{ post.url }}",
       "updateDate": "{{ post.date | date: '%Y-%m-%dT%H:%M:%S.0Z' }}",
