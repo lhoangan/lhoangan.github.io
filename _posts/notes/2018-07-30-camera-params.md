@@ -2,7 +2,7 @@
 layout: post
 title: "Camera model: intrinsic parameters"
 date: 2018-07-30
-notes: true
+note: true
 excerpt: "How camera functions at the simplest model"
 thumbnail: /assets/images/posts/2018-07-30/pinhole_camera.png
 feature: /assets/images/posts/2018-07-30/camera_obscura.jpg
