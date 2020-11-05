@@ -16,7 +16,7 @@
 
 
 <figure {% if class != "" %}class="{{ class }}"{% endif %}>
-    <a href="{{ image }}"><img align="center" src="/assets/images/posts/{{ postdir }}/{{ image }}" alt=""></a>
+    <a href="/assets/images/posts/{{ postdir }}/{{ image }}"><img align="center" src="/assets/images/posts/{{ postdir }}/{{ image }}" alt=""></a>
     <figcaption>{{ caption }}</figcaption>
 </figure>
 
