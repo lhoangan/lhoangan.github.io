@@ -12,8 +12,7 @@ tags:
 - research
 - computer vision
 - camera model
-- intrinsic parameter
-- point cloud reconstruction
+- point cloud
 comments: true
 share: true
 ---
