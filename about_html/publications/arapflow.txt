@@ -1,0 +1,10 @@
+@inproceedings{arapflow,
+archivePrefix = {arXiv},
+arxivId = {1812.01946},
+author = {Le, Hoang-An and Nimbhorkar, Tushar and Mensink, Thomas and Baslamisli, Anil S. and Karaoglu, Sezer and Gevers, Theo},
+doi = {arXiv:1812.01946},
+eprint = {1812.01946},
+title = {{Automatic Generation of Dense Non-Rigid Optical Flow}},
+year = {2020}
+}
+

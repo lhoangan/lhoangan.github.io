@@ -1,0 +1,134 @@
+---
+
+- cat: JOURNALS
+
+- id: le10ictacs
+  type: article
+  title: "Webcam-based Laser Dot Detection Technique in Computer Remote Control"
+  author: "<b>Hoang-An Le</b>, Minh-Thong Doan, Minh-Triet Tran"
+  booktitle: "International Conference on Theories and Applications of Computer Science: Special issue of the Journal of Science and Technology (ICTACS)"
+  year: 2010
+  published: "publications/ICTACS10.pdf"
+  slides: "https://youtu.be/-UJE9uMkw-M"
+  demo: "https://youtu.be/Y9jh-HgjiMY"
+
+- cat: CONFERENCES
+
+- id: le21eden
+  type: inproceedings
+  title: "EDEN: Multimodal Synthetic Dataset of Enclosed GarDEN Scenes"
+  author: "<b>Hoang-An Le</b>, Partha Das, Thomas Mensink, Theo Gevers"
+  booktitle: Winter Conference of Applications on Computer Vision (WACV)
+  arxivId : 2009.08321
+  year: 2021
+  published: "https://openaccess.thecvf.com/content/WACV2021/papers/Le_EDEN_Multimodal_Synthetic_Dataset_of_Enclosed_GarDEN_Scenes_WACV_2021_paper.pdf"
+  page: "https://lhoangan.github.io/eden/"
+
+- id: han20icpr
+  type: inproceedings
+  title: "Object features and face detection performance: Analyses with 3D-rendered synthetic data"
+  author: "Jian Han, Sezer Karaoglu, <b>Hoang-An Le</b>, Theo Gevers"
+  booktitle: International Conference on Pattern Recognition (ICPR)
+  arxivId : 1812.07363
+  year: 2020
+  published: "https://ailb-web.ing.unimore.it/icpr/author/1961"
+
+- id: le20bmvc
+  type: inproceedings
+  author: "<b>Hoang-An Le</b>, Thomas Mensink, Partha Das, Theo Gevers"
+  title: "Novel View Synthesis from Single Images via Point Cloud Transformation"
+  booktitle: British Machine Vision Conference (BMVC)
+  arxivId : 2009.08321
+  year: 2020
+  published: "https://www.bmvc2020-conference.com/assets/papers/0051.pdf"
+  page: "https://ivi.fnwi.uva.nl/cv/pc4novis"
+
+- id: le18bmvc
+  type: inproceedings
+  author: "<b>Hoang-An Le</b>, Anil Baslamisli, Thomas Mensink, Theo Gevers"
+  title: "Three for one and one for three: Flow, Segmentation, and Surface Normals"
+  booktitle: British Machine Vision Conference (BMVC)
+  arxivId : 1807.07473
+  year: 2018
+  published: "http://bmvc2018.org/contents/papers/0201.pdf"
+  page: "https://ivi.fnwi.uva.nl/cv/341n143"
+
+- id: baslamili18eccv
+  type: inproceedings
+  author: "Anil S. Baslamisli, Thomas Tiel Groenestege, Partha Das, <b>Hoang-An Le</b>, Sezer Karaoglu, Theo Gevers"
+  title: "Joint Learning of Intrinsic Images and Semantic Segmentation"
+  booktitle: European Conference in Computer Vision (ECCV)
+  arxivId : 1807.11857
+  year: 2018
+  published: "http://openaccess.thecvf.com/content_ECCV_2018/papers/Anil_Baslamisli_Joint_Learning_of_ECCV_2018_paper.pdf"
+  page: "https://ivi.fnwi.uva.nl/cv/intrinseg"
+  code: "https://github.com/Morpheus3000/intrinseg"
+
+- id: baslamili18cvpr
+  type: inproceedings
+  author: "Anil S. Baslamisli, <b>Hoang-An Le</b>, Theo Gevers"
+  title: "CNN based Learning using Reflection and Retinex Models for Intrinsic Image Decomposition"
+  booktitle: Computer Vision and Pattern Recognition (CVPR)
+  arxivId : 1712.01056
+  year: 2018
+  published: "http://openaccess.thecvf.com/content_cvpr_2018/papers/Baslamisli_CNN_Based_Learning_CVPR_2018_paper.pdf"
+  page: "https://ivi.fnwi.uva.nl/cv/retinet"
+
+- id: le16
+  type: inproceedings
+  author: "I. Pratikakis, M. A. Savelonas, F. Arnaoutoglou, G. Ioannakis, A. Koutsoudis, T. Theoharis, M.-T. Tran, V.-T. Nguyen, V.-K. Pham, H.-D. Nguyen, <b>Hoang-An Le</b>, B.-H. Tran, Q. H. To, M.-B. Truong, T. V. Phan, M.-D. Nguyen, T.-A. Than, K.-N. C. Mac, M. N. Do, A-D. Duong, T. Furuya, R. Ohbuchi, M. Aono, S. Tashiro, D. Pickup, X. Sun, P. L. Rosin, R. R. Martin"
+  title: "Partial Shape Queries for 3D Object Retrieval"
+  published: "publications/SHREC16.pdf"
+  year: 2016
+  booktitle: Eurographics 2016 Workshop on 3D Object Retrieval 
+
+
+- id: le13hcii
+  author: "<b>Hoang-An Le</b>, Khoi-Nguyen C. Mac, Truong-An Pham, Vinh-Tiep Nguyen,  Minh-Triet Tran"
+  title: "Multimodal Smart Interactive Presentation System"
+  booktitle: "International Conference on Human-Computer Interaction (HCII)"
+  year: 2013
+  published: "publications/HCII13.pdf"
+
+- id: le13aciids
+  type: inproceedings
+  author: "<b>Hoang-An Le</b>, Khoi-Nguyen C. Mac, Truong-An Pham, Minh-Triet Tran"
+  published: "publications/ACIIDS13.pdf"
+  title: "Realtime Pointing Gesture Recognition and Applications in Multi-user Interaction"
+  booktitle: "Asian Conference on Intelligent Information and Database Systems (ACIIDS)"
+  yearr: 2013
+
+- id: le12ihmsc
+  type: inproceedings
+  author: "<b>Hoang-An Le</b>, Khoi-Nguyen C. Mac, Truong-An Pham, Vinh-Tiep Nguyen,  Minh-Triet Tran, And-Duc Duong"
+  published: "publications/HCII13.pdf"
+  title: "SIM-Smart Interactive Map with Pointing Gestures"
+  booktitle: "International Conference on Intelligent Human-Machine Systems and Cybernetics (IHMSC)"
+  year: 2012
+
+
+- cat: WORKSHOPS
+
+- id: tylecek18eccvw
+  type: inproceedings
+  author: "Radim Tylecek, Torsten Sattler, <b>Hoang-An Le</b>, Thomas Brox, Marc Pollefeys, Robert B. Fisher, Theo Gevers"
+  title: "The Second Workshop on 3D Reconstruction Meets Semantics: Challenge Results Discussion"
+  booktitle: European Conference in Computer Vision (ECCV) Workshop
+  year: 2018
+  published: "publications/ECCV18W.pdf"
+  page: "http://trimbot2020.webhosting.rug.nl/events/3drms/"
+
+- id: le15wslam
+  author: "Maria Eskevich, Quoc-Minh Bui, <b>Hoang-An Le</b>, Benoit Huet"
+  title: "Exploring Video Hyperlinking in Broadcast Media"
+  booktitle: Workshop on Speech, Language, and Audio in Multimedia (SLAM)
+  published: "publications/SLAM15.pdf"
+  year: 2016
+
+- id: le14mew
+  type: inproceedings
+  author: "<b>Hoang-An Le</b>, Quoc-Minh Bui, Benoit Huet, Barbora Cervenkova, Jan Bouchner, Evlampios Apostolidis, Fotini Markatopoulou, Alexandros Pournaras, Vasileios Mezaris, Daniel Stein, S. Eickeler, M. Stadtschnitzer"
+  title: "LinkedTV at MediaEval 2014 Search and Hyperlinking Task"
+  booktitle: MediaEval workshop
+  year: 2014
+  published: "publications/MediaEval14.pdf"

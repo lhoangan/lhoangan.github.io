@@ -1,0 +1,7 @@
+@inproceedings{eccv18W,
+author = {Tylecek, Radim and Sattler, Torsten and Le, Hoang-An and Brox, Thomas and Pollefeys, Marc and Fisher, Robert and Gevers, Theo},
+booktitle = {European Conference on Computer Vision (ECCV) Workshop},
+title = {{The Second Workshop on 3D Reconstruction Meets Semantics: Challenge Results Discussion}},
+year = {2018}
+}
+
