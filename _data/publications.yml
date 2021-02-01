@@ -89,6 +89,7 @@
   booktitle: "International Conference on Human-Computer Interaction (HCII)"
   year: 2013
   published: "publications/HCII13.pdf"
+  demo: "https://www.youtube.com/watch?v=EQYqegXdPq8"
 
 - id: le13aciids
   type: inproceedings
@@ -96,7 +97,8 @@
   published: "publications/ACIIDS13.pdf"
   title: "Realtime Pointing Gesture Recognition and Applications in Multi-user Interaction"
   booktitle: "Asian Conference on Intelligent Information and Database Systems (ACIIDS)"
-  yearr: 2013
+  year: 2013
+  demo: "https://www.youtube.com/watch?v=DLygdmu-Yws"
 
 - id: le12ihmsc
   type: inproceedings
@@ -105,6 +107,7 @@
   title: "SIM-Smart Interactive Map with Pointing Gestures"
   booktitle: "International Conference on Intelligent Human-Machine Systems and Cybernetics (IHMSC)"
   year: 2012
+  demo: "https://www.youtube.com/watch?v=KVyKRtct1mA&feature=youtu.be"
 
 
 - cat: WORKSHOPS
@@ -129,6 +132,6 @@
   type: inproceedings
   author: "<b>Hoang-An Le</b>, Quoc-Minh Bui, Benoit Huet, Barbora Cervenkova, Jan Bouchner, Evlampios Apostolidis, Fotini Markatopoulou, Alexandros Pournaras, Vasileios Mezaris, Daniel Stein, S. Eickeler, M. Stadtschnitzer"
   title: "LinkedTV at MediaEval 2014 Search and Hyperlinking Task"
-  booktitle: MediaEval workshop
+  booktitle: MediaEval Benchmarking Initiative for Multimedia Evaluation Workshop
   year: 2014
   published: "publications/MediaEval14.pdf"
