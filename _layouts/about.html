@@ -37,9 +37,6 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <!-- Flexslider  -->
     <link rel="stylesheet" href="css/flexslider.css">
-    <!-- Flaticons  -->
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- Owl Carousel -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -604,12 +601,12 @@ NEWS PANEL -->
                             {% else %}
                                 &#64;inproceedings
                             {% endif %}{ {{pub.id}}, <br>
-                            author = {{ "{" }}{{{pub.author}}}, <br>
+                            author = {{ "{" }}{{pub.author | replace: ",", " and "}}}, <br>
                             booktitle = {{ "{{" }}{{pub.booktitle}}}}, <br>
                             title = {{ "{{" }}{{pub.title}}}}, <br>
                             year = {{ "{" }}{{pub.year}}}, <br>
                             {% if pub.arxvId %}
-                                arxivId = {{ "{" }}{{{pub.arxivId}}}, <br>
+                                arxivId = {{ "{" }}{{pub.arxivId}}}, <br>
                             {% endif %}
                             }
                             </p>
