@@ -23,6 +23,7 @@
   year: 2021
   published: "https://openaccess.thecvf.com/content/WACV2021/papers/Le_EDEN_Multimodal_Synthetic_Dataset_of_Enclosed_GarDEN_Scenes_WACV_2021_paper.pdf"
   page: "https://lhoangan.github.io/eden/"
+  thumbnail: "images/pthumbs/wacv21.jpg"
 
 - id: han20icpr
   type: inproceedings
@@ -42,6 +43,7 @@
   year: 2020
   published: "https://www.bmvc2020-conference.com/assets/papers/0051.pdf"
   page: "https://ivi.fnwi.uva.nl/cv/pc4novis"
+  thumbnail: "images/pthumbs/bmvc20.png"
 
 - id: le18bmvc
   type: inproceedings
@@ -52,6 +54,7 @@
   year: 2018
   published: "http://bmvc2018.org/contents/papers/0201.pdf"
   page: "https://ivi.fnwi.uva.nl/cv/341n143"
+  thumbnail: "images/pthumbs/bmvc18.png"
 
 - id: baslamili18eccv
   type: inproceedings
@@ -63,6 +66,7 @@
   published: "http://openaccess.thecvf.com/content_ECCV_2018/papers/Anil_Baslamisli_Joint_Learning_of_ECCV_2018_paper.pdf"
   page: "https://ivi.fnwi.uva.nl/cv/intrinseg"
   code: "https://github.com/Morpheus3000/intrinseg"
+  thumbnail: "images/pthumbs/eccv18.png"
 
 - id: baslamili18cvpr
   type: inproceedings
@@ -73,6 +77,7 @@
   year: 2018
   published: "http://openaccess.thecvf.com/content_cvpr_2018/papers/Baslamisli_CNN_Based_Learning_CVPR_2018_paper.pdf"
   page: "https://ivi.fnwi.uva.nl/cv/retinet"
+  thumbnail: "images/pthumbs/cvpr18.png"
 
 - id: le16
   type: inproceedings
