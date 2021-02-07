@@ -434,122 +434,57 @@ NEWS PANEL -->
             </div>
 
                     <div class="row">
-                        <!-- FIRST PAPER -->
+
+
+        {% for pub in site.data.publications %}
+            {% if pub.thumbnail %}
+
                         <div class="col-md-6 col-xs-12 animate-box" data-animate-effect="fadeInLeft">
                             <!-- PAPER THUMBNAIL -->
                             <div class="col-md-4 col-xs-2 animate-box" data-animate-effect="fadeInLeft">
                                 <div class="blog-entry">
-                                    <a href="https://arxiv.org/pdf/2011.04389.pdf" class="blog-img" target="_blank"><img src="images/pthumbs/wacv21.jpg" class="img-responsive" alt="WACV 2021"></a>
+                                    <a href="{{pub.published}}" class="blog-img" target="_blank"><img src="{{pub.thumbnail}}" class="img-responsive" alt="{{pub.id}}"></a>
                                 </div>
                             </div>
                             <!-- PAPER DESCRIPTION -->
                             <div class="col-md-8 col-xs-10 animate-box" data-animate-effect="fadeInLeft">
                                 <div class="blog-entry">
                                     <div class="desc">
-                                        <h3><small><strong><a href="https://openaccess.thecvf.com/content/WACV2021/papers/Le_EDEN_Multimodal_Synthetic_Dataset_of_Enclosed_GarDEN_Scenes_WACV_2021_paper.pdf" target="_blank">EDEN: Multimodal Synthetic Dataset of Enclosed GarDEN Scenes</a></small></strong></h3>
-                                        <span><small><b>H.A.Le</b>, P. Das, T.Mensink, T.Gevers
-                                        </br><a href="publications/wacv21.txt" target="_blank">bibtex</a> |  <a href="https://arxiv.org/pdf/2011.04389.pdf" target="_blank">arxiv</a> | <a href="https://lhoangan.github.io/eden/" target="_blank">project page</a></small></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- FIRST PAPER -->
-                        <!-- SECOND PAPER -->
-                        <!-- FIRST PAPER -->
-                        <div class="col-md-6 col-xs-12 animate-box" data-animate-effect="fadeInLeft">
-                            <!-- PAPER THUMBNAIL -->
-                            <div class="col-md-4 col-xs-2 animate-box" data-animate-effect="fadeInLeft">
-                                <div class="blog-entry">
-                                    <a href="https://www.bmvc2020-conference.com/assets/papers/0051.pdf" class="blog-img" target="_blank"><img src="images/pthumbs/bmvc20.png" class="img-responsive" alt="BMVC 2020"></a>
-                                </div>
-                            </div>
-                            <!-- PAPER DESCRIPTION -->
-                            <div class="col-md-8 col-xs-10 animate-box" data-animate-effect="fadeInLeft">
-                                <div class="blog-entry">
-                                    <div class="desc">
-                                        <h3><small><strong><a href="https://arxiv.org/abs/2009.08321" target="_blank">Novel View Synthesis from Single Images via Point Cloud Transformation</a></small></strong></h3>
-                                        <span><small><b>H.A.Le</b>, T.Mensink, P. Das, T.Gevers
-                                        </br><a href="publications/bmvc20.txt" target="_blank">bibtex</a> |  <a href="https://arxiv.org/pdf/2009.08321.pdf" target="_blank">arxiv</a> | <a href="https://lhoangan.github.io/pc4novis/" target="_blank">project page</a></small></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- FIRST PAPER -->
-                        <!-- SECOND PAPER -->
-                        <div class="col-md-6 col-xs-12 animate-box" data-animate-effect="fadeInLeft">
-                            <!-- PAPER THUMBNAIL -->
-                            <div class="col-md-4 col-xs-2 animate-box" data-animate-effect="fadeInLeft">
-                                <div class="blog-entry">
-                                    <a href="https://arxiv.org/pdf/2009.08321.pdf" class="blog-img" target="_blank"><img src="images/pthumbs/cviu20.png" class="img-responsive" alt="TrimBot2020"></a>
-                                </div>
-                            </div>
-                            <!-- PAPER DESCRIPTION -->
-                            <div class="col-md-8 col-xs-10 animate-box" data-animate-effect="fadeInLeft">
-                                <div class="blog-entry">
-                                    <div class="desc">
-                                        <h3><small><strong><a href="https://arxiv.org/pdf/1812.01946.pdf" target="_blank">Automatic Generation of Dense Non-Rigid Optical Flow</a></small></strong></h3>
-                                        <span><small><b>H.A.Le</b>, T.Nimbhorkar, T.Mensink, A.Baslamisli, S.Karaoglu, T.Gevers
-                                        </br><a href="publications/arapflow.txt" target="_blank">bibtex</a> |  <a href="https://arxiv.org/pdf/1812.01946.pdf" target="_blank">arxiv</a> | <a href="https://lhoangan.github.io/arap_flow/" target="_blank">project page</a></small></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- SECOND PAPER -->
-                        <div class="col-md-6 col-xs-12 animate-box" data-animate-effect="fadeInLeft">
-                            <div class="col-md-4 col-xs-2 animate-box" data-animate-effect="fadeInLeft">
-                                <div class="blog-entry">
-                                    <a href="http://bmvc2018.org/contents/papers/0201.pdf" class="blog-img" target="_blank"><img src="images/pthumbs/bmvc18.png" class="img-responsive" alt="TrimBot2020"></a>
-                                </div>
-                            </div>
-                            <!-- PAPER DESCRIPTION -->
-                            <div class="col-md-8 col-xs-10 animate-box" data-animate-effect="fadeInLeft">
-                                <div class="blog-entry">
-                                    <div class="desc">
-                                        <h3><small><strong><a href="http://bmvc2018.org/contents/papers/0201.pdf" target="_blank">Three for one and one for three: Flow, Segmentation, and Surace Normals</a></small></strong></h3>
-                                        <span><small><b>H.A.Le</b>, A.Baslamisli, T.Mensink, T.Gevers
-                                        </br><a href="publications/bmvc18.txt" target="_blank">bibtex</a> |  <a href="https://arxiv.org/pdf/1807.07473.pdf" target="_blank">arxiv</a> | <a href="publications/bmvc18_poster.pdf" target="_blank">poster</a> | <a href="https://lhoangan.github.io/341n143/" target="_blank">project page</a></small></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- THIRD PAPER -->
-                        <div class="col-md-6 col-xs-12 animate-box" data-animate-effect="fadeInLeft">
-                            <div class="col-md-4 col-xs-2 animate-box" data-animate-effect="fadeInLeft">
-                                <div class="blog-entry">
-                                    <a href="https://arxiv.org/pdf/1807.11857.pdf" class="blog-img" target="_blank"><img src="images/pthumbs/eccv18.png" class="img-responsive" alt="ECCV18"></a>
-                                </div>
-                            </div>
-                            <!-- PAPER DESCRIPTION -->
-                            <div class="col-md-8 col-xs-10 animate-box" data-animate-effect="fadeInLeft">
-                                <div class="blog-entry">
-                                    <div class="desc">
-                                        <h3><small><strong><a href="https://arxiv.org/pdf/1807.11857.pdf" target="_blank">Joint Learning of Intrinsic Images and Semantic Segmentation</a></small></strong></h3>
-                                        <span><small>A.Baslamisli, T.Groenestege, P.Das, <b>H.A.Le</b>, S.Karaoglu, T.Gevers </br>
-                                        <a href="publications/eccv18.txt" target="_blank">bibtex</a> | <a href="https://arxiv.org/pdf/1807.11857.pdf" target="_blank">arxiv</a> | <a href="https://github.com/Morpheus3000/intrinseg" target="_blank">code</a> | <a href="https://ivi.fnwi.uva.nl/cv/intrinseg" target="_blank">project page</a></small></span>
+                                        <h3><small><strong><a href="{{pub.published}}" target="_blank">{{pub.title}}</a></small></strong></h3>
+                                        <span><small> {{pub.author}} </br>
+                    {% if pub.arxivId %}
+                        <a href="https://arxiv.org/pdf/{{arxivId}}.pdf" target="_blank">arxiv</a> |
+                    {% endif %}
+                    {% if pub.page %}
+                        <a href="{{pub.page}}" target="_blank">project page</a> |
+                    {% endif %}
+                    {% if pub.slides %}
+                        <a href="{{pub.slides}}" target="_blank">slides</a> |
+                    {% endif %}
+                    {% if pub.poster %}
+                        <a href="{{pub.poster}}" target="_blank">poster</a> |
+                    {% endif %}
+                    {% if pub.demo %}
+                        <a href="{{pub.demo}}" target="_blank">demo</a> |
+                    {% endif %}
+                    {% if pub.code %}
+                        <a href="{{pub.code}}" target="_blank">code</a> |
+                    {% endif %}
+                    <button id="myBtn" onclick="show_bibtex('{{pub.id}}')">BibTeX</button>
+
+                                        </small></span>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- FOURTH PAPER -->
-                        <div class="col-md-6 col-xs-12 animate-box" data-animate-effect="fadeInLeft">
-                            <div class="col-md-4 col-xs-2 animate-box" data-animate-effect="fadeInLeft">
-                                <div class="blog-entry">
-                                    <a href="https://arxiv.org/pdf/1712.01056.pdf" class="blog-img" target="_blank"><img src="images/pthumbs/cvpr18.png" class="img-responsive" alt="CVPR18"></a>
-                                </div>
-                            </div>
-                            <!-- PAPER DESCRIPTION -->
-                            <div class="col-md-8 col-xs-10 animate-box" data-animate-effect="fadeInLeft">
-                                <div class="blog-entry">
-                                    <div class="desc">
-                                        <h3><small><strong><a href="https://arxiv.org/pdf/1712.01056.pdf" target="_blank">CNN based Learning using Reflection and Retinex Models for Intrinsic Image Decomposition</a></small></strong></h3>
-                                        <span><small>A.Baslamisli, <b>H.A.Le</b>, T.Gevers </br>
-                                        <a href="publications/cvpr18.txt" target="_blank">bibtex</a> | <a href="https://arxiv.org/pdf/1712.01056.pdf" target="_blank">arxiv</a> | <a href="https://ivi.fnwi.uva.nl/cv/retinet" target="_blank">project page</a><span><small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
+            {% endif %}
+        {% endfor %}
+
+
+
+            
 
                     </div>
 
