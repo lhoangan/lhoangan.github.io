@@ -130,7 +130,44 @@ li .highlight pre {
 
 // table
 table {
-	width: 100%;
+  border-spacing: 1;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+}
+table * {
+  position: relative;
+}
+table td, table th {
+  padding-left: 8px;
+}
+table thead tr {
+  height: 30px;
+  background: #333333;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: unset;
+}
+table tbody tr {
+  height: 30px;
+}
+table tbody tr:last-child {
+  border: 1;
+}
+table td, table th {
+  text-align: left;
+}
+table td.l, table th.l {
+  text-align: right;
+}
+table td.c, table th.c {
+  text-align: center;
+}
+table td.r, table th.r {
+  text-align: center;
 }
 
 // notice
@@ -144,7 +181,50 @@ table {
     @include rounded(3px);
 }
 
-// description title
-dt {
-    font-weight: bolder;
+
+tbody tr:nth-child(even) {
+  background-color: #f5f5f5;
 }
+
+tbody tr {
+  color: #808080;
+  line-height: 1.2;
+  font-weight: unset;
+}
+
+tbody tr:hover {
+  color: #555555;
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.column1 {
+  width: 260px;
+  padding-left: 40px;
+}
+
+.column2 {
+  width: 160px;
+}
+
+.column3 {
+  width: 245px;
+}
+
+.column4 {
+  width: 110px;
+  text-align: right;
+}
+
+.column5 {
+  width: 170px;
+  text-align: right;
+}
+
+.column6 {
+  width: 222px;
+  text-align: right;
+  padding-right: 62px;
+}
+
+
