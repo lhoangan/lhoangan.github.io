@@ -451,7 +451,7 @@ NEWS PANEL -->
                                 <div class="blog-entry">
                                     <div class="desc">
                                         <h3><small><strong><a href="{{pub.published}}" target="_blank">{{pub.title}}</a></small></strong></h3>
-                                        <span><small> {{pub.author}} </br>
+                                        <span><small> {{pub.author| replace: "Hoang-An Le", "<b>Ho&agrave;ng-&Acirc;n L&ecirc;</b>"}} </br>
                     {% if pub.arxivId %}
                         <a href="https://arxiv.org/pdf/{{arxivId}}.pdf" target="_blank">arxiv</a> |
                     {% endif %}
@@ -501,9 +501,15 @@ NEWS PANEL -->
                 <p></p>
                 <p><b> {{ pub.cat }} </p></b>
             {% else %}
-                <li>{{pub.author}},
+                <li>{{pub.author | replace: "Hoang-An Le", "<b>Ho&agrave;ng-&Acirc;n L&ecirc;</b>"}},
                     <i><a href="{{pub.published}}" target="_blank">{{pub.title}}</a></i>,
-                    in {{pub.booktitle}}, {{pub.year}}  |
+                    {% if pub.school %}
+                        Doctoral Thesis at {{pub.school}},
+                    {% endif %}
+                    {% if pub.booktitle %}
+                        in {{pub.booktitle}},
+                    {% endif %}
+                    {{pub.year}}  |
                     {% if pub.arxivId %}
                         <a href="https://arxiv.org/pdf/{{arxivId}}.pdf" target="_blank">arxiv</a> |
                     {% endif %}
@@ -534,8 +540,13 @@ NEWS PANEL -->
                             {% else %}
                                 &#64;inproceedings
                             {% endif %}{ {{pub.id}}, <br>
-                            author = {{ "{" }}{{pub.author | replace: ",", " and "}}}, <br>
-                            booktitle = {{ "{{" }}{{pub.booktitle}}}}, <br>
+                            author = &quot;{{pub.author | replace: ",", " and " | replace: "Hoang-An Le", "Ho{"{"}}&#92;&grave;{{ "{" }}a}}ng-{{"{"}}&#92;^{{"{"}}A}}n L{{"{"}}&#92;^{{"{"}}e}}&quot;, <br>
+                            {% if pub.booktitle %}
+                                booktitle = {{ "{{" }}{{pub.booktitle}}}}, <br>
+                            {% endif %}
+                            {% if pub.school %}
+                                school = {{ "{{" }}{{pub.school}}}}, <br>
+                            {% endif %}
                             title = {{ "{{" }}{{pub.title}}}}, <br>
                             year = {{ "{" }}{{pub.year}}}, <br>
                             {% if pub.arxvId %}
