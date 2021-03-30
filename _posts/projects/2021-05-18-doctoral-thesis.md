@@ -5,7 +5,7 @@ title:  "Outdoor Image Understanding from Multiple Vision Modalities"
 author: 'Ho&agrave;ng-&Acirc;n L&ecirc;'
 affiliation: 'University of Amsterdam'
 
-date:   2021-03-18
+date:   2021-05-18
 
 excerpt: "Doctoral Thesis, University of Amsterdam"
 
