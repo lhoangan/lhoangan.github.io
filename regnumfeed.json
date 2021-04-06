@@ -1,0 +1,15 @@
+---
+layout: null
+---
+
+[
+  {% assign today = site.time | date: "%Y-%m-%d" %}  
+  {
+      "uid": "id:{{site.url}}",
+      "updateDate": "{{ site.date | date: '%Y-%m-%dT%H:%M:%S.0Z' }}",
+      "titleText": "Regnum Christi",
+      "mainText": null,
+      "streamUrl": "https://www.regnumchristi.org/en/wp-content/uploads/2021/03/Apr-06_mixdown.mp3",
+      "redirectionUrl": "{{site.url}}"
+  }  
+]
