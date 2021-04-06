@@ -3,7 +3,7 @@ layout: null
 ---
 
 [
-{% for post in site.posts limit:1 %}
+{% for post in site.posts limit:2 %}
   {% assign today = site.time | date: "%Y-%m-%d" %}
   {% assign todayp = post.date | date: "%Y-%m-%d" %}
   {% if {{today}} == {{todayp}} and post.wof == true %}
