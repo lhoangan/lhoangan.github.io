@@ -1,8 +1,7 @@
 ---
 layout: null
 ---
-Content-Type: application/json
-...
+
 {
   "uid": "urn:uuid:1335c695-cfb8-4ebb-abbd-80da344efa6b",
   "updateDate": "2021-04-06T00:00:00.0Z",
