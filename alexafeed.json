@@ -1,6 +1,8 @@
 ---
 layout: null
 ---
+Content-Type: application/json
+...
 [
 {% for post in site.posts limit:3 %}
   {% assign today = site.time | date: "%Y-%m-%d" %}
