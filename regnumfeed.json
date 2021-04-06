@@ -3,13 +3,23 @@ layout: null
 ---
 
 [
-  {% assign today = site.time | date: "%Y-%m-%d" %}  
+  {% for post in site.posts limit:2 %}
+  {% assign today = site.time | date: "%Y-%m-%d" %}
+  {% assign todayp = post.date | date: "%Y-%m-%d" %}
+ 
+  {% assign Mon = site.time | date: "%b" %}
+  {% assign day = site.time | date: "%d" %}
+  {% if {{today}} == {{todayp}} and post.wof == true %}
   {
-      "uid": "id:{{site.url}}",
-      "updateDate": "2021-04-06T00:00:00.0Z",
-      "titleText": "Regnum Christi",
+      "uid": "id:{{site.url}}{{ post.url }}",
+      "updateDate": "{{ post.date | date: '%Y-%m-%dT%H:%M:%S.0Z' }}",
+      "titleText": "Regnum Christi - {{post.title}}",
       "mainText": "",
-      "streamUrl": "https://www.regnumchristi.org/en/wp-content/uploads/2021/03/Apr-06_mixdown.mp3",
+      "streamUrl": "https://www.regnumchristi.org/en/wp-content/uploads/{{post.regnum}}/{{Mon}}-{{day}}_mixdown.mp3",
       "redirectionUrl": "{{site.url}}"
-  }  
+  } {% if forloop.last != true and forloop.index0 >0 %},{% endif %}
+  {% endif %}
+{% endfor %}
+
+  
 ]
