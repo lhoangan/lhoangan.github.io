@@ -8,7 +8,7 @@ layout: null
       "uid": "id:{{site.url}}",
       "updateDate": "2021-04-06T00:00:00.0Z",
       "titleText": "Regnum Christi",
-      "mainText": null,
+      "mainText": "",
       "streamUrl": "https://www.regnumchristi.org/en/wp-content/uploads/2021/03/Apr-06_mixdown.mp3",
       "redirectionUrl": "{{site.url}}"
   }  
