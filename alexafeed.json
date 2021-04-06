@@ -1,20 +1,12 @@
 ---
 layout: null
 ---
-
-[
-{% for post in site.posts limit:3 %}
-  {% assign today = site.time | date: "%Y-%m-%d" %}
-  {% assign todayp = post.date | date: "%Y-%m-%d" %}
-  {% if {{today}} == {{todayp}} and post.wof == true %}
-    {
-      "uid": "id:{{site.url}}{{ post.url }}",
-      "updateDate": "{{ post.date | date: '%Y-%m-%dT%H:%M:%S.0Z' }}",
-      "titleText": "{{post.title}}",
-      "mainText": "{{ post.content | markdownify | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | strip }}",
-      "streamUrl": null,
-      "redirectionUrl": "{{site.url}}{{ post.url }}"
-    }{% if forloop.last != true and forloop.index0 >0 %},{% endif %}
-  {% endif %}
-{% endfor %}
-]
+Content-Type: application/json
+...
+{
+  "uid": "urn:uuid:1335c695-cfb8-4ebb-abbd-80da344efa6b",
+  "updateDate": "2016-05-23T00:00:00.0Z",
+  "titleText": "Amazon Developer Blog, week in review May 23rd",
+  "mainText": "Meet Echosim. A new online community tool for developers that simulates the look and feel of an Amazon Echo.",
+  "redirectionUrl": "https://developer.amazon.com/public/community/blog"
+}
