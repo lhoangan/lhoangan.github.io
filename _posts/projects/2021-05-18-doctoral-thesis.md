@@ -47,6 +47,8 @@ chapters explore multimodality from a generative perspective, how a modality
 benefits generation of the others, and concludes with the construction of a
 multimodal synthetic dataset.
 
+[Download](../../downloadables/thesis_full.pdf)
+
 ## Citation
 
 If you find the material useful please consider citing our work
