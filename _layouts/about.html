@@ -132,7 +132,7 @@ NEWS PANEL -->
                         <span class="heading-meta">Introduction</span>
                         <h2 class="colorlib-heading">About Me</h2>
                         <p>Greetings! My name is Ho&agrave;ng-&Acirc;n L&ecirc;. I am from Ho Chi Minh city, Vietnam.</p>
-                        <p> I obtained the PhD degree in Computer Science in 2021 from the University of Amsterdam under the supervision of Professor <a href = "https://staff.science.uva.nl/th.gevers/" target = "_blank">Theo Gevers</a> and Dr <a href = "https://staff.science.uva.nl/t.e.j.mensink/" target = "_blank">Dr. Thomas Mensink</a> (UvA, Ph.D co-promotor) </li> from <a href="https://ivi.fnwi.uva.nl/cv" target="_blank">Computer Vision lab</a>. The doctoral study was fully funded by the EUHorizon 2020 program within the <a href = "http://trimbot2020.webhosting.rug.nl/" target = "_blank">TrimBot2020</a> project. My doctoral thesis is titled <a href="">Outdoor Image Understanding from Multiple Vision Modalities</a>.</p>
+                        <p> I obtained the PhD degree in Computer Science in 2021 from the <a href="https://ivi.fnwi.uva.nl/cv" target="_blank">Computer Vision lab</a>, University of Amsterdam under the supervision of <a href = "https://staff.science.uva.nl/th.gevers/" target = "_blank">Prof. Theo Gevers</a> and <a href = "https://staff.science.uva.nl/t.e.j.mensink/" target = "_blank">Dr. Thomas Mensink</a>. The doctoral study was fully funded by the EUHorizon 2020 program within the <a href = "http://trimbot2020.webhosting.rug.nl/" target = "_blank">TrimBot2020</a> project. My doctoral thesis is titled <a href="http://hdl.handle.net/11245.1/57c8d00a-9a32-4c96-a512-231dc6bb27df">Outdoor Image Understanding from Multiple Vision Modalities</a>.</p>
                         <p>I have been a regular reviewer for several high-ranking conferences and journals, including CVPR (IEEE/CVF), BMVC (BMVA), WACV (IEEE/CVF), ACCV (AFCV), JSTARS (IEEE) </p>
                         <p>My CV can be found here <a href="hale_2020.pdf" target="_blank" class="far fa-id-card"></a>, last updated in November 2020.</p>
                        </div>
@@ -152,57 +152,14 @@ NEWS PANEL -->
                                         </div>
                                         <div id="collapseZero" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingZero">
                                              <div class="panel-body">
-                                                 <ul id="news_list">
-                                                     <li> <b> Jan 2021 </b> I am joining the <a href="https://www.france-energies-marines.org/en/our-team/" target="_blank">France Énergies Marine</a> as a post doctoral researcher for development of artificial intelligence for multimodal analysis on the <a href="https://www.france-energies-marines.org/en/projects/owfsomm/">OWFSOMM project</a>
+                                                <ul id="news_list">
+
+                                                    {% for update in site.data.updates %}
+                                                    <li>
+                                                        <b> {{update.time}} </b> {{update.note}}
                                                     </li>
-                                                    <li> <b> Oct 2020 </b> I am joining the OBELIX team, at IRISA lab, University of South Brittany as a research engineer
-                                                    </li>
-                                                    <li> <b> Nov 2020 </b> Our paper titled
-                                                        <a href="https://openaccess.thecvf.com/content/WACV2021/papers/Le_EDEN_Multimodal_Synthetic_Dataset_of_Enclosed_GarDEN_Scenes_WACV_2021_paper.pdf" target="_blank">EDEN: Multimodal Synthetic Dataset of Enclosed GarDEN Scenes</a>, joint work with Das, Mensink, and Gevers, is accepted for WACV'21
-                                                    </li>
-                                                    <li> <b> Oct 2020 </b> Our paper titled
-                                                        <a href="https://ailb-web.ing.unimore.it/icpr/author/1961" target="_blank">Object features and face detection performance: Analyses with 3D-rendered synthetic data</a>, joint work with Han, Karaoglu, and Gevers, is accepted for ICPR'20
-                                                    </li>
-                                                    <li> <b> Aug 2020 </b> Our paper titled
-                                                        <a href="https://www.bmvc2020-conference.com/assets/papers/0051.pdf" target="_blank">Novel View Synthesis from Single Images via Point Cloud Transformation</a>, joint work with Mensink, Das, and Gevers, is accepted for BMVC'20
-                                                    </li>
-                                                     <li> <b> Oct 2019 </b> Being interviewed for the TrimBot2020 project's <a href="https://trimbot2020.shorthandstories.com/HoangAnLe/index.html" target="_blank">Human Face of Robotics</a> and featured on the <a href="https://www.uva.nl/en/shared-content/faculteiten/en/faculteit-der-natuurwetenschappen-wiskunde-en-informatica/news/2019/10/smart-garden-robot-trimbot-example-of-artificial-intelligence.html">Newsletter</a> of the UvA.
-                                                    </li>
-                                                    <li> <b> Jan 23rd, 2019 </b> Our paper discussing
-                                                        <a href="https://link.springer.com/chapter/10.1007/978-3-030-11015-4_48" target="_blank">The Second Workshop on 3D Reconstruction Meets Semantics: Challenge Results Discussion</a> at ECCV'18 is now onlined, joint work with Tylecek, Sattler, Brox, Pollefeys, Fisher, and Gevers.
-                                                    </li>
-                                                     <li> <b> Dec 5th, 2018 </b> New paper on 
-                                                        <a href="https://arxiv.org/pdf/1812.01946.pdf" target="_blank">Automatic Generation of Dense Non-rigid Optical Flow</a>,
-                                                        joint work with Nimbhorkar, Mensink, Baslamisli, Karaoglu, and Gevers.
-                                                    </li>
-                                                    <li> <b> Jul 11th, 2018 </b> Taking part in the challenge organizers of the ECCV'18 workshop
-                                                        <a href="http://trimbot2020.webhosting.rug.nl/events/3drms/" target="_blank">3D Reconstruction Meet Semantics</a>,
-                                                    </li>
-                                                    <li> <b> Jul 6th, 2018 </b> Our paper titled
-                                                        <a href="https://arxiv.org/abs/1807.07473" target="_blank">Three for one and one for three: Flow, Segmentation,
-                                                        and Surface Normal</a>, joint work with Baslamisli, Mensink, and Gevers, is accepted for Oral
-                                                        presentation at BMVC'18 (acceptance rate 4.3%).
-                                                    </li>
-                                                    <li> <b> Jul 3rd, 2018 </b> Our paper titled
-                                                        <a href="https://arxiv.org/abs/1807.11857" target="_blank">Joint Learning of Intrinsic Images and Semantic Segmentation
-                                                        and Surface Normal</a>, joint work with Baslamisli, Groenestege, Das, Karaoglu, and Gevers, is accepted for ECCV'18.
-                                                    </li>
-                                                    <li> <b> Feb 20th, 2018 </b> Our paper titled
-                                                        <a href="https://arxiv.org/abs/1712.01056" target="_blank">
-                                                            CNN based Learning using Reflection and Retinex Models for Intrinsic Image Decomposition</a>, joint work with Baslamisli and Gevers, is accepted for CVPR'18.
-                                                    </li>
-                                                    <li> <b> Mar 31st, 2017 </b> Our project hosts the ICCV'17 workshop named
-                                                        <a href="trimbot2020.webhosting.rug.nl/events/events-2017/3drms/
-    " target="_blank">3D Reconstruction Meet Semantics</a>.
-                                                    </li>
-                                                    <li> <b> Oct 6th, 2016 </b> Student volunteer for 
-                                                        <a href="www.eccv2016.org" target="_blank">European Conference in Computer Vision (ECCV) 2016</a> in Amsterdam, the Netherlands.
-                                                    </li>
-                                                    <li> <b> Sep 1st, 2016 </b> Visiting the University of Edinburgh, Scotland, UK for TrimBot2020 consortium | <a href="images/trimbot2020_EDN.jpeg" target="_blank">photo</a>. </li>
-                                                    <li> <b> May 11th, 2016 </b> Joining the TrimBot2020 consortium at the University of Groningen, the Netherlands | <a href="images/trimbot2020_RUG.jpeg" target="_blank">photo</a>. </li>
-                                                    <li> <b> Apr 1st, 2016 </b> Joining the Computer Vision lab, University of Amsterdam for PhD research on 3D Scene Understanding </li>
-                                                    <li> <b> Sep 1st, 2015 </b> Graduate at EURECOM insitute, T&eacute;l&eacute;com ParisTech with dipl&ocirc;me d'Ing&eacute;nieur (Master of Science degree in Engineering) </li>
-                                                    <li> <b> Mar 1st, 2015 </b> Visiting scholar at Coordinate Science Lab (CSL), University of Illinois at Urbana-Champaign, USA for 6-month graduation project.  </li>
+                                                    {% endfor %}
+
                                                 </ul>
                                                 <div id="commands">
                                                     <button id="all_link"> Show All</button> | <button id="more_link"> More... </button>
