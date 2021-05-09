@@ -258,7 +258,7 @@ figure {
         background-size: cover;
         background-position: bottom center;
         height: 450px;
-        box-shadow: 250px 0 300px 20px rgba(0,0,0,0.7) inset;
+        box-shadow: 420px 0 300px 20px rgba(0,0,0,0.7) inset;
         position: relative; }
     #colorlib-hero .flexslider .flex-control-nav {
       bottom: 20px;
