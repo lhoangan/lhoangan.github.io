@@ -142,7 +142,7 @@ NEWS PANEL -->
                    </div>
 
                     <div class="row">
-                        <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                        <div class="col-md-12">
                             <div class="fancy-collapse-panel">
                                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                     <!-- NEWS PANEL -->
@@ -218,7 +218,7 @@ NEWS PANEL -->
                                              <div class="panel-body">
                                                  <div class="timeline-centered">
 
-                                                     <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                                                     <article class="timeline-entry" data-animate-effect="fadeInLeft">
                                                         <div class="timeline-entry-inner">
 
                                                            <div class="timeline-icon color-4">
@@ -235,7 +235,7 @@ NEWS PANEL -->
 
 
 
-                                                     <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                                                     <article class="timeline-entry" data-animate-effect="fadeInLeft">
                                                         <div class="timeline-entry-inner">
 
                                                            <div class="timeline-icon color-1">
@@ -251,7 +251,7 @@ NEWS PANEL -->
                                                      </article>
 
 
-                                                     <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+                                                     <article class="timeline-entry" data-animate-effect="fadeInRight">
                                                         <div class="timeline-entry-inner">
                                                            <div class="timeline-icon color-2">
                                                               <i class="icon-pen2"></i>
@@ -271,7 +271,7 @@ NEWS PANEL -->
                                                         </div>
                                                      </article>
 
-                                                     <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                                                     <article class="timeline-entry" data-animate-effect="fadeInLeft">
                                                         <div class="timeline-entry-inner">
                                                            <div class="timeline-icon color-3">
                                                               <i class="icon-pen2"></i>
@@ -291,7 +291,7 @@ NEWS PANEL -->
                                                         </div>
                                                      </article>
 
-                                                     <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+                                                     <article class="timeline-entry begin" data-animate-effect="fadeInBottom">
                                                         <div class="timeline-entry-inner">
                                                            <div class="timeline-icon color-none">
                                                            </div>
@@ -406,9 +406,9 @@ NEWS PANEL -->
             <section class="colorlib-work" data-section="publications">
                 <div class="colorlib-narrow-content">
                     <div class="row">
-                        <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                        <div class="col-md-6 col-md-offset-3 col-md-pull-3" data-animate-effect="fadeInLeft">
                             <span class="heading-meta">Research</span>
-                            <h2 class="colorlib-heading animate-box">Publications</h2>
+                            <h2 class="colorlib-heading">Publications</h2>
                             <p>List of publications on <a href="https://scholar.google.com/citations?hl=en&user=Z4QDrYcAAAAJ" target="_blank">Goo<i class="ai ai-google-scholar"></i>le Scholar</a> </p>
                         </div>
                     </div>
@@ -421,15 +421,15 @@ NEWS PANEL -->
         {% for pub in site.data.publications %}
             {% if pub.thumbnail %}
 
-                        <div class="col-md-6 col-xs-12 animate-box" data-animate-effect="fadeInLeft">
+                        <div class="col-md-6 col-xs-12" data-animate-effect="fadeInLeft">
                             <!-- PAPER THUMBNAIL -->
-                            <div class="col-md-4 col-xs-2 animate-box" data-animate-effect="fadeInLeft">
+                            <div class="col-md-4 col-xs-2" data-animate-effect="fadeInLeft">
                                 <div class="blog-entry">
                                     <a href="{{pub.published}}" class="blog-img" target="_blank"><img src="{{pub.thumbnail}}" class="img-responsive" alt="{{pub.id}}"></a>
                                 </div>
                             </div>
                             <!-- PAPER DESCRIPTION -->
-                            <div class="col-md-8 col-xs-10 animate-box" data-animate-effect="fadeInLeft">
+                            <div class="col-md-8 col-xs-10" data-animate-effect="fadeInLeft">
                                 <div class="blog-entry">
                                     <div class="desc">
                                         <h3><small><strong><a href="{{pub.published}}" target="_blank">{{pub.title}}</a></small></strong></h3>
