@@ -27,12 +27,11 @@ tag:
 ---
 
 <p style="text-align: right"><i>
-A garden enclosed, my sister, my bride,
-a garden enclosed, a fountain sealed! <br>
-Your branches are a grove of pomegranates,
-with all choicest fruits <br>
-(Songs of Songs, 4:12-13)
-</i></p>
+Fecisti nos ad te, Domine,<br>
+et inquietum est cor nostrum donec requiescat in te.<br>
+</i>
+Augustine of Hippo
+</p>
 
 ## Abstract
 
@@ -46,6 +45,24 @@ followed by the study of modality complement and combination. The subsequent
 chapters explore multimodality from a generative perspective, how a modality
 benefits generation of the others, and concludes with the construction of a
 multimodal synthetic dataset.
+
+### Committee Member
+
+Prof. Theo Gevers, Universiteit van Amsterdam
+
+Dr. Thomas Mensink, Google Research
+
+Prof. Robert Fisher, University of Edinburgh
+
+Prof. Sébastien Lefèvre, Université Bretagne-Sud
+
+Prof. Cees Snoek, Universiteit van Amsterdam
+
+Dr. Arnoud Visser, Universiteit van Amsterdam
+
+Dr. Sezer Karaoğlu, Universiteit van Amsterdam
+
+
 
 [Download](../../downloadables/thesis_full.pdf) |
 [Offpage](https://www.offpage.nl/ebooks/3y12mg9l4bfjgj9enni3/)
