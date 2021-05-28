@@ -3,7 +3,7 @@
 - id: le21thesis
   type: phdthesis
   title: "Outdoor Image Understanding from Multiple Vision Modalities"
-  author: "Hoang-An Le"
+  author: "Hoàng-Ân Lê"
   school: University of Amsterdam
   year: 2021
   published: " "
@@ -12,6 +12,14 @@
 
 
 - cat: JOURNALS
+
+- id: baslamisli21ijcv
+  type: article
+  title: "ShadingNet: Image Intrinsics by Fine-Grained Shading Decomposition"
+  author: "Anil S. Baslamisli, Partha Das, Hoang-An Le, Sezer Karaoglu, Theo Gevers"
+  booktitle: "International Journal of Computer Vision (IJCV)"
+  year: 2021
+  published: "https://rdcu.be/clooa"
 
 - id: le10ictacs
   type: article
