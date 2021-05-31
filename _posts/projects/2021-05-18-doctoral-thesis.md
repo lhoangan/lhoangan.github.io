@@ -46,21 +46,18 @@ chapters explore multimodality from a generative perspective, how a modality
 benefits generation of the others, and concludes with the construction of a
 multimodal synthetic dataset.
 
-### Committee Member
+### Doctoral Committee
 
-Prof. Theo Gevers, Universiteit van Amsterdam
+Promoters:
+- Prof. Theo Gevers, Universiteit van Amsterdam
+- Dr. Thomas Mensink, Google Research
 
-Dr. Thomas Mensink, Google Research
-
-Prof. Robert Fisher, University of Edinburgh
-
-Prof. Sébastien Lefèvre, Université Bretagne-Sud
-
-Prof. Cees Snoek, Universiteit van Amsterdam
-
-Dr. Arnoud Visser, Universiteit van Amsterdam
-
-Dr. Sezer Karaoğlu, Universiteit van Amsterdam
+Committee Members
+- Prof. Robert Fisher, University of Edinburgh
+- Prof. Sébastien Lefèvre, Université Bretagne-Sud
+- Prof. Cees Snoek, Universiteit van Amsterdam
+- Dr. Arnoud Visser, Universiteit van Amsterdam
+- Dr. Sezer Karaoğlu, Universiteit van Amsterdam
 
 
 
