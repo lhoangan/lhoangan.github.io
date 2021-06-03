@@ -18,12 +18,12 @@ thumbnail: /assets/images/posts/2021-05-18/cover.png
 tag:
 - research
 - computer vision
-- CGI
-- dataset
 - multimodal
 - semantic segmentation
 - optical flow
 - surface normals
+- dataset
+- CGI
 ---
 
 <p style="text-align: right"><i>
