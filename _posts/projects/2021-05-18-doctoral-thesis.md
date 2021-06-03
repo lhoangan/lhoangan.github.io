@@ -24,6 +24,7 @@ tag:
 - surface normals
 - dataset
 - CGI
+comments: false
 ---
 
 <p style="text-align: right"><i>
