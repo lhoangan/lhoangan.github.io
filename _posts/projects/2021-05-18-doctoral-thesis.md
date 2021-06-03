@@ -51,15 +51,15 @@ multimodal synthetic dataset.
 **Chairman**: Prof. Peter van Emde-Boas, Universiteit van Amsterdam
 
 **Promoters:**
-- Prof. Theo Gevers, Universiteit van Amsterdam
-- Dr. Thomas Mensink, Google Research
+- [Prof. Theo Gevers](https://staff.fnwi.uva.nl/th.gevers/), Universiteit van Amsterdam
+- [Dr. Thomas Mensink](https://www.mensink.nu/), Google Research
 
 **Committee Members**:
-- Prof. Robert Fisher, University of Edinburgh
-- Prof. Sébastien Lefèvre, Université Bretagne-Sud
-- Prof. Cees Snoek, Universiteit van Amsterdam
-- Dr. Arnoud Visser, Universiteit van Amsterdam
-- Dr. Sezer Karaoğlu, Universiteit van Amsterdam
+- [Prof. Robert Fisher](https://homepages.inf.ed.ac.uk/rbf/), University of Edinburgh
+- [Prof. Sébastien Lefèvre](http://people.irisa.fr/Sebastien.Lefevre/), Université Bretagne-Sud
+- [Prof. Cees Snoek](https://www.ceessnoek.info/), Universiteit van Amsterdam
+- [Dr. Arnoud Visser](https://staff.fnwi.uva.nl/a.visser/), Universiteit van Amsterdam
+- [Dr. Sezer Karaoğlu](https://karaoglusezer.github.io/), Universiteit van Amsterdam
 
 ## Doctoral Thesis
 
