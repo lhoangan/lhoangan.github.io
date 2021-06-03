@@ -48,7 +48,7 @@ multimodal synthetic dataset.
 
 ## Doctoral Committee
 
-**Chairman**: Prof. Peter van Emde-Boas, Universiteit van Amsterdam
+**Chairman**: [Prof. Peter van Emde-Boas](https://staff.fnwi.uva.nl/p.vanemdeboas/), Universiteit van Amsterdam
 
 **Promoters:**
 - [Prof. Theo Gevers](https://staff.fnwi.uva.nl/th.gevers/), Universiteit van Amsterdam
