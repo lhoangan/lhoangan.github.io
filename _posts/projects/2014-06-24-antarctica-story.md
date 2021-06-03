@@ -13,7 +13,7 @@ tag:
 - course project
 - CGI
 - maya
-comments: true
+comments: false
 ---
 
 This short movie tells a story of a penguin family in Antarctica. They were spotted

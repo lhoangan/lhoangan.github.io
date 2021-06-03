@@ -15,7 +15,7 @@ tag:
 - facebook SDK
 - youtube API
 - wifi Direct
-comments: true
+comments: false
 ---
 
 # Welcome to Dumdum's Great Adventure
