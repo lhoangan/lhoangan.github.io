@@ -63,8 +63,7 @@ multimodal synthetic dataset.
 
 ### Download
 
-- [Official record from UvA Library](http://hdl.handle.net/11245.1/57c8d00a-9a32-4c96-a512-231dc6bb27df) | [PDF](https://pure.uva.nl/admin/files/60160532/Thesis.pdf) |
-
+- [Official record in UvA Library](http://hdl.handle.net/11245.1/57c8d00a-9a32-4c96-a512-231dc6bb27df) | [PDF](https://pure.uva.nl/admin/files/60160532/Thesis.pdf)
 - [Mirror on Offpage](https://www.offpage.nl/ebooks/3y12mg9l4bfjgj9enni3/)
 (pw: 2ez6zz) |
 [Flipbook](https://www.offpage.nl/wp-content/uploads/2021/04/2021_hale.pdf?)
