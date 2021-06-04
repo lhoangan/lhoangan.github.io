@@ -3,6 +3,13 @@
 {% assign caption = include.caption %}
 {% assign cols = include.cols %}
 
+{% if include.href %}
+    {% assign href = include.href %}
+{% else %}
+    {% assign href = "" %}
+{% endif %}
+
+
 {% case cols %}
     {% when 1 %}
         {% assign class = "" %}
@@ -16,7 +23,12 @@
 
 
 <figure {% if class != "" %}class="{{ class }}"{% endif %}>
-    <a href="/assets/images/posts/{{ postdir }}/{{ image }}"><img align="center" src="/assets/images/posts/{{ postdir }}/{{ image }}" alt=""></a>
+    {% if href != "" %}
+        <a href="{{ href }}">
+    {% else %}
+        <a href="/assets/images/posts/{{ postdir }}/{{ image }}">
+    {% endif %}
+    <img align="center" src="/assets/images/posts/{{ postdir }}/{{ image }}" alt=""></a>
     <figcaption>{{ caption }}</figcaption>
 </figure>
 
