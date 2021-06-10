@@ -77,9 +77,7 @@ multimodal synthetic dataset.
 
 - 18/05/2021 at 12PM, in the [Agnietekapel](https://en.wikipedia.org/wiki/Agnietenkapel), University of Amsterdam
 
-- **Paranymphs**:
-  - [Ngô Lê Minh](https://fedorapeople.org/~minh/)
-  - [Anıl Sırrı Başlamışlı](https://staff.fnwi.uva.nl/a.s.baslamisli/)
+- **Paranymphs**: [Ngô Lê Minh](https://fedorapeople.org/~minh/), [Anıl Sırrı Başlamışlı](https://staff.fnwi.uva.nl/a.s.baslamisli/)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EAIAJga9ZmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
