@@ -17,7 +17,8 @@ thumbnail: /assets/img/avatar.jpg
 
 tag:
 - surface normal
-#comments: true
+
+comments: false
 ---
 
 
