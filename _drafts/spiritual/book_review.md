@@ -1,4 +1,6 @@
 
+Book Report vs. Book Review vs. Book Summary
+
 
 [How to Write an Academic Book Review](https://wendybelcher.com/writing-advice/how-to-write-book-review/#:~:text=Book%20reviews%20are%20usually%20600,words%20without%20getting%20bogged%20down.)
 
@@ -45,3 +47,15 @@ How to Write a Summary
 [More step-by-step approach](https://www.samuelthomasdavies.com/how-to-write-a-book-summary/)
 
 [Book Summary and Book Review](https://booksummaryclub.com/how-to-write-a-book-summary/)
+
+
+- How to write a book report
+
+https://copycrafter.net/blog/how-to-write-a-book-report/
+
+https://www.teachervision.com/writing/writing-book-report
+
+https://www.wikihow.com/Write-a-Book-Report
+
+
+https://www.wikihow.com/Write-a-Book-Summary
