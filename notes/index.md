@@ -1,6 +1,6 @@
 ---
 layout: post-list
-title: All Notes
+title: All Technical Notes
 excerpt: "A List of Notes"
 comments: false
 ---
