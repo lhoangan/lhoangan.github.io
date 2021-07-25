@@ -67,13 +67,17 @@ multimodal synthetic dataset.
 {% include image image="thesis_thumbnail.png" caption="" href="http://hdl.handle.net/11245.1/57c8d00a-9a32-4c96-a512-231dc6bb27df" %}
 
 - [Official record in UvA Library](http://hdl.handle.net/11245.1/57c8d00a-9a32-4c96-a512-231dc6bb27df) |
-[PDF](https://pure.uva.nl/admin/files/60160532/Thesis.pdf)
+[PDF](https://pure.uva.nl/ws/files/60160532/Thesis.pdf)
 - [Mirror on Offpage](https://www.offpage.nl/ebooks/3y12mg9l4bfjgj9enni3/)
 (pw: 2ez6zz) |
 [Flipbook](https://www.offpage.nl/wp-content/uploads/2021/04/2021_hale.pdf?)
 - [Thesis Template](https://github.com/lhoangan/template-uva-thesis)
 
 ## PhD defense ceremony
+
+- 18/05/2021 at 12PM, in the [Agnietekapel](https://en.wikipedia.org/wiki/Agnietenkapel), University of Amsterdam
+
+- **Paranymphs**: [Ngô Lê Minh](https://fedorapeople.org/~minh/), [Anıl Sırrı Başlamışlı](https://staff.fnwi.uva.nl/a.s.baslamisli/)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EAIAJga9ZmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
