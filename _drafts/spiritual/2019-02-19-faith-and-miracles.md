@@ -13,6 +13,62 @@ comments: true
 share: true
 ---
 
+Since I was as child, I was always torn away by my faith.
+On the one hand, I was taught to believe in God. But on the other hand, no
+friend of mine at school did. Sure enough I heard of different objections, such
+as "If God exists, where is He?" and sure enough I couldn't answer that.
+
+I went to Mass, I read (some part of) the Bible. But nothing gives me the
+answer. I prayed to God, but most of the time, it's just an empty feeling, like
+I talk to myself, but worse, since I know where to project a thought if I talk
+to myself, myself. But to pray, where to project my prayer? To a statue or a
+photo of Jesus? to thin air? to the sky? And then what? No response, no
+acknowledgement? I don't even know if it's heard, if I speak too softly, if I
+was understood. Nothing. The return was just empty silent.
+
+Soon enough I try to seek answers. I wondered would it be easier if God just
+appears himself. Dad told me that it won't be our free will if God appears to
+us. What does that mean? Surely if I see God, I will be willingly to accept Him.
+Isn't that free will? Now in retrospect after 20 something years, I think Dad
+was right. I would have accepted Him, but not because I know that I need him but
+because I was compelled to do so because of His physical present (explain this
+more).
+
+Then I thought how easy it was for the apostles to believe in Jesus. They lived
+with Him. How easy for Abraham, Moses, and all the Old Testament figures to
+believe in God, they heard Him. So it would be unfair for me, in this world, to
+believe in Him without seeing or hearing anything from Him.
+
+I remember lying in bed, thinking about all the pictures of Jesus that I've
+seen, wishing that he may appear in my dream and talk to me. That could have
+been good enough. But no, nothing.
+
+It started when I prayed in front of the Tabernacle. That I know that I could
+not hear Him physically, but please open my soul to hear Him in the silence.
+And so I tried to stay silence. Trusting that He knows me best, He knows
+everything, and He has His way to convey His answer to me. God speaks in the
+silence. I don't remember where I've read or heard it. I don't understand what
+it means and its mechanism. But maybe I don't need to.
+Till now, I still can't explain and clearly defined. But sometime, I do hear a
+small voice in my head, answering to me. It could be part of my conscion, but
+the thing is it's give me calm, it answers to my anxiety so that I would feel
+calm. It isn't loud and it won't appear if I keep blabbering, it only appears
+when I stay silence.
+
+A comment that I usually hear from unbelieved people of God to protest is
+"If God is real, why doesn't He just appear to me to prove that He exists", or
+"If God exists, why doesn't He make this miracle to prove His existance".
+Admittedly, it sounds fair to me, and admittedly I have thought the same when I
+was a child. I pray something extraordinary to happen (to fix my situation or
+help me with my difficulty situation) and how easy for God to prove his
+existance just by appearing or granting that thing to be done. Surely I (or
+anyone who doubts) would just believe, right?
+
+Not quite so. We can see from several biblical account that what we usually
+think the case, isn't quite so.
+
+And here's the [dilemma](https://www.reddit.com/r/CatholicMemes/comments/o5gddl/the_atheist_dilemma/?utm_source=share&utm_medium=web2x&context=3)
+
 Today's gospel is on [Mark 8:14-21](http://www.usccb.org/bible/readings/bible/mark/8:14)
 telling the story that the disciples were worried because they forgot to bring breads,
 and Jesus reminded them about his miracles of breaking five loaves for five thousand.
