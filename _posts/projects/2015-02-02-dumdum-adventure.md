@@ -20,7 +20,7 @@ comments: false
 
 # Welcome to Dumdum's Great Adventure
 
-<iframe width="723" height="570" src="https://www.youtube.com/embed/T5wLmU4807w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="723" height="570" src="https://youtu.be/YZYnJHvudLQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Game concept
 - Guiding DumDum to the destination
