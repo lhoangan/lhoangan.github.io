@@ -431,6 +431,7 @@ NEWS PANEL -->
         {% for pub in site.data.publications %}
             {% if pub.thumbnail %}
 
+                    <div>
                         <div class="col-md-6 col-xs-12" data-animate-effect="fadeInLeft">
                             <!-- PAPER THUMBNAIL -->
                             <div class="col-md-4 col-xs-2" data-animate-effect="fadeInLeft">
@@ -462,15 +463,44 @@ NEWS PANEL -->
                     {% if pub.code %}
                         <a href="{{pub.code}}" target="_blank">code</a> |
                     {% endif %}
-                    <button id="myBtn" onclick="show_bibtex('{{pub.id}}')">BIBTEX</button>
+                    <button id="myBtn" onclick="show_bibtex('{{pub.id}}',event)">BIBTEX</button>
                                         </small></span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-
+                    </div>
             {% endif %}
+        {% endfor %}
+
+        {% for pub in site.data.publications %}
+                    <!-- The BIBTEX Modal -->
+                    <div id="{{pub.id}}" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close" onclick=close_bibtex('{{pub.id}}')>&times;</span>
+                            <p>
+                            {% if pub.type %}
+                                &#64;{{pub.type}}
+                            {% else %}
+                                &#64;inproceedings
+                            {% endif %}{ {{pub.id}}, <br>
+                            author = &quot;{{pub.author | replace: ",", " and " | replace: "Hoang-An Le", "Ho&#123;&#92;&grave;&#123;a&#125;&#125;ng-&#123;&#92;^&#123;A&#125;&#125;n L&#123;&#92;^&#123;e&#125;&#125;"}}&quot;, <br>
+                            {% if pub.booktitle %}
+                                booktitle = {{ "{{" }}{{pub.booktitle}}}}, <br>
+                            {% endif %}
+                            {% if pub.school %}
+                                school = {{ "{{" }}{{pub.school}}}}, <br>
+                            {% endif %}
+                            title = {{ "{{" }}{{pub.title}}}}, <br>
+                            year = {{ "{" }}{{pub.year}}}, <br>
+                            {% if pub.arxvId %}
+                                arxivId = {{ "{" }}{{pub.arxivId}}}, <br>
+                            {% endif %}
+                            }
+                            </p>
+                        </div>
+                    </div>
         {% endfor %}
 
                     </div>
@@ -520,65 +550,10 @@ NEWS PANEL -->
                     {% if pub.code %}
                         <a href="{{pub.code}}" target="_blank">code</a> |
                     {% endif %}
-                    <button id="myBtn" onclick="show_bibtex('{{pub.id}}')">BibTeX</button>
-                    <!-- The BIBTEX Modal -->
-                    <div id="{{pub.id}}" class="modal">
-                        <!-- Modal content -->
-                        <div class="modal-content">
-                            <span class="close" onclick=close_bibtex('{{pub.id}}')>&times;</span>
-                            <p>
-                            {% if pub.type %}
-                                &#64;{{pub.type}}
-                            {% else %}
-                                &#64;inproceedings
-                            {% endif %}{ {{pub.id}}, <br>
-                            author = &quot;{{pub.author | replace: ",", " and " | replace: "Hoang-An Le", "Ho&#123;&#92;&grave;&#123;a&#125;&#125;ng-&#123;&#92;^&#123;A&#125;&#125;n L&#123;&#92;^&#123;e&#125;&#125;"}}&quot;, <br>
-                            {% if pub.booktitle %}
-                                booktitle = {{ "{{" }}{{pub.booktitle}}}}, <br>
-                            {% endif %}
-                            {% if pub.school %}
-                                school = {{ "{{" }}{{pub.school}}}}, <br>
-                            {% endif %}
-                            title = {{ "{{" }}{{pub.title}}}}, <br>
-                            year = {{ "{" }}{{pub.year}}}, <br>
-                            {% if pub.arxvId %}
-                                arxivId = {{ "{" }}{{pub.arxivId}}}, <br>
-                            {% endif %}
-                            }
-                            </p>
-                        </div>
-                    </div>
-                </li> 
+                    <button id="myBtn" onclick="show_bibtex('{{pub.id}}',event)">BibTeX</button>
+                </li>
             {% endif %}
         {% endfor %}
-
-        <!-- Trigger/Open The BIBTEX Modal -->
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-        <script type="text/javascript">
-
-            // Get the <span> element that closes the modal
-            var span = document.getElementsByClassName("close")[0];
-
-            // When the user clicks on the button, open the modal
-            function show_bibtex(modalId) {
-                var modal = document.getElementById(modalId);
-                modal.style.display = "block";
-            }
-
-            // When the user clicks on <span> (x), close the modal
-            function close_bibtex(modalId) {
-                var modal = document.getElementById(modalId);
-                modal.style.display = "none";
-            }
-
-            // When the user clicks anywhere outside of the modal, close it
-            // TODO it is not working now
-            window.onclick = function(event) {
-                if (event.target == modal) {
-                    modal.style.display = "none";
-                }
-            }
-        </script>
                                    </div>
                                 </div>
                             </div>
@@ -588,6 +563,39 @@ NEWS PANEL -->
                 </div>
             </section>
 
+
+        <!-- Trigger/Open The BIBTEX Modal -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript">
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+            var open = "none";
+
+            // When the user clicks on the button, open the modal
+            function show_bibtex(modalId, event) {
+                var modal = document.getElementById(modalId);
+                modal.style.display = "block";
+                open = modalId;
+                event.stopPropagation();
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            function close_bibtex(modalId) {
+                var modal = document.getElementById(modalId);
+                modal.style.display = "none";
+                open = "none";
+            }
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) { close_bibtex(open); }
+            // TODO it is not working now
+            document.keypress = function(event) {
+                alert(event.key)
+                if (event.key == "Escape") {
+                    close_bibtex(open); }
+            }
+        </script>
 
             <!-- BREAK -->
             <div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/cover_bg_2.jpg);" data-stellar-background-ratio="0.5">
