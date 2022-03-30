@@ -13,6 +13,14 @@
 
 - cat: JOURNALS
 
+- id: le21cviu
+  type: article
+  title: "Automatic generation of dense non-rigid optical flow"
+  author: "Hoang-An Le, Tushar Nimbhokar, Thomas Mensink, Anil S. Baslamisli, Sezer Karaoglu, Theo Gevers"
+  booktitle: "Computer Vision and Image Understanding (CVIU)"
+  year: 2021
+  published: "https://www.sciencedirect.com/science/article/pii/S1077314221001181"
+
 - id: baslamisli21ijcv
   type: article
   title: "ShadingNet: Image Intrinsics by Fine-Grained Shading Decomposition"
