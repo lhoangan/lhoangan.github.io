@@ -1,15 +1,27 @@
 ---
 
-- title: EarthVision
-  hindex: 73
-  year: 2021
-  id: earthvision2021
-  link: https://www.grss-ieee.org/earthvision2020/
-  deadline: '2021-03-07 23:59:59'
+- title: WACV 1st round
+  hindex: 20
+  year: 2023
+  id: wacv23-1
+  link: https://wacv2023.thecvf.com/node/129
+  deadline: '2022-07-13 11:59:59'
   timezone: Pacific
-  date: June 19-25, 2021
-  place: Nashville, USA
-  sub: RS
+  date: January 3-7, 2023
+  place: TBD
+  sub: CV
+
+- title: WACV 2nd round
+  hindex: 20
+  year: 2023
+  id: wacv23-2
+  link: https://wacv2023.thecvf.com/node/129
+  deadline: '2022-08-29 11:59:59'
+  timezone: Pacific
+  date: January 3-7, 2023
+  place: TBD
+  sub: CV
+  note: '<b>NOTE</b>: Second round submission deadline.'
 
 - title: IGARSS
   hindex: 28
