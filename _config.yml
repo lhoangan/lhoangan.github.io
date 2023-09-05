@@ -4,8 +4,8 @@ bio:                'Welcome! Here you can find my projects, notes, and various 
 description:        'I live, yet no longer I, but Christ lives in me (Gal 2:20)'
 reading_time:       true
 words_per_minute:   100
-logo:               'assets/img/avatar.jpg'
-background:         'assets/img/placeholder-big.jpg'
+logo:               'assets/images/avatar.jpg'
+background:         'assets/images/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://lhoangan.github.io
