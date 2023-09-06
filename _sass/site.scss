@@ -75,7 +75,7 @@ body {
 	padding-right: 15px;
 	padding-left: 15px;
 	@include center-block();
-	background-color: $white;
+	background-color: rgba(1,1,1,.7);
 	color: $color_shark;
 	z-index: 1;
 	border-radius: 3px;
@@ -101,10 +101,12 @@ body {
 	}
 }
 .wrapper {
+    overflow: auto;
+    height: 100%;
 	width: 75%;
 	max-width: 850px;
 	margin: 4rem auto;
-	background: $white;
+	background: rgba(1, 1, 1, .7);
 	color: $color_tuatara;
 	padding: 2em;
 	border-radius: 3px;

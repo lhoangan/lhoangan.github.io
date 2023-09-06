@@ -1,5 +1,6 @@
 // content area
 .content {
+    overflow: auto;
 	@include font-size(14);
 	padding: 0 2rem;
 	-moz-osx-font-smoothing: grayscale;
