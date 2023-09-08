@@ -75,7 +75,7 @@ body {
 	padding-right: 15px;
 	padding-left: 15px;
 	@include center-block();
-	background-color: rgba(1,1,1,.7);
+	background-color: rgba(255, 255, 255, .7);
 	color: $color_shark;
 	z-index: 1;
 	border-radius: 3px;
@@ -106,7 +106,7 @@ body {
 	width: 75%;
 	max-width: 850px;
 	margin: 4rem auto;
-	background: rgba(1, 1, 1, .7);
+	background: rgba(255, 255, 255, .9);
 	color: $color_tuatara;
 	padding: 2em;
 	border-radius: 3px;
@@ -118,6 +118,25 @@ body {
 	    box-shadow: none;
 	}
 }
+.wrapper_{
+    overflow: auto;
+    height: 100%;
+	width: 75%;
+	max-width: 850px;
+	margin: 4rem auto;
+	background: rgba(255, 255, 255, .5);
+	color: $color_tuatara;
+	padding: 2em;
+	border-radius: 3px;
+	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
+	@include transition(.5s);
+	@media #{$small} {
+		width: 90%;
+		padding: 2em 0;
+	    box-shadow: none;
+	}
+}
+
 #disqus_thread {
 	width: 75%;
 	max-width: 850px;
