@@ -513,7 +513,10 @@ NEWS PANEL -->
                             {% else %}
                                 &#64;inproceedings
                             {% endif %}{ {{pub.id}}, <br>
-                            author = &quot;{{pub.author | replace: ",", " and " | replace: "Hoang-An Le", "Ho&#123;&#92;&grave;&#123;a&#125;&#125;ng-&#123;&#92;^&#123;A&#125;&#125;n L&#123;&#92;^&#123;e&#125;&#125;"}}&quot;, <br>
+                            {% assign name_accent = "L&#123;&#92;^&#123;e&#125;&#125;, Ho&#123;&#92;&grave;&#123; a&#125;&#125;ng-&#123;&#92;^&#123;A&#125;&#125;n" %}
+                            author = &quot;{{pub.author | replace: ",", " and "
+                            | replace: "Hoàng-Ân Lê", name_accent | replace:
+                            "Hoang-An Le", name_accent }}&quot;, <br>
                             {% if pub.booktitle %}
                                 booktitle = {{ "{{" }}{{pub.booktitle}}}}, <br>
                             {% endif %}
