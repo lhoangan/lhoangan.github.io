@@ -51,7 +51,7 @@ for DTM extraction.
 
 ## Data
 
-Download the dataset [DeepTerRa v0.1](https://share-irisa.univ-ubs.fr/sixp/pub/DeepTerRa/
+Download the dataset [DeepTerRa v0.1](https://share-irisa.univ-ubs.fr/sixp/pub/DeepTerRa/)
 
 There are 2 zip files for downloading in bulk or downloading each scene by going
 into each folder.
