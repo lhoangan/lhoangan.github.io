@@ -57,10 +57,36 @@
 
 - cat: CONFERENCES
 
+- id: akduong24igarss
+  type: inproceedings
+  title: "Leveraging feature communication in federated learning for remote sensing image classification"
+  author: "Anh-Kiet Duong, Hoàng-Ân Lê, Minh-Tan Pham"
+  booktitle: "IEEE International Geoscience and Remote Sensing Symposium (IGARSS)"
+  arxivId: 2403.13575
+  year: 2024
+
+- id: le24igarss
+  type: inproceedings
+  title: "Leveraging knowledge distillation for partial multi-task learning from multiple remote sensing datasets"
+  author: "Hoàng-Ân Lê, Minh-Tan Pham"
+  booktitle: "IEEE International Geoscience and Remote Sensing Symposium (IGARSS)"
+  arxivId: 2405.15394
+  year: 2024
+
+- id: le23bmvc
+  type: inproceedings
+  author: "Hoàng-Ân Lê; Minh-Tan Pham"
+  title: "Novel View Synthesis from Single Images via Point Cloud Transformation"
+  booktitle: British Machine Vision Conference (BMVC)
+  arxivId : 2311.04040
+  year: 2023
+  published: "https://proceedings.bmvc2023.org/870/"
+  page: ""
+
 - id: le23igarss
   type: inproceedings
   title: "Knowledge Distillation for Object Detection: from generic to remote sensing datasets"
-  author: "Hoàng-Ân Lê and Minh-Tan Pham"
+  author: "Hoàng-Ân Lê, Minh-Tan Pham"
   booktitle: "IEEE International Geoscience and Remote Sensing Symposium (IGARSS)"
   arxivId: 2307.09264
   year: 2023
