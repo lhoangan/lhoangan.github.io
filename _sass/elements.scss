@@ -6,7 +6,6 @@
 	border-radius: 3px;
 	text-decoration: none;
 	background: $white;
-	color: $color_shark;
 	&:hover {
 		box-shadow: 0 0 1px 0 rgba($color_shark,0.5);
 		color: $red;
@@ -16,6 +15,7 @@
 	padding: 10px;
 	margin: 10px;
 	@extend %btnextend;
+	background: $white;
 }
 .btn {
 	padding: 10px 18px;

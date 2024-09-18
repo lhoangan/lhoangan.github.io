@@ -66,13 +66,13 @@
 		h4 {
 			margin:0;
 			padding: 15px 20px 0;
-			color: rgba($white,0.9);
+			color: rgba($black,0.9);
 		}
 		p {
 			margin: 0;
 			padding: 15px 20px;
 			@include font-rem(14);
-			color: rgba($white,0.8);
+			color: rgba($black,0.8);
 			font-weight: 300;
 			a {
 				display: inline;
@@ -90,7 +90,7 @@
 			@include font-rem(14);
 			line-height: 20px;
 			font-weight: 400;
-			color: $white;
+			color: $black;
 			outline: none;
 			text-decoration: none;
 		}
@@ -104,7 +104,7 @@
 			top: 0;
 			line-height: 40px;
 			font-family: 'fontawesome';
-			color: $white;
+			color: $black;
 			speak: none;
 			-webkit-font-smoothing: antialiased;
 			content: "\f105";
@@ -316,7 +316,7 @@ All this is done for any sub-level being entered.
 }
 /* No Touch Fallback */
 .no-touchevents .dl-menuwrapper li a:hover {
-	background: rgba(255,248,213,0.1);
+	background: rgba($warning, .1);
 }
 /* No JS Fallback */
 .no-js {
