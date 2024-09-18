@@ -1,0 +1,162 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ho&agrave;ng-&Acirc;n L&ecirc;</title>
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="icon" href="../assets/images/favicon.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=EB+Garamond:300,400,400i,700" rel="stylesheet" type="text/css" />
+
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        #bg {
+            -moz-transform: scale(1.0);
+            -webkit-transform: scale(1.0);
+            -ms-transform: scale(1.0);
+            transform: scale(1.0);
+            -webkit-backface-visibility: hidden;
+            background: #fff url("../{{ site.background  }}") no-repeat center center;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            z-index: 1;
+    }
+    </style>
+
+    </head>
+    <body>
+    <div id="main">
+            <section class="">
+                    <div class="fancy-collapse-panel">
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                            <!-- NEWS PANEL -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingZero">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseZero" aria-expanded="true" aria-controls="collapseZero">News
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseZero" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingZero">
+                                     <div class="panel-body">
+                                        <ul id="news_list">
+
+                                            {% for update in site.data.updates %}
+                                            <li>
+                                                <b>[{{update.time}}]</b> {{update.note}}
+                                            </li>
+                                            {% endfor %}
+
+                                        </ul>
+                                        <div id="commands">
+                                            <button id="all_link"> Show All</button> | <button id="more_link"> More... </button>
+                                        </div>
+                                        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+                                        <script type="text/javascript">
+                                            function Paginate(el, elMore, elAll, pageSize, initialPageSize, fnAllVisible){
+                                            var currPage = 0;
+
+                                            var initialPageSize = initialPageSize || pageSize;
+
+                                            var toHide = el.filter(':gt('+(initialPageSize-1)+')');
+                                            toHide.addClass("hidden");
+                                            if (toHide.length == 0 && fnAllVisible) fnAllVisible();
+
+                                            if (elMore)
+                                            {
+                                                elMore.click(function(){
+                                                    ++currPage;
+                                                    var endIdx = initialPageSize+currPage*pageSize;
+                                                    var toShow = el.filter(':lt('+endIdx+'):gt('+(endIdx-pageSize-1)+')');
+                                                    toShow.removeClass("hidden");
+                                                    if (toShow.length < pageSize)  if (fnAllVisible) fnAllVisible();
+                                                });
+                                            }
+
+                                            if (elAll)
+                                            {
+                                                elAll.click(function(){
+                                                    ++currPage;
+                                                    el.filter(':gt('+(initialPageSize+(currPage-1)*pageSize-1)+')').removeClass("hidden");
+                                                    if (fnAllVisible) fnAllVisible();
+                                                });
+                                            }
+                                            };
+                                            Paginate($("#news_list li"), $("#more_link"), $("#all_link"), 5, 3, function(){
+                                                $("#commands").hide();
+                                             });
+                                        </script>
+                                     </div>
+                                </div>
+                            </div>
+
+                            <!-- TIMELINE PANEL -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Timeline
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                                     <div class="panel-body">
+                                         <div class="timeline-centered">
+
+                                             <article class="timeline-entry begin">
+                                                <div class="timeline-entry-inner">
+                                                   <div class="timeline-icon color-none">
+                                                   </div>
+                                                </div>
+                                             </article>
+                                          </div>
+                                     </div>
+                                </div>
+                            </div>
+
+                            <!-- COLLABORATION PANEL -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Collaborations
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                    <div class="panel-body">
+                                        <p> Following is the list of the wonderful people with whom I have had a chance to work.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </section>
+
+    </div><!-- end:colorlib-page -->
+
+    </div>
+
+    <!-- BG -->
+    <div id="bg"></div>
+
+
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+
+    </body>
+</html>
+
