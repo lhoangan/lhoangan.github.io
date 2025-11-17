@@ -5,7 +5,7 @@ description:        'I live, yet no longer I, but Christ lives in me (Gal 2:20)'
 reading_time:       true
 words_per_minute:   100
 logo:               'assets/images/avatar.jpg'
-background:         'assets/images/general/ChapelMontCalm.jpg'
+background:         'assets/images/general/PXL_20240915_140555165~2.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://lhoangan.github.io
