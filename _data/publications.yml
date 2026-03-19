@@ -57,6 +57,24 @@
 
 - cat: CONFERENCES
 
+- id: akduong26igarss
+  type: inproceedings
+  title: "Leveraging Membership Inference Attacks for Privacy Measurement in Federated Learning for Remote Sensing Images"
+  author: "Anh-Kiet Duong, Petra Gomez-Krämer, Hoàng-Ân Lê, Minh-Tan Pham"
+  booktitle: "IEEE International Geoscience and Remote Sensing Symposium (IGARSS)"
+  arxivId: 2601.06200
+  year: 2026
+
+- id: le24bmvc
+  type: inproceedings
+  author: "Hoàng-Ân Lê; Minh-Tan Pham"
+  title: "Box for Mask and Mask for Box: weak losses for multi-task partially supervised learning"
+  booktitle: British Machine Vision Conference (BMVC)
+  arxivId : 2411.17536
+  year: 2024
+  published: "https://bmva-archive.org.uk/bmvc/2024/papers/Paper_753/paper.pdf"
+  page: ""
+
 - id: akduong24igarss
   type: inproceedings
   title: "Leveraging feature communication in federated learning for remote sensing image classification"
