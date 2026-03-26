@@ -9,32 +9,15 @@ affiliation: 'University of South Brittany, Vannes France'
 date:   2022-07-29
 
 excerpt: ""
-
 project: true
-
-feature: /assets/images/posts/2020-11-02/garden_paper.jpg
-
-thumbnail: /assets/images/posts/2020-11-02/eden80.jpg
+feature: 
+thumbnail: 
 
 tag:
 - research
 - computer vision
-- CGI
-- dataset
-- multimodal
-- semantic segmentation
-- optical flow
-- surface normals
 comments: false
 ---
-
-<p style="text-align: right"><i>
-A garden enclosed, my sister, my bride,
-a garden enclosed, a fountain sealed! <br>
-Your branches are a grove of pomegranates,
-with all choicest fruits <br>
-(Songs of Songs, 4:12-13)
-</i></p>
 
 ## Abstract
 
@@ -55,12 +38,6 @@ small and very small object detection.
 As the proposed method is domain-agnostic, it might also be used for
 visual representation learning in generic computer vision problems.
 Source code will be released upon acceptance to facilitate reproduction.
-
-## Paper
-
-[WACV](https://openaccess.thecvf.com/content/WACV2021/papers/Le_EDEN_Multimodal_Synthetic_Dataset_of_Enclosed_GarDEN_Scenes_WACV_2021_paper.pdf) |
-[arxiv](https://arxiv.org/abs/2011.04389)
-
 
 
 ## Citation
