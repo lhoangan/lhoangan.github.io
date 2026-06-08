@@ -68,6 +68,33 @@
             height: 100vh;
             z-index: 1;
     }
+
+    .cv-item {
+        display: grid;
+        grid-template-columns: 140px 1fr;
+        gap: 16px;
+        margin-bottom: 16px;
+    }
+
+    .cv-date {
+        font-weight: bold;
+        color: #555;
+    }
+
+    .cv-content h3 {
+        margin: 0;
+    }
+
+    .cv-content p {
+        margin: 4px 0 0;
+    }
+
+    .details {
+      font-size: 0.9em;      /* smaller than surrounding text */
+      margin-top: 0.2em;
+      margin-bottom: 1em;
+      color: #555;
+    }
     </style>
 
     </head>
@@ -128,7 +155,7 @@
                                     </h2>
                                     <h3>
                                         <br> <i class="icon-mail"></i>
-                                        first-name.lastname@irisa.fr
+                                        hoang-an [dot] le [at] univ-ubs [dot] fr
                                         <br> <i class="icon-map"></i> Office
                                         C.009, Bâtiment ENSibs, Rue Yves Mainguy,
                                         56000 Vannes, France
@@ -157,7 +184,9 @@ NEWS PANEL -->
                         <div class="col-md-12">
                         <span class="heading-meta">Introduction</span>
                         <h2 class="colorlib-heading">About Me</h2>
-                        <p>Greetings! My name is Ho&agrave;ng-&Acirc;n L&ecirc;. I am from Ho Chi Minh city, Vietnam.</p>
+                        <p>Greetings! My name is Ho&agrave;ng-&Acirc;n L&ecirc;.
+                        I am a postdoctoral researcher at IRISA lab, located at
+                        Vannes campus of University of South Brittany, France.</p>
                         <p> I obtained the PhD degree in Computer Science in 2021 from the <a href="https://ivi.fnwi.uva.nl/cv" target="_blank">Computer Vision lab, University of Amsterdam</a> under the supervision of <a href = "https://staff.science.uva.nl/th.gevers/" target = "_blank">Prof. Theo Gevers</a> and <a href = "https://www.mensink.nu/" target = "_blank">Dr. Thomas Mensink</a>. The doctoral study was fully funded by the EUHorizon 2020 program within the <a href = "http://trimbot2020.webhosting.rug.nl/" target = "_blank">TrimBot2020</a> project. My doctoral thesis is titled <a href="http://hdl.handle.net/11245.1/57c8d00a-9a32-4c96-a512-231dc6bb27df">Outdoor Image Understanding from Multiple Vision Modalities</a>.</p>
                         <p>I have been a regular reviewer for several high-ranking conferences and journals, including CVPR (IEEE/CVF), BMVC (BMVA), WACV (IEEE/CVF), ACCV (AFCV), JSTARS (IEEE) </p>
                         <p>My CV can be found here <a href="hale_2024.pdf" target="_blank" class="far fa-id-card"></a>, last updated in Sep 2025.</p>
@@ -369,6 +398,55 @@ NEWS PANEL -->
 
 
             <!-- BREAK -->
+            <div id="colorlib-counter" class="colorlib-counters"
+                                       style="background-image:
+                                                 url(../{{ site.background }});" data-stellar-background-ratio="0.5">
+            </div>
+
+            <!-- Teaching section -->
+            <section class="colorlib-experience" data-section="teaching">
+                <div class="colorlib-narrow-content">
+                    <div class="row">
+                        <div class="col-md-12">
+                        <span class="heading-meta">Teaching</span>
+                        <h2 class="colorlib-heading">Teaching Assistance</h2>
+
+                        <div class="cv-item">
+                            <div class="cv-date">2016–2020</div>
+                            <div class="cv-content">
+                                <h3><a href="https://cv1-uva.github.io/"
+                                       target="_blank">Computer Vision 1</a></h3>
+                                <p>M.Sc. Artificial Intelligence, University of
+                                Amsterdam</p>
+                                <ul class="details">
+                                    <li>Assisted with lab sessions and practical exercises</li>
+                                    <li>Graded projects and provided feedbacks</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="cv-item">
+                            <div class="cv-date">2012–2013</div>
+                            <div class="cv-content">
+                                <h3>Mobile Device Application Development</h3>
+                                <h3>Language and Compiler Design II</h3>
+                                <p>B.Sc. Computer Science, HCM-University of Science, VNU</p>
+                            </div>
+                        </div>
+                        <div class="cv-item">
+                            <div class="cv-date">2010–2013</div>
+                            <div class="cv-content">
+                                <h3>Scientific Method and Technical Writing</h3>
+                                <p>B.Sc. Computer Science, HCM-University of Science, VNU</p>
+                            </div>
+                        </div>
+                       </div>
+                   </div>
+
+                </div>
+            </section>
+
+            <!-- Break -->
             <div id="colorlib-counter" class="colorlib-counters"
                                        style="background-image:
                                                  url(../{{ site.background }});" data-stellar-background-ratio="0.5">
